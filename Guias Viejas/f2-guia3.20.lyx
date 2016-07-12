@@ -1,0 +1,1158 @@
+#LyX 2.1 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass article
+\begin_preamble
+%%\usepackage{SEART}
+
+%TCIDATA{TCIstyle=article/art4.lat,SEART,SEART}
+
+%TCIDATA{Created=Mon Aug 20 21:09:02 2001}
+%TCIDATA{LastRevised=Tue May 14 08:11:44 2002}
+%% \input{tcilatex}
+\end_preamble
+\use_default_options false
+\maintain_unincluded_children false
+\language spanish
+\language_package default
+\inputencoding latin1
+\fontencoding global
+\font_roman times
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize 11
+\spacing single
+\use_hyperref false
+\papersize a4paper
+\use_geometry true
+\use_amsmath 1
+\use_esint 0
+\use_mhchem 1
+\use_mathdots 1
+\cite_engine basic
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\use_refstyle 0
+\index Índice
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 2cm
+\topmargin 2cm
+\rightmargin 2cm
+\bottommargin 2cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+\align center
+
+\shape smallcaps
+\size large
+Física 2 (Físicos) - Cátedra Prof.
+ Mandrini
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\shape smallcaps
+\size large
+Verano de 2016
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\shape smallcaps
+\size large
+Guía 3: Descripción geométrica de movimientos ondulatorios
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset space \space{}
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Si un rayo parte del punto 
+\begin_inset Formula $A=(0,1,0)$
+\end_inset
+
+, se refleja en el espejo plano 
+\begin_inset Formula $(x,0,z)$
+\end_inset
+
+ y pasa por el punto 
+\begin_inset Formula $B=(4,3,0)$
+\end_inset
+
+, averigüe en qué punto sobre el plano del espejo se refleja y los ángulos
+ de incidencia y reflexión.
+ Aplicar Fermat e interpretar físicamente las soluciones.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Un rayo directo entre 
+\begin_inset Formula $A$
+\end_inset
+
+ y 
+\begin_inset Formula $B$
+\end_inset
+
+ recorre un menor camino óptico que el hallado en (a), ¿es esto contradictorio?
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+A partir del principio de Fermat deducir la ley de Snell para la refracción
+ de la luz entre dos medios de índices 
+\begin_inset Formula $n_{1}$
+\end_inset
+
+ y 
+\begin_inset Formula $n_{2}$
+\end_inset
+
+, separados por una superficie plana.
+\end_layout
+
+\begin_layout Enumerate
+Sea un espejo elíptico de focos 
+\begin_inset Formula $A$
+\end_inset
+
+ y 
+\begin_inset Formula $B$
+\end_inset
+
+.
+ En 
+\begin_inset Formula $A$
+\end_inset
+
+ hay una fuente puntual.
+ Los espejos esférico y plano dibujados son tangentes al elíptico en 
+\begin_inset Formula $C$
+\end_inset
+
+.
+ Sabiendo que el camino óptico de un rayo que sale de 
+\begin_inset Formula $A$
+\end_inset
+
+, se refleja en 
+\begin_inset Formula $C$
+\end_inset
+
+ y luego pasa por 
+\begin_inset Formula $B$
+\end_inset
+
+, es estacionario en la elipse, obtenga cualitativamente si el camino óptico
+ es máximo, mínimo o estacionario cuando se refleja en cada uno de los espejos.
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset space \space{}
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Demuestre que un rayo que incide sobre una lámina de caras paralelas, inmersa
+ en un medio único, no se desvía al atravesarla.
+ Calcule el desplazamiento lateral de dicho rayo, en términos de su espesor
+ 
+\begin_inset Formula $d$
+\end_inset
+
+ y de su índice de refracción 
+\begin_inset Formula $n$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Enumerate
+Demuestre que el rayo que se refleja en la primera cara y el que emerge
+ luego de reflejarse en la segunda son paralelos.
+\end_layout
+
+\begin_layout Enumerate
+Si el medio exterior es único, ¿existe algún ángulo de incidencia tal que
+ produzca reflexión total en la cara inferior?
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Un rayo incide con ángulo 
+\begin_inset Formula $\phi$
+\end_inset
+
+ sobre la superficie horizontal de un cubo de material transparente, de
+ índice 
+\begin_inset Formula $n$
+\end_inset
+
+, inmerso en aire.
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ej3-5.eps
+	lyxscale 50
+	scale 25
+	clip
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+¿Para qué valores de 
+\begin_inset Formula $\phi$
+\end_inset
+
+ hay reflexión total en la cara vertical?
+\end_layout
+
+\begin_layout Enumerate
+Si 
+\begin_inset Formula $\phi=60^{\circ}$
+\end_inset
+
+, ¿cuál es el máximo 
+\begin_inset Formula $n$
+\end_inset
+
+ para que no haya reflexión total en la cara vertical? ¿Se puede reflejar
+ totalmente en la cara superior?
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Calcule analíticamente el ángulo de desviación mínima del prisma.
+ Justifique por qué este valor es único.
+ Haga un gráfico cualitativo de la desviación como función del ángulo de
+ incidencia.
+\end_layout
+
+\begin_layout Enumerate
+Calcule la desviación mínima para prismas delgados, en función de los datos
+ constructivos.
+\end_layout
+
+\begin_layout Enumerate
+Si el prisma es delgado y el ángulo de incidencia es pequeño, calcule la
+ desviación.
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Los índices de refracción de cierta clase de vidrio para el rojo y el violeta
+ valen: 
+\begin_inset Formula $1.51$
+\end_inset
+
+ y 
+\begin_inset Formula $1.53$
+\end_inset
+
+; respectivamente.
+ Halle los ángulos límites de reflexión total para rayos que incidan en
+ la superficie de separación vidrio-aire.
+ ¿Qué ocurre si un rayo de luz blanca incide formando un ángulo de 41
+\begin_inset Formula $^{\circ}$
+\end_inset
+
+ sobre dicha superficie?
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+En un vidrio óptico común se propaga un haz de luz blanca, ¿qué componente
+ viaja más rápido: la roja o la violeta?
+\end_layout
+
+\begin_layout Enumerate
+¿Para cuál de ambos colores será mayor la desviación en un prisma? ¿Qué
+ puede decir del ángulo de desviación mínima? Justifique sus respuestas.
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Dado un prisma de Crown de ángulo 
+\begin_inset Formula $\alpha=4^{\circ}$
+\end_inset
+
+ calcular, para las líneas F, D y C, las desviaciones de rayos que inciden
+ casi perpendicularmente.
+ Los respectivos índices son: 
+\begin_inset Formula $n_{F}=1.513$
+\end_inset
+
+; 
+\begin_inset Formula $n_{D}=1.508$
+\end_inset
+
+ y 
+\begin_inset Formula $n_{C}=1.504$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Demuestre que la imagen dada por un espejo plano de una fuente puntual es,
+ sin ninguna aproximación, otra fuente puntual, ubicada simétricamente respecto
+ del plano del espejo.
+ Analice los casos que corresponden a objetos reales o virtuales.
+\end_layout
+
+\begin_layout Enumerate
+¿Cuál es la mínima longitud de un espejo plano vertical para que un hombre
+ de 
+\begin_inset Formula $1.8$
+\end_inset
+
+ m se vea entero? ¿Es importante conocer la distancia hombre-espejo? 
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Haga un esquema de un diagrama de rayos localizando las imágenes de la flecha
+ que se muestra en la figura.
+ Para un punto de la flecha dibuje una porción del frente de ondas emergente
+ y los correspondientes frentes reflejados.
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ej3-11.eps
+	lyxscale 50
+	scale 25
+	clip
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Dos espejos planos forman un ángulo 
+\begin_inset Formula $\alpha$
+\end_inset
+
+ como lo indica la figura.
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ej3-12.eps
+	lyxscale 50
+	scale 25
+	clip
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Un rayo de luz contenido en un plano perpendicular a la intersección de
+ los espejos incide sobre uno de ellos, se refleja e incide en el otro (ver
+ figura).
+ Calcule el ángulo que forman los rayos incidente y emergente.
+\end_layout
+
+\begin_layout Enumerate
+Suponga la misma geometría que en (a) pero ahora iluminada por una fuente
+ puntual, demuestre que las imágenes se encuentran sobre una circunferencia
+ con centro en el vértice de los espejos.
+ En el caso en que la fuente está ubicada de tal modo que sólo se producen
+ dos imágenes, y que el ángulo es muy pequeño, calcule la distancia entre
+ ellas (espejos de Fresnel).
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Demostrar que un haz homocéntrico de pequeña abertura que incide casi normal
+ sobre una dioptra plana, da lugar a otro haz homocéntrico.
+ Considere los casos de objetos reales y virtuales.
+\end_layout
+
+\begin_layout Enumerate
+Una moneda se encuentra en el fondo de un vaso que contiene agua hasta una
+ altura de 5 cm (
+\begin_inset Formula $n_{agua}=1.33$
+\end_inset
+
+).
+ Un observador la mira desde arriba, ¿a qué profundidad la ve?
+\end_layout
+
+\begin_layout Enumerate
+Estimar la máxima abertura de un haz homocéntrico, para que la posición
+ de la imagen, formada por una única superficie plana, quede determinada
+ con un error del 2%.
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Usando los resultados del problema anterior demuestre que un haz homocéntrico
+ de pequeña abertura, al atravesar una lámina de caras paralelas, da lugar,
+ en primera aproximación, a otro haz homocéntrico.
+ Halle la posición de las sucesivas imágenes.
+ 
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ej3-15.eps
+	lyxscale 50
+	scale 25
+	clip
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Haciendo uso de la figura, de la ley de Snell y del hecho de que en la aproximac
+ión paraxial 
+\begin_inset Formula $\alpha\approx\sin\alpha\approx\tan\alpha$
+\end_inset
+
+ (lo mismo pasa con 
+\begin_inset Formula $\beta$
+\end_inset
+
+ y 
+\begin_inset Formula $\varphi$
+\end_inset
+
+) obtenga la ecuación de las dioptras esféricas, que establece lo siguiente:
+\begin_inset Formula 
+\[
+\frac{n'}{s'}\mp\frac{n}{s}=\frac{(n'-n)}{R}
+\]
+
+\end_inset
+
+Discuta el doble signo, asociándolo con la convención de signos que se utilice.
+\end_layout
+
+\begin_layout Enumerate
+Para una dioptra esférica arbitraria haga un gráfico 
+\begin_inset Formula $s'$
+\end_inset
+
+ vs 
+\begin_inset Formula $s$
+\end_inset
+
+ y analice a partir de él para qué posiciones de los objetos reales las
+ imágenes son reales o virtuales, directas o invertidas y lo mismo para
+ objetos virtuales.
+ Analice todos los casos posibles para dioptras convergentes y divergentes.
+\end_layout
+
+\begin_layout Enumerate
+¿Pueden ser iguales las dos distancias focales de una dioptra?.
+ Justifique su respuesta.
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Una barra de material plástico transparente de la forma y dimensiones de
+ la figura, es iluminada por una rendija.
+ Calcular la posición y tamaño de la imagen formada por cada una de las
+ dioptras, y especificar si son reales o virtuales.
+ El índice de refracción es 
+\begin_inset Formula $1.56$
+\end_inset
+
+.
+ Hacer un trazado de rayos a escala.
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ej3-16.eps
+	lyxscale 50
+	scale 25
+	clip
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+La esfera de vidrio de la figura, de 1cm de diámetro, contiene una pequeña
+ burbuja de aire desplazada 
+\begin_inset Formula $0.5$
+\end_inset
+
+ cm de su centro.
+ Hallar la posición y el aumento de la burbuja cuando se la observa desde
+ 
+\emph on
+A
+\emph default
+ y cuando se la observa desde 
+\emph on
+B
+\emph default
+.
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ej3-17.eps
+	lyxscale 50
+	scale 25
+	clip
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Partiendo de la ecuación de las dioptras obtenga la ecuación de los espejos
+ esféricos.
+ 
+\end_layout
+
+\begin_layout Enumerate
+¿Cómo se modifica la distancia focal de un espejo esférico si se lo sumerge
+ en agua?
+\end_layout
+
+\begin_layout Enumerate
+Un espejo esférico cóncavo produce una imagen cuyo tamaño es el doble del
+ tamaño del objeto, siendo la distancia objeto--imagen de 15 cm.
+ Calcule la distancia focal del espejo.
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Una esfera maciza de radio 
+\begin_inset Formula $R$
+\end_inset
+
+ e índice de refracción 
+\begin_inset Formula $1.5$
+\end_inset
+
+ ha sido espejada en una mitad de su superficie.
+ Se coloca un objeto sobre el eje de la esfera a distancia 
+\begin_inset Formula $2R$
+\end_inset
+
+ del vértice de la semiesfera no espejada.
+ Hallar:
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+La imagen final, en forma analítica, luego de todas las refracciones y reflexion
+es que hayan tenido lugar.
+\end_layout
+
+\begin_layout Enumerate
+El aumento y las características de la imagen final.
+\end_layout
+
+\begin_layout Enumerate
+Ídem (a) mediante trazado de rayos.
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+A partir de la ecuación de la dioptra, considerando dos dioptras esféricas
+ tal que la separación entre ellas sea mucho menor que las restantes longitudes
+ involucradas, deduzca la ecuación para las lentes delgadas.
+\end_layout
+
+\begin_layout Enumerate
+Analice de qué depende la convergencia o divergencia de una lente.
+\end_layout
+
+\begin_layout Enumerate
+Grafique 
+\begin_inset Formula $s'$
+\end_inset
+
+ vs 
+\begin_inset Formula $s$
+\end_inset
+
+ para lentes convergentes y divergentes, analice el aumento y la posición
+ de los objetos (en particular objeto en el foco y objeto en infinito) y
+ de las imágenes.
+\end_layout
+
+\begin_layout Enumerate
+¿Pueden ser iguales (en módulo) los focos de una lente?
+\end_layout
+
+\begin_layout Enumerate
+Demuestre que la menor distancia objeto--imagen es 
+\begin_inset Formula $4f$
+\end_inset
+
+, si la lente está inmersa en un único medio.
+\end_layout
+
+\begin_layout Enumerate
+Dibuje los frentes de onda incidente, refractado por la primer dioptra y
+ refractado por la segunda.
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Determine la distancia focal de una lente plano--cóncava (
+\begin_inset Formula $n=1,5$
+\end_inset
+
+) cuyo radio de curvatura es 10 cm.
+ Determine su potencia en dioptrías.
+\end_layout
+
+\begin_layout Enumerate
+Se tiene una lente biconvexa con 
+\begin_inset Formula $R_{1}=R_{2}=$
+\end_inset
+
+10 cm, construida con un vidrio de índice 
+\begin_inset Formula $1.5$
+\end_inset
+
+.
+ Se la usa con aire a un lado de la misma y con un líquido de índice 
+\begin_inset Formula $1.7$
+\end_inset
+
+ al otro lado.
+ ¿Cuánto valen las distancias focales? ¿Es convergente o divergente? Responda
+ las mismas preguntas si: i) está inmersa sólo en aire, ii) está inmersa
+ en el medio de índice 
+\begin_inset Formula $1.7$
+\end_inset
+
+.
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+A simple vista la luna subtiende un ángulo de 31'08''.
+ ¿Cuál es el tamaño de la imagen de la luna, a través de una lente convergente
+ de distancia focal 1 m?
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Se coloca un objeto a 18 cm de una pantalla, ¿en qué puntos entre la pantalla
+ y el objeto se puede colocar una lente delgada convergente de distancia
+ focal 4 cm, para que la imagen del objeto esté sobre la pantalla? ¿Qué
+ diferencia hay entre ubicarla en una u otra posición?
+\end_layout
+
+\begin_layout Enumerate
+Un objeto se halla a distancia fija de la pantalla.
+ Una lente delgada convergente, de distancia focal 16 cm, produce imagen
+ nítida sobre la pantalla cuando se encuentra en dos posiciones que distan
+ entre sí 60 cm.
+ ¿Cuál es la distancia objeto--pantalla?
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Halle la distancia focal de una lente sumergida en agua, sabiendo que su
+ distancia focal en el aire es de 20 cm.
+ El índice de refracción del vidrio de la lente es 
+\begin_inset Formula $1.6$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Se tiene una lente delgada en las condiciones que presenta la figura.
+ Indique en qué punto del eje óptico debe incidir un rayo para que atraviese
+ la lente sin desviarse.
+ Exprese el resultado en función de la distancia focal objeto y de los índices
+ de refracción.
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ej3-25.eps
+	lyxscale 50
+	scale 25
+	clip
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Demostrar que:
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Si un sistema óptico forma imágenes geométricamente perfectas, todos los
+ rayos que conectan puntos conjugados recorren el mismo camino óptico.
+ (Utilice el principio de Fermat).
+\end_layout
+
+\begin_layout Enumerate
+Si una lente delgada forma imágenes perfectas sólo en la aproximación paraxial,
+ la diferencia de caminos ópticos entre dos rayos cualesquiera que conectan
+ puntos conjugados y que en todo punto disten menos que 
+\begin_inset Formula $y$
+\end_inset
+
+, es de orden superior a 
+\begin_inset Formula $y^{2}$
+\end_inset
+
+.
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Determine el radio de curvatura de una lupa equiconvexa (
+\begin_inset Formula $n=1,5$
+\end_inset
+
+) para que su aumento sea 10X.
+ ¿Dónde se encuentra la imagen, y el objeto?
+\end_layout
+
+\begin_layout Enumerate
+Calcule el aumento de la lupa descripta en (a) cuando la imagen se encuentra
+ a la distancia de visión clara.
+ Discuta las ventajas y desventajas de esta opción.
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Una lente delgada convergente, de distancia focal 30 cm, se coloca 20 cm
+ a la izquierda de otra lente delgada divergente de distancia focal 50 cm.
+ Para un objeto colocado a 40 cm a la izquierda de la primera lente determine
+ la imagen final.
+ ¿Cuál es el aumento? La imagen ¿es real o virtual, es directa o invertida?
+\end_layout
+
+\begin_layout Enumerate
+Una lente delgada convergente de 5 cm de diámetro y 4 cm de distancia focal
+ se halla 2 cm a la derecha de un diafragma de 3 cm de diámetro.
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Si se coloca un objeto puntual axial a 9 cm a la izquierda de la lente,
+ determinar la posición y el tamaño de las pupilas de entrada y salida,
+ en forma gráfica y analítica.
+\end_layout
+
+\begin_layout Enumerate
+Se desplaza al objeto, perpendicularmente al eje óptico, una distancia de
+ 
+\begin_inset Formula $1.5$
+\end_inset
+
+ cm.
+ Determine en forma gráfica y analítica, si el diafragma de apertura está
+ bien definido.
+\end_layout
+
+\begin_layout Enumerate
+Repita el cálculo hecho en (b), cuando el objeto es desplazado una distancia
+ de 3 cm.
+ Discuta si hay o no vigneteo, y en caso de haberlo calcule la máxima altura
+ del objeto para que el diafragma de apertura esté bien definido.
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Un microscopio consta de un objetivo de 4 mm de distancia focal y de un
+ ocular de 30 mm de distancia focal.
+ La distancia entre el foco imagen del objetivo y el foco objeto del ocular
+ es 
+\begin_inset Formula $g=$
+\end_inset
+
+18 cm.
+ Calcule:
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+El aumento normal del microscopio.
+\end_layout
+
+\begin_layout Enumerate
+La distancia objeto--objetivo.
+\end_layout
+
+\begin_layout Enumerate
+Sabiendo que el microscopio no cuenta con diafragmas adicionales, y que
+ la pupila de salida debe ser real, y del mismo diámetro aproximado que
+ la pupila del ojo (
+\begin_inset Formula $\approx$
+\end_inset
+
+12 mm), discuta cuál de las dos lentes debe ser el diafragma de apertura,
+ cuál debe ser su diámetro y en qué posición se halla la pupila de salida.
+\end_layout
+
+\begin_layout Enumerate
+Discuta en qué posiciones colocaría un diafragma de campo, y si esta introducció
+n modifica o no la determinación del diafragma de apertura.
+ Justifique claramente sus respuestas.
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Un anteojo astronómico utiliza como objetivo una lente convergente de 2
+ m de distancia focal y 10 cm de diámetro, y como ocular una lente convergente
+ de 4 cm de distancia focal.
+ Determine:
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+El aumento eficaz.
+\end_layout
+
+\begin_layout Enumerate
+Las características de la primer imagen de la luna y de la imagen final
+ a través del telescopio.
+ La luna subtiende, a ojo desnudo, un ángulo de 31'.
+\end_layout
+
+\begin_layout Enumerate
+El largo total del tubo.
+\end_layout
+
+\begin_layout Enumerate
+El mínimo diámetro del ocular para que el objetivo sea diafragma de apertura.
+ (Recordar que la luna no es puntual, y por ende hay puntos objeto extra-axiales
+).
+\end_layout
+
+\begin_layout Enumerate
+Suponiendo que el diámetro del ocular sea de 4 cm, la posición y el tamaño
+ de la pupila de salida.
+\end_layout
+
+\begin_layout Enumerate
+La posición en que debe colocarse el ojo.
+\end_layout
+
+\begin_layout Enumerate
+La posición en que debe colocarse, de ser posible, un diafragma de campo.
+\end_layout
+
+\begin_layout Enumerate
+El mínimo diámetro del posible diafragma de campo para que la imagen de
+ la luna se vea completa.
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Delante del objetivo de un telescopio y a distancia 
+\begin_inset Formula $s>f'_{ob}$
+\end_inset
+
+ se coloca un objeto de altura 
+\begin_inset Formula $h$
+\end_inset
+
+.
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Obtenga la posición de la imagen en función de 
+\begin_inset Formula $f'_{ob}$
+\end_inset
+
+, 
+\begin_inset Formula $f'_{oc}$
+\end_inset
+
+ y 
+\begin_inset Formula $s$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Calcule el tamaño de la imagen y demuestre gráfica y analíticamente que
+ el aumento lateral es independiente de la posición del objeto.
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Una cámara fotográfica estándar tiene como objetivo una lente convergente
+ de 50 mm (
+\begin_inset Formula $f'$
+\end_inset
+
+) y usa película de 35
+\begin_inset Formula $\times$
+\end_inset
+
+124 mm.
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Si se quiere fotografiar objetos que disten del objetivo entre 1 m e infinito,
+ ¿qué longitud debe tener la rosca que lo mueve?
+\end_layout
+
+\begin_layout Enumerate
+El sistema se halla enfocando sobre la película a un objeto distante 1 m.
+ Analice qué ocurre con la profundidad de campo para objetos distantes del
+ primero 20 cm.
+ Repita el análisis si el objeto enfocado inicialmente se hallase a 3 m
+ y a 10 m.
+\end_layout
+
+\begin_layout Enumerate
+Discuta qué sucedería con la longitud de rosca, la profundidad de campo
+ y la aproximación paraxial si se quisiera fotografiar objetos distantes
+ 50 cm.
+\end_layout
+
+\begin_layout Enumerate
+Teniendo en cuenta que la película es el diafragma de campo, discuta los
+ posibles ángulos de campo máximos, calcule los ángulos de campo asociados
+ a los lados de la película, para un objeto que se encuentra en el infinito.
+ ¿Cómo varían los ángulos de campo con la posición del objeto?, ¿cuánto
+ es posible desplazar el objeto para que la variación no supere el 5%?
+\end_layout
+
+\begin_layout Enumerate
+Si se quiere fotografiar un árbol de 5 m de altura, y se lo quiere fotografiar
+ entero, ¿cuál es la mínima distancia a la que hay que ponerse?
+\end_layout
+
+\begin_layout Enumerate
+Sabiendo que las aperturas inversas de la cámara (
+\begin_inset Formula $f/D$
+\end_inset
+
+) varían ente 
+\begin_inset Formula $1.4$
+\end_inset
+
+ y 22; calcule los tamaños máximo y mínimo del diafragma.
+ Discuta cualitativamente el porqué y cómo de las variaciones de tamaño
+ del diafragma (su relación con la velocidad del objeto, con la de obturación,
+ con la luminosidad ambiente, etc.)
+\end_layout
+
+\end_deeper
+\end_body
+\end_document

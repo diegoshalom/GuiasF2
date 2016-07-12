@@ -1,0 +1,725 @@
+#LyX 2.1 created this file. For more info see http://www.lyx.org/
+\lyxformat 474
+\begin_document
+\begin_header
+\textclass article
+\begin_preamble
+%%\usepackage{SEART}
+
+%TCIDATA{TCIstyle=article/art4.lat,SEART,SEART}
+
+%TCIDATA{Created=Mon Aug 20 21:09:02 2001}
+%TCIDATA{LastRevised=Tue May 14 08:11:44 2002}
+%% \input{tcilatex}
+\end_preamble
+\use_default_options false
+\maintain_unincluded_children false
+\language spanish
+\language_package default
+\inputencoding iso8859-1
+\fontencoding global
+\font_roman times
+\font_sans default
+\font_typewriter default
+\font_math auto
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize 11
+\spacing single
+\use_hyperref false
+\papersize a4paper
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 0
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 0
+\index Índice
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 2cm
+\topmargin 2cm
+\rightmargin 2cm
+\bottommargin 2cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+\align center
+
+\shape smallcaps
+\size large
+Física 2 (Físicos) - Cátedra Prof.
+ Wisniacki
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\shape smallcaps
+\size large
+1
+\size small
+er
+\size large
+ Cuatrimestre de 2016
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\shape smallcaps
+\size large
+Guía 6: Batidos y Paquetes de Onda
+\end_layout
+
+\begin_layout Enumerate
+En lo que sigue, encuentre con cuál de estos métodos se determina la velocidad
+ de fase y con cuál la de grupo.
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Medir la velocidad del sonido en el aire, golpeando las manos y determinando
+ el tiempo que transcurre entre el aplauso y el eco de un reflector ubicado
+ a una distancia conocida.
+\end_layout
+
+\begin_layout Enumerate
+Medir la longitud de un tubo que resuena a una frecuencia conocida (y corregir
+ por efectos de borde).
+\end_layout
+
+\begin_layout Enumerate
+Determinar la velocidad de la luz midiendo el tiempo que tarda un haz colimado
+ en recorrer una distancia conocida.
+\end_layout
+
+\begin_layout Enumerate
+Encontrar la longitud de una cavidad resonante que oscila en un modo conocido
+ a una frecuencia conocida.
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Demuestre que la velocidad de grupo 
+\begin_inset Formula $v_{g}$
+\end_inset
+
+ y la velocidad de fase 
+\begin_inset Formula $v_{f}$
+\end_inset
+
+ están relacionadas por:
+\begin_inset Formula 
+\[
+v_{g}=v_{f}-\lambda\frac{dv_{f}}{d\lambda}
+\]
+
+\end_inset
+
+¿Cómo es 
+\begin_inset Formula $\frac{dv_{f}}{d\lambda}$
+\end_inset
+
+ en un medio no dispersivo? En ese caso, ¿cómo se relacionan la velocidad
+ de grupo y la de fase?
+\end_layout
+
+\begin_layout Enumerate
+Se quiere investigar la relación entre el ancho de un paquete y el desfasaje
+ de las frecuencias que lo componen.
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Tome el siguiente pulso con un espectro gaussiano de ancho 
+\begin_inset Formula $\Delta k$
+\end_inset
+
+ centrado en 
+\begin_inset Formula $k_{0}$
+\end_inset
+
+ (note que las frecuencias están en fase):
+\begin_inset Formula 
+\[
+F(k)=A\exp\left[-\frac{(k-k_{0})^{2}}{4\Delta k^{2}}\right].
+\]
+
+\end_inset
+
+Calcule 
+\begin_inset Formula $f(x)$
+\end_inset
+
+ y vea que tiene una envolvente gaussiana que modula una portadora de frecuencia
+ 
+\begin_inset Formula $k_{0}$
+\end_inset
+
+.
+ Note que el pulso está centrado en 
+\begin_inset Formula $x=0$
+\end_inset
+
+ y que se cumple la relación 
+\begin_inset Formula $\Delta x\Delta k=1/2$
+\end_inset
+
+ (el paquete gaussiano es el de mínima incerteza).
+\end_layout
+
+\begin_layout Enumerate
+Ahora desfase las distintas frecuencias en forma lineal, tal que:
+\begin_inset Formula 
+\[
+F(k)=A\exp\left[-\frac{(k-k_{0})^{2}}{4\Delta k^{2}}\right]\exp\left[i\alpha(k-k_{0})\right].
+\]
+
+\end_inset
+
+Calcule 
+\begin_inset Formula $f(x)$
+\end_inset
+
+ y vea que es el mismo pulso que en la parte (a), pero desplazado en 
+\begin_inset Formula $\alpha$
+\end_inset
+
+ hacia la derecha (una fase lineal sólo corre la función).
+\end_layout
+
+\begin_layout Enumerate
+Ahora agregue una fase cuadrática, es decir:
+\begin_inset Formula 
+\[
+F(k)=A\exp\left[-\frac{(k-k_{0})^{2}}{4\Delta k^{2}}\right]\exp\left[i\beta(k-k_{0})^{2}\right].
+\]
+
+\end_inset
+
+Calcule 
+\begin_inset Formula $f(x)$
+\end_inset
+
+ y vea que es un pulso gaussiano centrado en 
+\begin_inset Formula $x=0$
+\end_inset
+
+ pero con un ancho 
+\begin_inset Formula $\Delta x$
+\end_inset
+
+ que cumple:
+\begin_inset Formula 
+\[
+\Delta x\Delta k=\frac{1}{2}\sqrt{1+16\beta^{2}\Delta k^{4}}.
+\]
+
+\end_inset
+
+¿Es cierto que si se quiere disminuir el ancho de un paquete siempre se
+ debe aumentar 
+\begin_inset Formula $\Delta k$
+\end_inset
+
+? Derive 
+\begin_inset Formula $\Delta x$
+\end_inset
+
+ con respecto a 
+\begin_inset Formula $\Delta k$
+\end_inset
+
+ de la expresión anterior y analice lo pedido.
+\end_layout
+
+\begin_layout Description
+Ayuda: 
+\begin_inset Formula $\int_{-\infty}^{+\infty}\exp\left[(x+a)^{2}\right]dx=\sqrt{\pi}$
+\end_inset
+
+.
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Si 
+\begin_inset Formula $\Psi(\omega)$
+\end_inset
+
+ corresponde a un espectro de frecuencias cuadrado, o sea 
+\begin_inset Formula $\Psi(\omega)=1/\Delta\omega$
+\end_inset
+
+ para 
+\begin_inset Formula $\omega$
+\end_inset
+
+ comprendida en el intervalo de ancho 
+\begin_inset Formula $\Delta\omega$
+\end_inset
+
+ alrededor de 
+\begin_inset Formula $\omega_{0}$
+\end_inset
+
+, y cero en otra parte; vea que 
+\begin_inset Formula $\phi(t)$
+\end_inset
+
+ está dada por: 
+\begin_inset Formula 
+\[
+\phi(t)=\frac{1}{\sqrt{\pi}}\left[\frac{\sin(t\Delta\omega/2)}{t\Delta\omega/2}\right]e^{i\omega_{0}t}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Grafique 
+\begin_inset Formula $\Psi(\omega)$
+\end_inset
+
+ y 
+\begin_inset Formula $\left|\phi(t)\right|$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Enumerate
+Sea 
+\begin_inset Formula $T$
+\end_inset
+
+ un tiempo más prolongado que la duración de cualquier experimento que pueda
+ idear.
+ Muestre que si 
+\begin_inset Formula $\Delta\omega$
+\end_inset
+
+ es suficientemente pequeño como para que 
+\begin_inset Formula $\Delta\omega T\ll1$
+\end_inset
+
+, entonces durante un tiempo menor que 
+\begin_inset Formula $T$
+\end_inset
+
+, 
+\begin_inset Formula $\phi(t)$
+\end_inset
+
+ es una función armónica de amplitud y fase casi constante.
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Sea 
+\begin_inset Formula $\phi(t)$
+\end_inset
+
+ una función real.
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Muestre que su transformada de Fourier 
+\begin_inset Formula $\Psi(\omega)$
+\end_inset
+
+ cumple 
+\begin_inset Formula $\Psi(\omega)=\Psi(-\omega)$
+\end_inset
+
+.
+ Use esto para escribir a 
+\begin_inset Formula $\phi(t)$
+\end_inset
+
+ como superposición de senos y cosenos.
+\end_layout
+
+\begin_layout Enumerate
+Muestre que la transformada de Fourier 
+\begin_inset Formula $\mathcal{F}$
+\end_inset
+
+ es lineal, esto quiere decir que
+\begin_inset Formula 
+\[
+\mathcal{F}(af+bg)=a\mathcal{F}(f)+b\mathcal{F}(g)
+\]
+
+\end_inset
+
+donde 
+\begin_inset Formula $f$
+\end_inset
+
+ y 
+\begin_inset Formula $g$
+\end_inset
+
+ son funciones de 
+\begin_inset Formula $x$
+\end_inset
+
+ y 
+\begin_inset Formula $a$
+\end_inset
+
+ y 
+\begin_inset Formula $b$
+\end_inset
+
+ son constantes.
+\end_layout
+
+\begin_layout Enumerate
+Tomemos una pulsación que se repite 
+\begin_inset Formula $N$
+\end_inset
+
+ veces:
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ej2-18.eps
+	lyxscale 50
+	scale 25
+	clip
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+Vea que la transformada de Fourier de un único pulso situado entre 
+\begin_inset Formula $(n\tau,n\tau+\Delta t)$
+\end_inset
+
+ es igual a la transformada del pulso 
+\begin_inset Formula $(0,\Delta t)$
+\end_inset
+
+ multiplicado por la fase 
+\begin_inset Formula $e^{in\phi}$
+\end_inset
+
+.
+ Calcule entonces la transformada de la pulsación cuadrada que se repite
+ en un tiempo largo 
+\begin_inset Formula $T_{largo}=N\tau$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Enumerate
+Muestre que para un valor finito de 
+\begin_inset Formula $T_{largo}$
+\end_inset
+
+ el análisis de Fourier de esta pulsación cuadrada repetida casi periódicamente,
+ consiste en una superposición de armónicos casi discretos de la frecuencia
+ fundamental 
+\begin_inset Formula $\nu_{1}=1/T_{1}$
+\end_inset
+
+, siendo realmente cada armónico un continuo de frecuencias que se extiende
+ sobre una banda de ancho 
+\begin_inset Formula $\delta\nu\approx1/T_{largo}$
+\end_inset
+
+.
+ Las armónicas más importantes caen entre 0 y 
+\begin_inset Formula $\Delta\nu=1/\Delta t$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Enumerate
+¿Por qué vale 
+\begin_inset Formula $\Delta t\Delta\nu\approx1$
+\end_inset
+
+ si, en principio, podría valer 
+\begin_inset Formula $\Delta t\Delta\nu\gg1$
+\end_inset
+
+? ¿La misma pregunta es aplicable a 
+\begin_inset Formula $\delta\nu$
+\end_inset
+
+ y 
+\begin_inset Formula $T_{largo}$
+\end_inset
+
+?
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Se tiene un pulso de ancho 
+\begin_inset Formula $\Delta k$
+\end_inset
+
+ centrado en 
+\begin_inset Formula $k_{0}$
+\end_inset
+
+ tal que la siguiente es una buena aproximación para la relación de dispersión:
+\begin_inset Formula 
+\[
+\omega(k)=\omega_{0}(k_{0})+\omega'(k_{0})(k-k_{0})+\frac{1}{2}\omega''(k_{0})(k-k_{0})^{2}
+\]
+
+\end_inset
+
+Si en 
+\begin_inset Formula $t=0$
+\end_inset
+
+ el pulso se propaga hacia 
+\begin_inset Formula $x<0$
+\end_inset
+
+, y se escribe:
+\begin_inset Formula 
+\[
+\Psi(x,0)=A\int_{-\infty}^{+\infty}\exp\left[-\frac{(k-k_{0})^{2}}{4\Delta k^{2}}\right]\exp\left(ikx\right)dk+c.c.
+\]
+
+\end_inset
+
+Calcule 
+\begin_inset Formula $\Psi(x,t)$
+\end_inset
+
+.
+ Vea cuál es la posición y el ancho del paquete como función del tiempo.
+ ¿Es cierto que al viajar por un medio dispersivo cualquier paquete se ensancha?
+\end_layout
+
+\begin_layout Enumerate
+Se tienen dos cuerdas semi--infinitas de distinta densidad lineal de masa,
+ 
+\begin_inset Formula $\rho_{1}$
+\end_inset
+
+ y 
+\begin_inset Formula $\rho_{2}$
+\end_inset
+
+, unidas en un punto y sometidas a una tensión 
+\begin_inset Formula $T$
+\end_inset
+
+.
+ Sobre la primera se propaga hacia la derecha una perturbación de la forma
+ indicada en la figura.
+ Se conocen 
+\begin_inset Formula $\rho_{1}$
+\end_inset
+
+, 
+\begin_inset Formula $\rho_{2}$
+\end_inset
+
+, 
+\begin_inset Formula $T$
+\end_inset
+
+, 
+\begin_inset Formula $L$
+\end_inset
+
+ y 
+\begin_inset Formula $h$
+\end_inset
+
+.
+ También se considera que los medios son no dispersivos.
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ej2-20.eps
+	lyxscale 50
+	scale 25
+	clip
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Hallar el desplazamiento 
+\begin_inset Formula $y(x,t)$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Enumerate
+Explique cualitativamente como cambian estos resultados si el medio es dispersiv
+o.
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Muchas veces, la composición de frecuencias es mucho más informativa que
+ la respuesta en el tiempo de un sistema.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Calcule la transformada de Fourier de 
+\begin_inset Formula $cos(\omega t)e^{-\frac{t}{\tau}}$
+\end_inset
+
+ (recordar que el producto en un espacio corresponde a la convolución en
+ el otro puede hacer la cuenta más corta) 
+\end_layout
+
+\begin_layout Enumerate
+Al dar un impulso muy breve a dos sistemas parecidos se obtienen las respuestas
+ de la figura 1 ¿Qué puede decir acerca de los modos normales de cada sistema?
+ ¿Y de las pérdidas de los mismos? 
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename enElTiempo.eps
+	width 10cm
+	height 5cm
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Observemos ahora las magnitudes de las transformadas de fourier de estas
+ señales en la figura 2.
+ Vuelva a hacerse las mismas preguntas.
+ 
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename enFrec.eps
+	width 10cm
+	height 5cm
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\end_body
+\end_document

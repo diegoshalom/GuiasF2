@@ -1,0 +1,431 @@
+#LyX 2.1 created this file. For more info see http://www.lyx.org/
+\lyxformat 474
+\begin_document
+\begin_header
+\textclass article
+\begin_preamble
+%%\usepackage{SEART}
+
+%TCIDATA{TCIstyle=article/art4.lat,SEART,SEART}
+
+%TCIDATA{Created=Mon Aug 20 21:09:02 2001}
+%TCIDATA{LastRevised=Tue May 14 08:11:44 2002}
+%% \input{tcilatex}
+\end_preamble
+\use_default_options false
+\maintain_unincluded_children false
+\language spanish
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman times
+\font_sans default
+\font_typewriter default
+\font_math auto
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize 11
+\spacing single
+\use_hyperref false
+\papersize a4paper
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 0
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 0
+\index Índice
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 2cm
+\topmargin 2cm
+\rightmargin 2cm
+\bottommargin 2cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+\align center
+
+\shape smallcaps
+\size large
+Física 2 (Físicos) - Cátedra Prof.
+ Wisniacki
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\shape smallcaps
+\size large
+1
+\size small
+er
+\size large
+ Cuatrimestre de 2016
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\shape smallcaps
+\size large
+Guía 3: Oscilaciones con N grados de libertad
+\end_layout
+
+\begin_layout Enumerate
+\align left
+Considere el sistema de 
+\begin_inset Formula $N$
+\end_inset
+
+ masas mostrado en la figura.
+ 
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ej1-11.eps
+	lyxscale 50
+	scale 25
+	clip
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Usando la aproximación de pequeños ángulos, escriba la ecuación de movimiento
+ transversal para la partícula enésima.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Proponga una solución de la forma:
+\begin_inset Formula 
+\[
+\Psi_{n}^{(p)}(t)=A^{(p)}\cos\left(nk^{(p)}a+\alpha^{(p)}\right)\cos\left(\omega^{(p)}t+\phi^{(p)}\right)
+\]
+
+\end_inset
+
+Halle la relación de dispersión y grafíquela.
+ ¿Depende esta relación de las condiciones de contorno? ¿Cuánto vale la
+ frecuencia más baja? ¿Qué representa dicho modo? 
+\end_layout
+
+\begin_layout Enumerate
+Obtenga las frecuencias correspondientes a los modos normales cuando ambos
+ extremos están libres (atención: ¿cómo sería un ``extremo libre'' en esta
+ configuración?) y escriba la solución general para la masa enésima.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Idem anterior, pero considerando que el extremo izquierdo está libre y el
+ derecho fijo a la pared.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Particularice los resultados de los dos ítems anteriores para el caso en
+ que 
+\begin_inset Formula $N=3$
+\end_inset
+
+.
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Considere el sistema de péndulos acoplados de la figura.
+ 
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ej1-12.eps
+	lyxscale 50
+	scale 25
+	clip
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Escriba la ecuación de movimiento.
+ Proponga una solución semejante a la del problema anterior y halle la relación
+ de dispersión.
+ Compárela con la obtenida en el problema anterior.
+ ¿Cuánto vale la frecuencia más baja? ¿Qué representa dicho modo? 
+\end_layout
+
+\begin_layout Enumerate
+Obtenga las frecuencias correspondientes a los modos normales cuando los
+ resortes de los extremos están fijos y dé las condiciones iniciales para
+ excitar el primer armónico.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Idem anterior, pero para el caso en que uno de los resortes de los extremos
+ está libre.
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Considere un arreglo lineal de péndulos acoplados excitados en el cual el
+ primer péndulo, en z = 0, se encuentra libre, y el último, en z=L, unido
+ a una pared rígida, como se muestra en la figura.
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ej1-15.eps
+	lyxscale 50
+	scale 25
+	clip
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+ Se aplica una fuerza externa en función del tiempo a la primera masa (
+\begin_inset Formula $z=0$
+\end_inset
+
+), de forma tal que se conoce su amplitud 
+\begin_inset Formula $\Psi(0,t)=A_{0}\cos(\Omega t)$
+\end_inset
+
+.
+ Halle el movimiento estacionario del sistema y discuta las hipótesis que
+ hace.
+ Compare con el caso de extremo derecho fijo a una pared (o sea: agregando
+ un resorte a la derecha de la última masa y uniéndolo a la pared).
+ 
+\end_layout
+
+\begin_layout Enumerate
+Considere un sistema de péndulos acoplados con un cambio brusco en 
+\begin_inset Formula $\omega_{0}^{2}$
+\end_inset
+
+ en 
+\begin_inset Formula $z=L$
+\end_inset
+
+, según se esquematiza en la figura.
+ Halle el movimiento estacionario del sistema y discuta las hipótesis que
+ hace.
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ej1-16.eps
+	lyxscale 50
+	scale 25
+	clip
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+En el sistema esquematizado, 
+\begin_inset Formula $N$
+\end_inset
+
+ partículas de masa 
+\begin_inset Formula $m$
+\end_inset
+
+ se encuentran unidas entre sí por resortes de constante elástica 
+\begin_inset Formula $k$
+\end_inset
+
+ y unidas a la pared por resortes de constante 
+\begin_inset Formula $k'$
+\end_inset
+
+.
+ No hay gravedad.
+ Analice el movimiento estacionario de las oscilaciones horizontales en
+ el caso en que
+\begin_inset Formula $\Omega$
+\end_inset
+
+ es menor a la frecuencia del modo normal más bajo.
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ej1-17.eps
+	lyxscale 50
+	scale 25
+	clip
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Considere el esquema de la figura (sin gravedad) en el que se tienen N sistemas
+ de dos grados de libertad por cada celda y cada celda se acopla con sus
+ primeras vecinas de forma lineal (al menos para pequeñas oscilaciones).
+ 
+\begin_inset Graphics
+	filename ejIII-6.eps
+	width 7cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Calcule las frecuencias de los modos normales para los sistemas de 2 grados
+ de libertad y para sistema total.
+\end_layout
+
+\begin_layout Enumerate
+Grafique la relación de dispersión para dos valores distintos de 
+\begin_inset Formula $k_{ac}$
+\end_inset
+
+ (cuando 
+\begin_inset Formula $k_{ac}<<k$
+\end_inset
+
+ y cuando 
+\begin_inset Formula $k_{ac}\sim k$
+\end_inset
+
+ ) y superponga los valores de las 2 frecuencias de los modos normales para
+ los sistemas dentro de cada celda.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Observe que los dos 
+\begin_inset Quotes eld
+\end_inset
+
+niveles
+\begin_inset Quotes erd
+\end_inset
+
+ de frecuencia que había originalmente en cada celda se han convertido en
+ 
+\begin_inset Quotes eld
+\end_inset
+
+bandas
+\begin_inset Quotes erd
+\end_inset
+
+ de frecuencias.
+\end_layout
+
+\end_deeper
+\end_body
+\end_document

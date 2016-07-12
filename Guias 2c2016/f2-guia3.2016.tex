@@ -1,0 +1,129 @@
+%% LyX 2.2.0 created this file.  For more info, see http://www.lyx.org/.
+%% Do not edit unless you really know what you are doing.
+\documentclass[11pt,spanish]{article}
+\usepackage{mathptmx}
+\usepackage[T1]{fontenc}
+\usepackage[latin9]{inputenc}
+\usepackage[a4paper]{geometry}
+\geometry{verbose,tmargin=2cm,bmargin=2cm,lmargin=2cm,rmargin=2cm}
+\usepackage{float}
+\usepackage{graphicx}
+
+\makeatletter
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% User specified LaTeX commands.
+%%\usepackage{SEART}
+
+%TCIDATA{TCIstyle=article/art4.lat,SEART,SEART}
+
+%TCIDATA{Created=Mon Aug 20 21:09:02 2001}
+%TCIDATA{LastRevised=Tue May 14 08:11:44 2002}
+%% \input{tcilatex}
+
+\makeatother
+
+\usepackage{babel}
+\addto\shorthandsspanish{\spanishdeactivate{~<>}}
+
+\begin{document}
+\begin{center}
+\textsc{\large{}Física 2 (Físicos) - Cátedra Prof. Calzetta}
+\par\end{center}{\large \par}
+
+\begin{center}
+\textsc{\large{}2}\textsc{\small{}do}\textsc{\large{} Cuatrimestre
+de 2016}
+\par\end{center}{\large \par}
+
+\begin{center}
+\textsc{\large{}Guía 3: Oscilaciones con N grados de libertad}
+\par\end{center}{\large \par}
+\begin{enumerate}
+\item \begin{flushleft}
+Considere el sistema de $N$ masas mostrado en la figura.
+\begin{figure}[H]
+\begin{centering}
+\includegraphics[clip,scale=0.25]{ej1-11}
+\par\end{centering}
+\end{figure}
+
+\par\end{flushleft}\begin{enumerate}
+\item Usando la aproximación de pequeños ángulos, escriba la ecuación de
+movimiento transversal para la partícula enésima.
+\item Proponga una solución de la forma:
+\[
+\Psi_{n}^{(p)}(t)=A^{(p)}\cos\left(nk^{(p)}a+\alpha^{(p)}\right)\cos\left(\omega^{(p)}t+\phi^{(p)}\right)
+\]
+Halle la relación de dispersión y grafíquela. ¿Depende esta relación
+de las condiciones de contorno? ¿Cuánto vale la frecuencia más baja?
+¿Qué representa dicho modo?
+\item Obtenga las frecuencias correspondientes a los modos normales cuando
+ambos extremos están libres (atención: ¿cómo sería un ``extremo libre''
+en esta configuración?) y escriba la solución general para la masa
+enésima.
+\item Idem anterior, pero considerando que el extremo izquierdo está libre
+y el derecho fijo a la pared.
+\item Particularice los resultados de los dos ítems anteriores para el caso
+en que $N=3$.
+\end{enumerate}
+\item Considere el sistema de péndulos acoplados de la figura.
+\begin{figure}[H]
+\centering{}\includegraphics[clip,scale=0.25]{ej1-12}
+\end{figure}
+
+\begin{enumerate}
+\item Escriba la ecuación de movimiento. Proponga una solución semejante
+a la del problema anterior y halle la relación de dispersión. Compárela
+con la obtenida en el problema anterior. ¿Cuánto vale la frecuencia
+más baja? ¿Qué representa dicho modo?
+\item Obtenga las frecuencias correspondientes a los modos normales cuando
+los resortes de los extremos están fijos y dé las condiciones iniciales
+para excitar el primer armónico.
+\item Idem anterior, pero para el caso en que uno de los resortes de los
+extremos está libre.
+\end{enumerate}
+\item Considere un arreglo lineal de péndulos acoplados excitados en el
+cual el primer péndulo, en z = 0, se encuentra libre, y el último,
+en z=L, unido a una pared rígida, como se muestra en la figura.
+\begin{figure}[H]
+\centering{}\includegraphics[clip,scale=0.25]{ej1-15}
+\end{figure}
+ Se aplica una fuerza externa en función del tiempo a la primera masa
+($z=0$), de forma tal que se conoce su amplitud $\Psi(0,t)=A_{0}\cos(\Omega t)$.
+Halle el movimiento estacionario del sistema y discuta las hipótesis
+que hace. Compare con el caso de extremo derecho fijo a una pared
+(o sea: agregando un resorte a la derecha de la última masa y uniéndolo
+a la pared).
+\item Considere un sistema de péndulos acoplados con un cambio brusco en
+$\omega_{0}^{2}$ en $z=L$, según se esquematiza en la figura. Halle
+el movimiento estacionario del sistema y discuta las hipótesis que
+hace.
+\begin{figure}[H]
+\centering{}\includegraphics[clip,scale=0.25]{ej1-16}
+\end{figure}
+\item En el sistema esquematizado, $N$ partículas de masa $m$ se encuentran
+unidas entre sí por resortes de constante elástica $k$ y unidas a
+la pared por resortes de constante $k'$. No hay gravedad. Analice
+el movimiento estacionario de las oscilaciones horizontales en el
+caso en que$\Omega$ es menor a la frecuencia del modo normal más
+bajo.
+\begin{figure}[H]
+\centering{}\includegraphics[clip,scale=0.25]{ej1-17}
+\end{figure}
+\item Considere el esquema de la figura (sin gravedad) en el que se tienen
+N sistemas de dos grados de libertad por cada celda y cada celda se
+acopla con sus primeras vecinas de forma lineal (al menos para pequeñas
+oscilaciones). \includegraphics[width=7cm]{ejIII-6}
+
+\begin{enumerate}
+\item Calcule las frecuencias de los modos normales para los sistemas de
+2 grados de libertad y para sistema total.
+\item Grafique la relación de dispersión para dos valores distintos de $k_{ac}$
+(cuando $k_{ac}<<k$ y cuando $k_{ac}\sim k$ ) y superponga los valores
+de las 2 frecuencias de los modos normales para los sistemas dentro
+de cada celda.
+\item Observe que los dos ``niveles'' de frecuencia que había originalmente
+en cada celda se han convertido en ``bandas'' de frecuencias.
+\end{enumerate}
+\end{enumerate}
+
+\end{document}

@@ -1,0 +1,1041 @@
+#LyX 2.1 created this file. For more info see http://www.lyx.org/
+\lyxformat 474
+\begin_document
+\begin_header
+\textclass article
+\begin_preamble
+%%\usepackage{SEART}
+
+%TCIDATA{TCIstyle=article/art4.lat,SEART,SEART}
+
+%TCIDATA{Created=Mon Aug 20 21:09:02 2001}
+%TCIDATA{LastRevised=Tue May 14 08:11:44 2002}
+%% \input{tcilatex}
+\end_preamble
+\use_default_options false
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding utf8
+\fontencoding global
+\font_roman times
+\font_sans default
+\font_typewriter default
+\font_math auto
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize 11
+\spacing single
+\use_hyperref false
+\papersize a4paper
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 0
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 0
+\index Índice
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 2cm
+\topmargin 2cm
+\rightmargin 2cm
+\bottommargin 2cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+\align center
+
+\shape smallcaps
+\size large
+Física 2 (Físicos) - Cátedra Prof.
+ Wisniacki
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\shape smallcaps
+\size large
+1er Cuatrimestre de 2016
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\shape smallcaps
+\size large
+Guía 10: Interferencia
+\end_layout
+
+\begin_layout Enumerate
+Diga qué entiende por luz cuasi monocromática y dé algunos ejemplos.
+\end_layout
+
+\begin_layout Enumerate
+¿Bajo qué condiciones se puede decir que dos fuentes son coherentes? ¿Es
+ posible observar interferencia de la luz proveniente de dos tubos fluorescentes
+? ¿Por qué? Diga cuándo es posible observar interferencia.
+\end_layout
+
+\begin_layout Enumerate
+Diga qué entiende por interferómetro por división de frente de onda.
+ Mencione los más representativos, haga un esquema de cada uno de ellos
+ e indique sus parámetros característicos.
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+En el experimento de Young, ¿cuál es el lugar geométrico de los puntos que
+ reciben ondas con la misma diferencia de fases?
+\end_layout
+
+\begin_layout Enumerate
+Si en un experimento de Young la pantalla de observación está lo suficientemente
+ alejada de las ranuras, ¿qué aspecto tienen las franjas de interferencia?
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Sea una fuente monocromática (
+\begin_inset Formula $\lambda=$
+\end_inset
+
+5500 Å), y un dispositivo de Young de las siguientes características: 
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+Distancia entre ranuras: 
+\begin_inset Formula $s=3,3$
+\end_inset
+
+ mm.
+ 
+\end_layout
+
+\begin_layout Standard
+Distancia de las ranuras a la pantalla: 
+\begin_inset Formula $D=3$
+\end_inset
+
+ m.
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ej5-5.eps
+	lyxscale 50
+	scale 25
+	clip
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Calcular la interfranja 
+\begin_inset Formula $i$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Enumerate
+Detrás de una de las ranuras se coloca una lámina de vidrio de caras paralelas
+ y planas (
+\begin_inset Formula $e=0,01$
+\end_inset
+
+ mm) (ver figura).
+ Determinar el sentido de desplazamiento de las franjas y la fórmula que
+ da la expresión de dicho desplazamiento.
+ Sabiendo que las franjas se han desplazado 4,73 mm, dar el valor del índice
+ de refracción del vidrio.
+ ¿Puede detectar dicho corrimiento con una fuente monocromática? ¿Y con
+ una policromática?
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+¿Cómo cambia el experimento de Young si la fuente luminosa no está simétricament
+e situada respecto de la ranura, o si, por algún motivo, las ondas que llegan
+ a las mismas tienen un cierto desfasaje? ¿Cómo puede detectar dicho corrimiento
+?
+\end_layout
+
+\begin_layout Enumerate
+Se tiene el dispositivo para producir interferencia que indica la figura.
+ La fuente puntual monocromática de longitud de onda 
+\begin_inset Formula $\lambda$
+\end_inset
+
+ (linealmente polarizada en el eje 
+\begin_inset Formula $z$
+\end_inset
+
+, con amplitud 
+\begin_inset Formula $E_{0}$
+\end_inset
+
+), ilumina dos rendijas separadas por una distancia 
+\begin_inset Formula $a$
+\end_inset
+
+.
+ La fuente está centrada respecto de las rendijas y se encuentra a una distancia
+ 
+\begin_inset Formula $L_{0}$
+\end_inset
+
+ de las mismas.
+ A la izquierda de las rendijas hay dos medios distintos; sobre el eje 
+\begin_inset Formula $x$
+\end_inset
+
+ es 
+\begin_inset Formula $n_{1}$
+\end_inset
+
+, y debajo del eje 
+\begin_inset Formula $x$
+\end_inset
+
+ es 
+\begin_inset Formula $n_{2}$
+\end_inset
+
+ (
+\begin_inset Formula $n_{2}>n_{1}$
+\end_inset
+
+); a la derecha de las rendijas el índice es 
+\begin_inset Formula $n_{1}$
+\end_inset
+
+ solamente.
+ A continuación de la rendija 2 se coloca una lámina polarizadora cuyo eje
+ de transmisión forma un ángulo 
+\begin_inset Formula $\alpha$
+\end_inset
+
+ con el eje 
+\begin_inset Formula $z$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Description
+Datos: 
+\begin_inset Formula $a$
+\end_inset
+
+, 
+\begin_inset Formula $n_{2}$
+\end_inset
+
+, 
+\begin_inset Formula $n_{1}$
+\end_inset
+
+, 
+\begin_inset Formula $E_{0}$
+\end_inset
+
+, 
+\begin_inset Formula $L_{0}$
+\end_inset
+
+, 
+\begin_inset Formula $L$
+\end_inset
+
+.
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ej5-7.eps
+	lyxscale 50
+	scale 30
+	clip
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+¿Qué efecto produce en el patrón de interferencia la diferencia de medios?
+ Explique.
+\end_layout
+
+\begin_layout Enumerate
+Halle el campo eléctrico que sale de la lámina polarizadora como función
+ de 
+\begin_inset Formula $\alpha$
+\end_inset
+
+; expréselo en las coordenadas 
+\begin_inset Formula $y-z$
+\end_inset
+
+ (sólo el campo que sale de la ranura 2; no el total).
+\end_layout
+
+\begin_layout Enumerate
+Halle la expresión de la intensidad en un punto 
+\begin_inset Formula $P$
+\end_inset
+
+ de la pantalla, en función de los campos eléctricos a la salida de las
+ rendijas 1 y 2.
+ Tenga en cuenta para esto la polarización de dichos campos.
+\end_layout
+
+\begin_layout Enumerate
+Calcule el contraste 
+\begin_inset Formula $c=\frac{I_{máx}-I_{mín}}{I_{máx}\text{+}I_{mín}}$
+\end_inset
+
+, en función del ángulo 
+\begin_inset Formula $\alpha$
+\end_inset
+
+ y de 
+\begin_inset Formula $\theta$
+\end_inset
+
+ (ángulo subtendido por P).
+ ¿Existen ceros de intensidad para algún 
+\begin_inset Formula $\theta$
+\end_inset
+
+?
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Se usa como fuente luminosa para un par de espejos de Fresnel una ranura
+ 
+\begin_inset Formula $D$
+\end_inset
+
+ iluminada con luz monocromática de 4000 Å y colocada a 20 cm de la intersección
+ de los espejos sobre la bisectriz.
+ Las franjas de interferencia observadas a 1 m de distancia del vértice
+ de los espejos tienen una interfranja de 1 mm.
+ Calcular el ángulo 
+\begin_inset Formula $\alpha$
+\end_inset
+
+ entre los planos de los espejos.
+ 
+\bar under
+Sugerencia
+\bar default
+: nótese que la fuente y las dos imágenes son equidistantes de la intersección
+ de los espejos.
+ 
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ej5-8.eps
+	lyxscale 50
+	scale 25
+	clip
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Description
+Datos: distancia vértice-pantalla: 1 m, 
+\begin_inset Formula $d=$
+\end_inset
+
+20 cm.
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Examinadas con una lupa de distancia focal 
+\begin_inset Formula $f=5$
+\end_inset
+
+ cm, dos franjas de interferencia consecutivas, producidas con los espejos
+ de Fresnel, se encuentran a una separación aparente 
+\begin_inset Formula $i'=3$
+\end_inset
+
+ mm.
+ La distancia entre las imágenes de la fuente y la pantalla es 
+\begin_inset Formula $D=4$
+\end_inset
+
+ m y la separación entre las dos imágenes es 
+\begin_inset Formula $d=4$
+\end_inset
+
+ mm.
+ ¿En qué longitud de onda emite la fuente? Nota: suponer que la imagen de
+ las franjas se forma a una distancia 
+\begin_inset Formula $D_{v}=25$
+\end_inset
+
+ cm (distancia de visión clara) de la lupa.
+\end_layout
+
+\begin_layout Enumerate
+En un experimento de interferencia con espejos de Fresnel, ¿qué parámetros
+ deben modificarse para que la interfranja disminuya? Justifique.
+ Indique cómo deben modificarse.
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ej5-11.eps
+	lyxscale 50
+	scale 30
+	clip
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Analice cómo se producen las imágenes virtuales en un biprisma de Fresnel.
+\end_layout
+
+\begin_layout Enumerate
+¿Qué ocurre con la posición de las imágenes si se da vuelta el biprisma,
+ es decir, si la arista enfrenta a la pantalla en vez de enfrentar a la
+ fuente?
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Un biprisma de Fresnel, de Crown, con ángulo de refracción de 1
+\begin_inset Formula $^{\circ}$
+\end_inset
+
+ se usa para producir franjas de interferencia.
+ La pantalla se ubica a 60 cm del biprisma y la fuente luminosa a 15 cm
+ de éste.
+ Calcular el ancho de las interfranjas observadas con luz roja (línea C
+ de Fraunhofer) y luz azul (línea F de Fraunhofer).
+ Extraer las longitudes de onda y los índices de refracción de tablas.
+\end_layout
+
+\begin_layout Enumerate
+Se observan franjas de interferencia con un biprisma de Fresnel con ángulo
+ de 
+\begin_inset Formula $1.5{}^{\circ}$
+\end_inset
+
+ e índice de refracción 
+\begin_inset Formula $1.5$
+\end_inset
+
+.
+ Para esto se usa una fuente de luz de 4000 Å situada a 5 cm del vértice,
+ y una pantalla situada a 1 m del biprisma.
+ Si, dejando todas las demás condiciones iguales, se cambia el biprisma
+ por uno de ángulo 3
+\begin_inset Formula $^{\circ}$
+\end_inset
+
+ e índice 
+\begin_inset Formula $1.6$
+\end_inset
+
+; ¿en cuánto varió la interfranja?
+\end_layout
+
+\begin_layout Enumerate
+En un experimento de interferencia con un biprisma de Fresnel, ¿qué parámetros
+ se pueden modificar para que la interfranja aumente?
+\end_layout
+
+\begin_layout Enumerate
+Se tiene un dispositivo para producir interferencia consistente en una fuente
+ puntual y monocromática 
+\begin_inset Formula $S$
+\end_inset
+
+, que emite con longitud de onda 
+\begin_inset Formula $\lambda$
+\end_inset
+
+, que se encuentra a una distancia 
+\begin_inset Formula $D_{1}$
+\end_inset
+
+ de un biprisma compuesto por dos prismas delgados de distintos índices
+ y ángulos: 
+\begin_inset Formula $n_{1}$
+\end_inset
+
+, 
+\begin_inset Formula $\alpha_{1}$
+\end_inset
+
+ (
+\begin_inset Formula $y>0$
+\end_inset
+
+) y 
+\begin_inset Formula $n_{2}$
+\end_inset
+
+, 
+\begin_inset Formula $\alpha_{2}$
+\end_inset
+
+ (
+\begin_inset Formula $y<0$
+\end_inset
+
+).
+ El dispositivo se muestra en la figura.
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ej5-15.eps
+	lyxscale 50
+	scale 30
+	clip
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Hallar la ubicación de las imágenes 
+\begin_inset Formula $S_{1}$
+\end_inset
+
+ y 
+\begin_inset Formula $S_{2}$
+\end_inset
+
+ por la refracción en ambas zonas del biprisma, que observaría una persona
+ ubicada a la derecha del mismo.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Marque en una figura la zona donde se produce la interferencia.
+\end_layout
+
+\begin_layout Enumerate
+Para un punto 
+\begin_inset Formula $P$
+\end_inset
+
+ genérico sobre la pantalla, calcule el desfasaje 
+\begin_inset Formula $\delta$
+\end_inset
+
+.
+ Sugerencia: piense en los rayos que llegan a 
+\begin_inset Formula $P$
+\end_inset
+
+ como provenientes de las imágenes halladas en (a).
+\end_layout
+
+\begin_layout Enumerate
+Calcule la interfranja sobre la pantalla.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Halle la posición de los máximos sobre la pantalla.
+ Si Ud.
+ observara este fenómeno sin conocer los parámetros del dispositivo, ¿qué
+ podría hacer para distinguir cuál es el orden con 
+\begin_inset Formula $m=0$
+\end_inset
+
+? 
+\end_layout
+
+\begin_layout Enumerate
+¿Cómo debe ser la relación 
+\begin_inset Formula $\alpha_{1}/\alpha_{2}$
+\end_inset
+
+ para que el máximo con 
+\begin_inset Formula $m=0$
+\end_inset
+
+ esté en la línea determinada por la fuente y el vértice del biprisma?
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+¿Por qué motivo se puede concluir, en el experimento del espejo de Lloyd,
+ que la luz reflejada ha sufrido un desfasaje de 180
+\begin_inset Formula $^{\circ}$
+\end_inset
+
+?
+\end_layout
+
+\begin_layout Enumerate
+Haga un cuadro comparativo de las magnitudes que caracterizan a los distintos
+ interferómetros por división de frente e indique en cada uno de ellos cómo
+ se divide el frente.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Diga qué entiende por interferómetro por división de amplitud.
+ Enumere los más representativos e indique en un esquema sus parámetros
+ característicos.
+ 
+\end_layout
+
+\begin_layout Enumerate
+¿Qué entiende por franjas localizadas de interferencia? ¿En qué casos están
+ localizadas las franjas en un interferómetro por división de amplitud?
+ Justifique sus respuestas.
+ 
+\end_layout
+
+\begin_layout Enumerate
+En una lámina de caras paralelas indique la zona del espacio en que se observa
+ interferencia para fuente puntual y para fuente extensa.
+ En el primer caso calcule la posición de las imágenes de la fuente.
+ 
+\end_layout
+
+\begin_layout Enumerate
+En la lámina de caras paralelas que se indica en la figura, indique qué
+ condición debe cumplirse para que los rayos 1 y 2 interfieran constructivamente.
+ Cuando eso sucede, ¿qué pasa con los rayos 3 y 4? ¿Qué sucede si se usan
+ otras relaciones entre los índices? (
+\begin_inset Formula $n_{1}>n_{2}>n_{3}$
+\end_inset
+
+).
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ej5-21.eps
+	lyxscale 50
+	scale 30
+	clip
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Una lámina de vidrio de 
+\begin_inset Formula $0.40$
+\end_inset
+
+ 
+\begin_inset Formula $\mu$
+\end_inset
+
+m de espesor es iluminada por un haz de luz blanca normal a la lámina.
+ El índice de refracción es de 
+\begin_inset Formula $1.5$
+\end_inset
+
+.
+ ¿Qué longitudes de onda dentro de los límites visibles del espectro serán
+ intensificadas en el haz reflejado? (espectro visible: 
+\begin_inset Formula $40\times10^{-6}\unit{cm}\le\lambda\le79\times10^{-6}\unit{cm}$
+\end_inset
+
+).
+ 
+\end_layout
+
+\begin_layout Enumerate
+¿Por qué se llaman franjas de igual inclinación a las que aparecen en una
+ lámina de caras paralelas iluminada por una fuente extensa? 
+\end_layout
+
+\begin_layout Enumerate
+Una cuña de aire es iluminada de tal forma que si incide luz de longitud
+ de onda 
+\begin_inset Formula $\lambda=$
+\end_inset
+
+5000 Å normalmente a la cara inferior, produce franjas paralelas cuya distancia
+ entre mínimos es 1 mm.
+ Describir la cuña.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Se observan anillos de Newton por reflexión, iluminándose una lente plano--conve
+xa con luz de longitud de onda 
+\begin_inset Formula $\lambda=650$
+\end_inset
+
+ nm.
+ ¿Qué radio de curvatura tiene la lente si el segundo anillo oscuro tiene
+ 
+\begin_inset Formula $d=2,6$
+\end_inset
+
+ mm de diámetro? 
+\end_layout
+
+\begin_layout Enumerate
+Se observan anillos de Newton mediante una lámina de vidrio de índice de
+ refracción 
+\begin_inset Formula $n_{3}$
+\end_inset
+
+, una lente de vidrio con 
+\begin_inset Formula $n_{1}\ne n_{3}$
+\end_inset
+
+ y un líquido de 
+\begin_inset Formula $n_{2}$
+\end_inset
+
+ intermedio entre 
+\begin_inset Formula $n_{1}$
+\end_inset
+
+ y 
+\begin_inset Formula $n_{3}$
+\end_inset
+
+ (ver figura).
+ 
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ej5-26.eps
+	lyxscale 50
+	scale 25
+	clip
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+¿Son oscuros o brillantes los centros del sistema de anillos observados
+ respectivamente por reflexión y transmisión? 
+\end_layout
+
+\begin_layout Enumerate
+Suponga ahora que el líquido tiene un índice 
+\begin_inset Formula $n_{2}=1,59$
+\end_inset
+
+.
+ Si se observan los anillos por reflexión siendo 
+\begin_inset Formula $\lambda=5900$
+\end_inset
+
+ Å, y el radio del quinto anillo es de 2 mm, ¿cuál es el radio de curvatura
+ de la lente?
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Se observan anillos de Newton con una lente plano--convexa situada sobre
+ un vidrio plano, con aire entre medio.
+ ¿Qué pasa con la diferencia entre los cuadrados de dos radios consecutivos
+ si: 
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Se cambia la lente por otra también plano-convexa del mismo radio de curvatura,
+ pero de mayor índice de refracción? 
+\end_layout
+
+\begin_layout Enumerate
+Se coloca agua en vez de aire entre la lente y la lámina de vidrio? 
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Con el mismo dispositivo de los problemas anteriores se observan anillos
+ de Newton por reflexión.
+ ¿Es oscuro o claro el centro de la figura de interferencia? ¿Cuál es el
+ radio del tercer anillo brillante? ¿Qué sucede con los anillos para un
+ ligerísimo desplazamiento hacia arriba de la lente: convergen hacia el
+ centro o se alejan de éste? ¿Por qué? 
+\end_layout
+
+\begin_deeper
+\begin_layout Description
+Datos: 
+\begin_inset Formula $R=1$
+\end_inset
+
+ m; 
+\begin_inset Formula $d=0,013$
+\end_inset
+
+ mm; 
+\begin_inset Formula $\lambda=5000$
+\end_inset
+
+ Å; 
+\begin_inset Formula $n_{1}=1,5$
+\end_inset
+
+; 
+\begin_inset Formula $n_{2}=1,3$
+\end_inset
+
+; 
+\begin_inset Formula $n_{3}=1,4$
+\end_inset
+
+.
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+En un dispositivo para observar anillos de Newton el espacio entre la lente
+ y la lámina de vidrio está lleno de líquido.
+ Se observan anillos por transmisión.
+ La longitud de onda empleada es 
+\begin_inset Formula $\lambda=5890$
+\end_inset
+
+ Å y el radio de curvatura de la lente es de 10 m.
+ Hallar el índice de refracción del líquido sabiendo que el radio del tercer
+ anillo brillante es de 
+\begin_inset Formula $3.65$
+\end_inset
+
+ mm.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Considere el dispositivo de anillos de Newton modificado que se muestra
+ en la figura.
+ Se observan anillos por reflexión.
+ 
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ej5-30.eps
+	lyxscale 50
+	scale 25
+	clip
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+¿Para qué valores de 
+\begin_inset Formula $d_{0}$
+\end_inset
+
+ el centro de los anillos corresponde a un máximo? 
+\end_layout
+
+\begin_layout Enumerate
+Hallar el mínimo valor de 
+\begin_inset Formula $d_{0}$
+\end_inset
+
+ para el cual el centro de los anillos corresponde a un mínimo.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Con el valor de 
+\begin_inset Formula $d_{0}$
+\end_inset
+
+ hallado en (b), calcular la relación que debe existir entre los radios
+ de las lentes, 
+\begin_inset Formula $R_{2}(R_{1})$
+\end_inset
+
+, para que el radio del primer anillo oscuro verifique 
+\begin_inset Formula $r_{1}^{2}=10^{15}$
+\end_inset
+
+ Å
+\begin_inset Formula $^{2}$
+\end_inset
+
+.
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Indique en cada uno de los interferómetros por división de amplitud estudiados
+ dónde se divide la amplitud.
+ ¿Son iguales las amplitudes de los haces que interfieren? En la lámina
+ de caras paralelas compare estas amplitudes tanto en la salida por reflexión
+ como por transmisión para incidencia normal.
+\end_layout
+
+\end_body
+\end_document

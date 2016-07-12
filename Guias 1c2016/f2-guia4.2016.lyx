@@ -1,0 +1,1070 @@
+#LyX 2.1 created this file. For more info see http://www.lyx.org/
+\lyxformat 474
+\begin_document
+\begin_header
+\textclass article
+\begin_preamble
+%%\usepackage{SEART}
+
+%TCIDATA{TCIstyle=article/art4.lat,SEART,SEART}
+
+%TCIDATA{Created=Mon Aug 20 21:09:02 2001}
+%TCIDATA{LastRevised=Tue May 14 08:11:44 2002}
+%% \input{tcilatex}
+\end_preamble
+\use_default_options false
+\maintain_unincluded_children false
+\language spanish
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman times
+\font_sans default
+\font_typewriter default
+\font_math auto
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize 11
+\spacing single
+\use_hyperref false
+\papersize a4paper
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 0
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 0
+\index Índice
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 2cm
+\topmargin 2cm
+\rightmargin 2cm
+\bottommargin 2cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+\align center
+
+\shape smallcaps
+\size large
+Física 2 (Físicos) - Cátedra Prof.
+ Wisniacki
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\shape smallcaps
+\size large
+Verano de 2016
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\shape smallcaps
+\size large
+Guía 4: Oscilaciones en sistemas continuos
+\end_layout
+
+\begin_layout Enumerate
+Se tiene una cuerda de longitud 
+\begin_inset Formula $L$
+\end_inset
+
+ y densidad lineal de masa 
+\begin_inset Formula $\mu$
+\end_inset
+
+ sometida a una tensión 
+\begin_inset Formula $T_{0}$
+\end_inset
+
+.
+ Proponga como solución de la ecuación de ondas para un modo normal a la
+ expresión: 
+\begin_inset Formula $\Psi(x,t)=A\sin\left(kx+\varphi\right)\cos\left(\omega t+\theta\right)$
+\end_inset
+
+.
+ Tome el sistema de coordenadas con 
+\begin_inset Formula $x=0$
+\end_inset
+
+ en un extremo de la cuerda y 
+\begin_inset Formula $x=L$
+\end_inset
+
+ en el otro.
+ Encuentre la forma particular que adopta la solución propuesta en los siguiente
+s casos: 
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+\begin_inset Formula $\Psi(0,t)=\Psi(L,t)=0$
+\end_inset
+
+ (ambos extremos están fijos).
+ 
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $\Psi(0,t)=0$
+\end_inset
+
+ y 
+\begin_inset Formula $\frac{\partial\Psi}{\partial x}(L,t)=0$
+\end_inset
+
+ (un extremo está fijo y el otro está libre).
+ ¿Imponer que un extremo se encuentre ``libre'' es equivalente a no imponer
+ condiciones de contorno sobre ese extremo? ¿Cómo lograría un extremo ``libre''
+ para la cuerda? 
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $\frac{\partial\Psi}{\partial x}(0,t)=\frac{\partial\Psi}{\partial x}(L,t)=0$
+\end_inset
+
+ (ambos extremos se encuentran libres).
+ ¿A qué corresponde el modo de frecuencia mínima? ¿Cuánto vale la frecuencia
+ de oscilación de ese modo? 
+\end_layout
+
+\begin_layout Enumerate
+Ahora tome un sistema de coordenadas con 
+\begin_inset Formula $x=0$
+\end_inset
+
+ en el centro de la cuerda.
+ Halle la forma que adopta la solución general propuesta si 
+\begin_inset Formula $\Psi(-L/2,t)=\Psi(L/2,t)=0$
+\end_inset
+
+ (ambos extremos fijos).
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Se tiene una cuerda de 20 cm de longitud y 5 g de masa, sometida a una tensión
+ de 120 N.
+ Calcule sus modos naturales de oscilación.
+ ¿Son todos audibles para el oído humano?
+\end_layout
+
+\begin_layout Enumerate
+Las cuatro cuerdas de un violín, considere que todas son de igual longitud,
+ emiten en su modo fundamental las notas: sol
+\begin_inset Formula $_{\text{2}}$
+\end_inset
+
+ (198/s); re
+\begin_inset Formula $_{\text{3}}$
+\end_inset
+
+ (297/s); la
+\begin_inset Formula $_{\text{3}}$
+\end_inset
+
+ (440/s) y mi
+\begin_inset Formula $_{\text{4}}$
+\end_inset
+
+ (660/s).
+ La primera cuerda es de aluminio (
+\begin_inset Formula $\rho=2,6$
+\end_inset
+
+ g/cm
+\begin_inset Formula $^{3}$
+\end_inset
+
+ y diámetro 
+\begin_inset Formula $d_{1}=0,09\unit{\,cm}$
+\end_inset
+
+); las dos siguientes son de otro material (
+\begin_inset Formula $\rho=1,2$
+\end_inset
+
+ g/cm
+\begin_inset Formula $^{3}$
+\end_inset
+
+) y diámetros 
+\begin_inset Formula $d_{2}=0,12\unit{\,cm}$
+\end_inset
+
+ y 
+\begin_inset Formula $d_{3}=0,1\unit{\,cm}$
+\end_inset
+
+, y la cuarta es de acero (
+\begin_inset Formula $\rho=7,5$
+\end_inset
+
+ g/cm
+\begin_inset Formula $^{3}$
+\end_inset
+
+) y diámetro 
+\begin_inset Formula $d_{4}=0,1\unit{\,cm}$
+\end_inset
+
+.
+ Calcular las tensiones a las que deben estar sometidas con respecto a la
+ primera.
+\end_layout
+
+\begin_layout Enumerate
+Se tiene un tubo de longitud 
+\begin_inset Formula $L$
+\end_inset
+
+.
+ Considere las siguientes posibilidades: 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Está cerrado en ambos extremos, lleno de aire en su interior.
+\end_layout
+
+\begin_layout Itemize
+Tiene un extremo cerrado y el otro abierto.
+ 
+\end_layout
+
+\begin_layout Itemize
+Ambos extremos están abiertos.
+ 
+\end_layout
+
+\begin_layout Description
+Datos: velocidad de propagación de las ondas 
+\begin_inset Formula $v_{s}$
+\end_inset
+
+, 
+\begin_inset Formula $L$
+\end_inset
+
+, 
+\begin_inset Formula $P_{0}$
+\end_inset
+
+ (presión atmosférica), 
+\begin_inset Formula $\rho_{0}=\gamma P_{0}/v_{s}^{2}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Hallar, para cada una de dichas situaciones: 
+\end_layout
+
+\begin_layout Enumerate
+Las posibles longitudes de onda con las que puede vibrar el aire en el tubo,
+ y sus correspondientes frecuencias.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Elija un sistema de referencia conveniente, y escriba la expresión más general
+ para el desplazamiento de las partículas 
+\begin_inset Formula $\Psi(x,t)$
+\end_inset
+
+.
+ En dicha expresión, ¿qué parámetros conoce? ¿De qué dependen los parámetros
+ que no conoce? 
+\end_layout
+
+\begin_layout Enumerate
+A partir de la expresión hallada en (b), hallar 
+\begin_inset Formula $\delta p(x,t)$
+\end_inset
+
+ (presión en cada punto, tomando como referencia la atmosférica).
+ ¿Cuál es la diferencia de fase entre ellas? ¿Cuánto vale la amplitud de
+ presión? 
+\end_layout
+
+\begin_layout Enumerate
+Hallar 
+\begin_inset Formula $\rho(x,t)$
+\end_inset
+
+ (densidad).
+ ¿Cuánto vale su amplitud?
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+\begin_inset space \space{}
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+¿Qué longitud debe tener un tubo de órgano abierto en ambos extremos para
+ que produzca en el aire un sonido de 440 Hz? 
+\end_layout
+
+\begin_layout Enumerate
+¿Qué longitud deberá tener un tubo de órgano cerrado en uno de sus extremos
+ para que produzca el mismo tono en su primer armónico?
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Se tiene un tubo cerrado en uno de sus extremos; su longitud es menor a
+ 1m.
+ Se acerca al extremo abierto un diapasón que está vibrando con 
+\begin_inset Formula $\nu=440\unit{\,Hz}$
+\end_inset
+
+.
+ Considere 
+\begin_inset Formula $v_{s}=330$
+\end_inset
+
+ m/s.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Hallar las posibles longitudes del tubo para que haya resonancia.
+ Para cada una de ellas, ¿en qué modo está vibrando el aire contenido en
+ el tubo? 
+\end_layout
+
+\begin_layout Enumerate
+Repetir (a) si el tubo está abierto en ambos extremos.
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Considere una cuerda de longitud 
+\begin_inset Formula $L$
+\end_inset
+
+, de densidad de masa uniforme 
+\begin_inset Formula $\mu_{0}$
+\end_inset
+
+ sujeta en ambos extremos y sometida a una tensión 
+\begin_inset Formula $T_{0}$
+\end_inset
+
+.
+ A 
+\begin_inset Formula $t=0$
+\end_inset
+
+ la cuerda se suelta de modo que su forma está dada por la siguiente función:
+ 
+\begin_inset Formula $\Psi(x,0)=H(x)=\sin\left(\pi x/L\right)+\left(\nicefrac{1}{3}\right)\sin\left(3\pi x/L\right)+\left(\nicefrac{1}{5}\right)\sin\left(5\pi x/L\right)$
+\end_inset
+
+, si se toma un sistema de coordenadas tiene 
+\begin_inset Formula $x=0$
+\end_inset
+
+ en un extremo de la soga y 
+\begin_inset Formula $x=L$
+\end_inset
+
+ en el otro.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Halle 
+\begin_inset Formula $\Psi(x,t)$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Enumerate
+Grafique 
+\begin_inset Formula $\Psi(x,t)$
+\end_inset
+
+ para 
+\begin_inset Formula $\omega_{1}t=0,\,\nicefrac{\pi}{5},\,\nicefrac{\pi}{3}$
+\end_inset
+
+ y 
+\begin_inset Formula $\nicefrac{\pi}{2}$
+\end_inset
+
+.
+ ¿Qué clase de simetría tiene 
+\begin_inset Formula $\Psi(x,t)$
+\end_inset
+
+ alrededor de 
+\begin_inset Formula $\omega_{1}t=\nicefrac{\pi}{2}$
+\end_inset
+
+? ¿y alrededor de 
+\begin_inset Formula $\pi$
+\end_inset
+
+?.
+ ¿Cómo espera que sea 
+\begin_inset Formula $\Psi(x,t)$
+\end_inset
+
+ para 
+\begin_inset Formula $\omega_{1}t=2\pi$
+\end_inset
+
+? (
+\begin_inset Formula $\omega_{1}$
+\end_inset
+
+ es la frecuencia fundamental).
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Considere una cuerda de longitud 
+\begin_inset Formula $L$
+\end_inset
+
+, de densidad de masa uniforme 
+\begin_inset Formula $\mu_{0}$
+\end_inset
+
+ sometida a una tensión 
+\begin_inset Formula $T_{0}$
+\end_inset
+
+, con un extremo fijo y el otro libre.
+ Se le da a la cuerda la forma mostrada en la figura, y a 
+\begin_inset Formula $t=0$
+\end_inset
+
+ se la suelta.
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ej1-25.eps
+	lyxscale 50
+	scale 25
+	clip
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Usando el sistema de coordenadas indicado en la figura, halle 
+\begin_inset Formula $\Psi(x,t)$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Enumerate
+Graficar 
+\begin_inset Formula $\Psi(x,t)$
+\end_inset
+
+ para 
+\begin_inset Formula $\omega_{1}t=0,\,\pi$
+\end_inset
+
+ y 
+\begin_inset Formula $2\pi$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Enumerate
+Si tomara un sistema de coordenadas con el origen en el extremo libre de
+ la cuerda, diga qué es lo que cambiaría.
+ ¿Es conveniente ese sistema?
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Considere una cuerda de longitud 
+\begin_inset Formula $L$
+\end_inset
+
+, siendo 
+\begin_inset Formula $T_{0}$
+\end_inset
+
+ su tensión y 
+\begin_inset Formula $\mu_{0}$
+\end_inset
+
+ su densidad lineal.
+ Sea 
+\begin_inset Formula $\Phi(x,t)$
+\end_inset
+
+ la elongación de la cuerda.
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Escriba la expresión más general que representa un modo normal en dicha
+ cuerda, es decir, la expresión más general de una onda estacionaria.
+\end_layout
+
+\begin_layout Enumerate
+Sabiendo que la cuerda tiene un extremo libre y otro fijo, y que el sistema
+ de coordenadas con el que trabaja es tal que el extremo libre está en 
+\begin_inset Formula $x=0$
+\end_inset
+
+ y el extremo fijo está en 
+\begin_inset Formula $x=L$
+\end_inset
+
+, imponga las condiciones de contorno y determine las constantes pertinentes.
+\end_layout
+
+\begin_layout Enumerate
+Usando la relación de dispersión, obtenga las posibles frecuencias temporales
+ 
+\begin_inset Formula $\nu_{n}$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Si 
+\begin_inset Formula $\Phi(x,0)=0$
+\end_inset
+
+ y 
+\begin_inset Formula $\dot{\Phi}(x,0)=V_{0}\cos\left(\frac{3\pi}{2L}x\right)$
+\end_inset
+
+, siendo 
+\begin_inset Formula $0\le x\le L$
+\end_inset
+
+, obtenga la amplitud y fase de cada modo y halle 
+\begin_inset Formula $\Phi(x,t)$
+\end_inset
+
+.
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Dada una cuerda de longitud 
+\begin_inset Formula $L$
+\end_inset
+
+ y densidad de masa uniforme 
+\begin_inset Formula $\mu$
+\end_inset
+
+, sometida a una tensión 
+\begin_inset Formula $T_{0}$
+\end_inset
+
+ con ambos extremos fijos, demostrar que si 
+\begin_inset Formula $\Phi(x,0)$
+\end_inset
+
+ y 
+\begin_inset Formula $\dot{\Phi}(x,0)$
+\end_inset
+
+ son simétricas con respecto al centro de la cuerda, los modos con números
+ de onda 
+\begin_inset Formula $k_{p}=2p\pi/L$
+\end_inset
+
+ no se excitan.
+\end_layout
+
+\begin_layout Enumerate
+Considere una cuerda de longitud 
+\begin_inset Formula $L$
+\end_inset
+
+ sujeta en ambos extremos y sometida a una tensión 
+\begin_inset Formula $T_{0}$
+\end_inset
+
+, que consta de dos tramos: uno de longitud 
+\begin_inset Formula $L_{1}$
+\end_inset
+
+ y densidad de masa uniforme 
+\begin_inset Formula $\mu_{1}$
+\end_inset
+
+, y otro de longitud 
+\begin_inset Formula $L_{2}$
+\end_inset
+
+ y densidad de masa uniforme 
+\begin_inset Formula $\mu_{2}$
+\end_inset
+
+.
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Halle la expresión más general para un modo normal en dicha cuerda.
+ Plantee las condiciones de contorno y halle las condiciones que deben cumplir
+ los distintos parámetros.
+\end_layout
+
+\begin_layout Enumerate
+Considere que 
+\begin_inset Formula $L_{1}=3L_{2}$
+\end_inset
+
+ y que 
+\begin_inset Formula $\mu_{2}=9\mu_{1}$
+\end_inset
+
+.
+ Hallar los modos normales en este caso.
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Se tiene una cuerda de longitud 
+\begin_inset Formula $L$
+\end_inset
+
+ y densidad de masa uniforme 
+\begin_inset Formula $\mu$
+\end_inset
+
+, sometida a una tensión 
+\begin_inset Formula $T_{0}$
+\end_inset
+
+ y fija en ambos extremos.
+ Se tiene además que una fuerza de amortiguamiento proporcional a la velocidad
+ de la cuerda actúa en cada punto de la misma.
+ Hallar la forma más general de 
+\begin_inset Formula $\Phi(x,t)$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Enumerate
+Se tiene un tubo de longitud 
+\begin_inset Formula $L$
+\end_inset
+
+ cerrado en ambos extremos como se indica en la figura.
+ El tubo presenta un tabique ubicado en la mitad del mismo.
+ De un lado del tabique hay un gas de densidad 
+\begin_inset Formula $\rho_{0}-\Delta$
+\end_inset
+
+ y del otro lado hay un gas de densidad 
+\begin_inset Formula $\rho_{0}+\Delta$
+\end_inset
+
+ (considere 
+\begin_inset Formula $\Delta\ll\rho_{0}$
+\end_inset
+
+).
+ Todo el gas se encuentra en reposo.
+ A 
+\begin_inset Formula $t=0$
+\end_inset
+
+ se quita el tabique y se deja evolucionar al sistema.
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ej1-30.eps
+	lyxscale 50
+	scale 25
+	clip
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Escriba la expresión para un modo normal 
+\begin_inset Formula $\Psi_{n}(x,t)$
+\end_inset
+
+ en el tubo, imponiendo las condiciones de contorno.
+ ¿Cuáles son las longitudes de onda permitidas? (
+\begin_inset Formula $\Psi$
+\end_inset
+
+ es el desplazamiento de los elementos del gas).
+ 
+\end_layout
+
+\begin_layout Enumerate
+Escriba la expresión de 
+\begin_inset Formula $\rho(x,0)$
+\end_inset
+
+ y de 
+\begin_inset Formula $\Psi(x,0)$
+\end_inset
+
+; grafíquelas.
+ Sugerencia: hallar 
+\begin_inset Formula $\Psi(x,0)$
+\end_inset
+
+ a partir de 
+\begin_inset Formula $\rho(x,0)$
+\end_inset
+
+ usando las condiciones de contorno.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Usando las condiciones iniciales, halle 
+\begin_inset Formula $\Psi(x,t)$
+\end_inset
+
+.
+ Calcule 
+\begin_inset Formula $\rho(x,0)$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Description
+Datos: 
+\begin_inset Formula $\rho_{0}$
+\end_inset
+
+, 
+\begin_inset Formula $\Delta$
+\end_inset
+
+, 
+\begin_inset Formula $L$
+\end_inset
+
+, velocidad del sonido en el gas 
+\begin_inset Formula $v_{s}$
+\end_inset
+
+.
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Se tiene un tubo dividido en dos regiones separadas por un tabique.
+ En una de ellas se tiene una presión 
+\begin_inset Formula $P=P_{0}+\Delta p$
+\end_inset
+
+ (constante).
+ La otra región está abierta a la atmósfera, teniendo presión 
+\begin_inset Formula $P_{0}$
+\end_inset
+
+.
+ A 
+\begin_inset Formula $t=0$
+\end_inset
+
+ se remueve el tabique.
+ Hallar 
+\begin_inset Formula $\delta p(x,t)$
+\end_inset
+
+, 
+\begin_inset Formula $\Psi(x,t)$
+\end_inset
+
+ y 
+\begin_inset Formula $\delta\rho(x,t)$
+\end_inset
+
+.
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ej1-31.eps
+	lyxscale 50
+	scale 25
+	clip
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Description
+Datos: 
+\begin_inset Formula $P_{0}$
+\end_inset
+
+, 
+\begin_inset Formula $\Delta p\ll P_{0}$
+\end_inset
+
+, 
+\begin_inset Formula $L$
+\end_inset
+
+, 
+\begin_inset Formula $\gamma$
+\end_inset
+
+ y la velocidad del sonido en el gas 
+\begin_inset Formula $v_{s}$
+\end_inset
+
+.
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Se tiene una cuerda de longitud 
+\begin_inset Formula $L=0,6\unit{\,m}$
+\end_inset
+
+, fija en sus dos extremos, que se encuentra oscilando en uno de sus modos
+ normales como se muestra en la figura.
+ La velocidad de propagación de las ondas en dicha cuerda es 
+\begin_inset Formula $v=80$
+\end_inset
+
+ m/s.
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ej1-32.eps
+	lyxscale 50
+	scale 25
+	clip
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Escribir 
+\begin_inset Formula $\Psi(x,t)$
+\end_inset
+
+ (la elongación en un punto de la cuerda), sabiendo que a 
+\begin_inset Formula $t=0$
+\end_inset
+
+ la elongación de todos los puntos es nula; que la amplitud total máxima
+ de la onda es de 8mm, y que 
+\begin_inset Formula $\dot{\Psi}(L/2,0)>0$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Hallar 
+\begin_inset Formula $\Psi_{1}(x-vt)$
+\end_inset
+
+ y 
+\begin_inset Formula $\Psi_{2}(x+vt)$
+\end_inset
+
+ tales que 
+\begin_inset Formula $\Psi(x,t)=\Psi_{1}(x-vt)+\Psi_{2}(x+vt)$
+\end_inset
+
+, es decir: escribir a 
+\begin_inset Formula $\Psi(x,t)$
+\end_inset
+
+ como la superposición de dos ondas viajeras.
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Se tiene una cuerda de longitud 
+\begin_inset Formula $L=$
+\end_inset
+
+1 m, con un extremo fijo y uno libre, oscilando en el modo normal que se
+ muestra en la figura.
+ La velocidad de propagación de las ondas en dicha cuerda es 
+\begin_inset Formula $v=80$
+\end_inset
+
+ m/s, y el desplazamiento de las partículas a 
+\begin_inset Formula $t=0$
+\end_inset
+
+ es el máximo posible para este modo, siendo 
+\begin_inset Formula $\Psi(L,0)>0$
+\end_inset
+
+.
+ La amplitud total máxima es de 8 mm.
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ej1-33.eps
+	lyxscale 50
+	scale 25
+	clip
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Resolver, para esta situación, todo lo pedido en el problema anterior.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Si ahora la cuerda está oscilando en un modo normal arbitrario 
+\begin_inset Formula $n$
+\end_inset
+
+, con las mismas condiciones iniciales dadas arriba, repetir (a) (expresar
+ en función de 
+\begin_inset Formula $n$
+\end_inset
+
+).
+ 
+\end_layout
+
+\end_deeper
+\end_body
+\end_document

@@ -1,0 +1,702 @@
+#LyX 2.1 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass article
+\begin_preamble
+%%\usepackage{SEART}
+
+%TCIDATA{TCIstyle=article/art4.lat,SEART,SEART}
+
+%TCIDATA{Created=Mon Aug 20 21:09:02 2001}
+%TCIDATA{LastRevised=Tue May 14 08:11:44 2002}
+%% \input{tcilatex}
+\end_preamble
+\use_default_options false
+\maintain_unincluded_children false
+\language spanish
+\language_package default
+\inputencoding latin1
+\fontencoding global
+\font_roman times
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize 11
+\spacing single
+\use_hyperref false
+\papersize a4paper
+\use_geometry true
+\use_amsmath 1
+\use_esint 0
+\use_mhchem 1
+\use_mathdots 1
+\cite_engine basic
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\use_refstyle 0
+\index Índice
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 2cm
+\topmargin 2cm
+\rightmargin 2cm
+\bottommargin 2cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+\align center
+
+\shape smallcaps
+\size large
+Física 2 (Físicos) - Cátedra Prof.
+ Mandrini
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\shape smallcaps
+\size large
+Verano de 2016
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\shape smallcaps
+\size large
+Guía 5: Polarización
+\end_layout
+
+\begin_layout Enumerate
+¿Cuándo dos ondas transversales, perpendiculares entre sí, dan una onda:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+linealmente polarizada;
+\end_layout
+
+\begin_layout Itemize
+circularmente polarizada en sentido antihorario;
+\end_layout
+
+\begin_layout Itemize
+circularmente polarizada en sentido horario;
+\end_layout
+
+\begin_layout Itemize
+elípticamente polarizada en sentido antihorario? 
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Escriba la expresión matemática de:
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Una onda linealmente polarizada cuyo plano de polarización forma un ángulo
+ de 30
+\begin_inset Formula $^{\circ}$
+\end_inset
+
+ con el eje 
+\begin_inset Formula $x$
+\end_inset
+
+ (se propaga según el eje 
+\begin_inset Formula $z$
+\end_inset
+
+).
+ 
+\end_layout
+
+\begin_layout Enumerate
+Una onda que se propaga según el eje 
+\begin_inset Formula $x$
+\end_inset
+
+, polarizada circularmente en sentido horario.
+\end_layout
+
+\begin_layout Enumerate
+Una onda elípticamente polarizada en sentido horario, que se propaga según
+ el eje 
+\begin_inset Formula $x$
+\end_inset
+
+, tal que el eje mayor, que es igual a dos veces el eje menor, está sobre
+ el eje 
+\begin_inset Formula $y$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Enumerate
+Una onda elípticamente polarizada en sentido antihorario.
+ La onda se propaga según el eje 
+\begin_inset Formula $x$
+\end_inset
+
+ positivo (use terna directa).
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Demuestre que siempre se puede describir una onda, cualquiera sea su polarizació
+n, como suma de dos ondas circularmente polarizadas en sentidos horario
+ y antihorario.
+\end_layout
+
+\begin_layout Enumerate
+Incide un haz de luz natural de intensidad 
+\begin_inset Formula $I_{0}$
+\end_inset
+
+ sobre un polarizador lineal (ideal).
+ ¿Qué intensidad se transmite? ¿Por qué?
+\end_layout
+
+\begin_layout Enumerate
+Se hace incidir luz plano polarizada normalmente sobre un polarizador lineal.
+ Al ir rotando la lámina, ¿cómo varían el estado de polarización y la intensidad
+ del haz transmitido? Indique a partir de qué dirección mide el ángulo de
+ giro.
+\end_layout
+
+\begin_layout Enumerate
+Sobre un polarizador incide una onda circularmente polarizada en sentido
+ horario.
+ ¿Cuál es el estado de polarización de la onda transmitida? ¿Qué fracción
+ de la intensidad incidente se transmitió a través de la lámina? Justifique.
+\end_layout
+
+\begin_layout Enumerate
+Sobre un polarizador lineal (ideal) incide una onda cuyo estado de polarización
+ no se conoce, con una intensidad 
+\begin_inset Formula $I_{0}$
+\end_inset
+
+.
+ Se hace girar esa lámina y se observa que la intensidad transmitida es
+ 
+\begin_inset Formula $I_{0}/2$
+\end_inset
+
+ y no depende del ángulo de giro.
+ ¿Qué puede decir sobre el estado de polarización de la onda incidente?
+ Justifique.
+\end_layout
+
+\begin_layout Enumerate
+Dos polarizadores están orientados de manera que se transmita la máxima
+ cantidad de luz.
+ ¿A qué fracción de este valor máximo se reduce la intensidad de la luz
+ transmitida cuando se gira el segundo polarizador en: (a) 20
+\begin_inset Formula $^{\circ}$
+\end_inset
+
+, (b) 45
+\begin_inset Formula $^{\circ}$
+\end_inset
+
+, (c) 60
+\begin_inset Formula $^{\circ}$
+\end_inset
+
+?
+\end_layout
+
+\begin_layout Enumerate
+Se tienen dos polarizadores.
+ ¿Cuál es el ángulo formado por sus ejes de transmisión si al incidir un
+ haz de luz natural sobre el primero, se transmite una intensidad igual
+ a la cuarta parte de la que tenía la luz incidente?
+\end_layout
+
+\begin_layout Enumerate
+Se tienen dos polarizadores cuyos ejes de transmisión forman un ángulo de
+ 45
+\begin_inset Formula $^{\circ}$
+\end_inset
+
+.
+ Sobre el primero incide una onda circularmente polarizada en sentido horario.
+ ¿Qué fracción de la intensidad incidente se transmitió a la salida del
+ segundo polarizador?
+\end_layout
+
+\begin_layout Enumerate
+Incide un haz de luz linealmente polarizada sobre la superficie de separación
+ de dos medios transparentes.
+ ¿Qué condiciones deben cumplirse para que ese haz se transmita totalmente
+ hacia el segundo medio?
+\end_layout
+
+\begin_layout Enumerate
+Un haz de luz circularmente polarizada en sentido horario incide con el
+ ángulo de polarización sobre la superficie de separación de dos medios
+ transparentes.
+ ¿Cuál es el estado de polarización del haz reflejado? ¿Y del transmitido?
+ Justifique.
+\end_layout
+
+\begin_layout Enumerate
+Sobre una superficie de separación entre dos medios de índices 
+\begin_inset Formula $n_{1}$
+\end_inset
+
+ y 
+\begin_inset Formula $n_{2}$
+\end_inset
+
+ (con 
+\begin_inset Formula $n_{1}>n_{2}$
+\end_inset
+
+), incide un rayo desde el medio 
+\begin_inset Formula $n_{1}$
+\end_inset
+
+.
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+¿Cuál es el ángulo de incidencia crítico a partir del cual se produce reflexión
+ total? 
+\end_layout
+
+\begin_layout Enumerate
+¿Cuál es el ángulo de polarización? 
+\end_layout
+
+\begin_layout Enumerate
+¿Es posible que el ángulo de polarización sea mayor que el ángulo crítico?
+ Justifique físicamente y analíticamente.
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Sobre una lámina de vidrio de caras paralelas y de índice 
+\begin_inset Formula $n$
+\end_inset
+
+, colocada en aire, se hace incidir luz elípticamente polarizada con el
+ ángulo de polarización.
+ Se analiza el haz reflejado.
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+¿Cuál es su estado de polarización?
+\end_layout
+
+\begin_layout Enumerate
+Ahora, sin modificar la dirección del haz incidente, se sumerge a la lámina
+ parcialmente en agua, de forma tal que sobre la cara superior hay aire.
+ ¿Cuál es el estado de polarización del haz reflejado?
+\end_layout
+
+\begin_layout Enumerate
+Ahora se sumerge la lámina totalmente en el agua, sin modificar la dirección
+ del haz que incide sobre la lámina.
+ ¿Cuál es el estado de polarización del haz reflejado? ¿Cómo podría lograr
+ que la polarización del haz reflejado fuera linealmente polarizado?
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Se hace incidir luz circularmente polarizada en sentido horario sobre una
+ lámina retardadora de cuarto de onda (
+\begin_inset Formula $+\lambda/4$
+\end_inset
+
+).
+ ¿Cuál es el estado de polarización de la luz al emerger de la misma?
+\end_layout
+
+\begin_layout Enumerate
+Sobre una lámina de cuarto de onda incide un haz de luz natural de intensidad
+ 
+\begin_inset Formula $I_{0}$
+\end_inset
+
+.
+ ¿Con qué estado de polarización emerge? ¿Cuál es su intensidad? Justifique.
+\end_layout
+
+\begin_layout Enumerate
+Incide luz plano polarizada sobre una lámina de cuarto de onda.
+ El plano de polarización es paralelo al eje óptico de la misma.
+ ¿Cuál es el estado de polarización de la luz que emerge de la lámina?
+\end_layout
+
+\begin_layout Enumerate
+Una onda linealmente polarizada incide sobre una lámina de media onda (
+\begin_inset Formula $+\lambda/2$
+\end_inset
+
+).
+ El plano de polarización forma un ángulo de 30
+\begin_inset Formula $^{\circ}$
+\end_inset
+
+ con el eje óptico de la lámina (considere que el eje óptico es el eje rápido).
+ ¿Cuál es el estado de polarización de la luz que sale de la misma?
+\end_layout
+
+\begin_layout Enumerate
+Incide luz elípticamente polarizada en sentido antihorario sobre una lámina
+ de cuarto de onda.
+ A medida que se va rotando la lámina retardadora, ¿cuál es el estado de
+ polarización de la luz que emerge?
+\end_layout
+
+\begin_layout Enumerate
+Sobre una lámina de cuarto de onda incide normalmente una vibración monocromátic
+a elípticamente polarizada.
+ Las componentes 
+\begin_inset Formula $E_{x}$
+\end_inset
+
+ y 
+\begin_inset Formula $E_{y}$
+\end_inset
+
+ del vector campo eléctrico están relacionadas por:
+\begin_inset Formula 
+\[
+\frac{E_{x}^{2}}{9}\pm\frac{\sqrt{2}}{12}E_{x}E_{y}+\frac{E_{y}^{2}}{16}=\frac{1}{2}
+\]
+
+\end_inset
+
+Considere que 
+\begin_inset Formula $x$
+\end_inset
+
+ es el eje óptico de la lámina, y que dicho eje es el rápido.
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Hallar el estado de polarización de dicha vibración a la salida de la lámina.
+\end_layout
+
+\begin_layout Enumerate
+Se coloca detrás de la lámina un polarizador cuyo eje óptico forma 30
+\begin_inset Formula $^{\circ}$
+\end_inset
+
+ con el eje óptico de la lámina.
+ Hallar la vibración que abandona el polarizador, ¿cuál es el porcentaje
+ de energía perdido en la lámina y cuál en el polarizador?
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+¿Cómo puede hacerse para analizar luz elípticamente polarizada? ¿Por qué?
+\end_layout
+
+\begin_layout Enumerate
+¿Cuál es la diferencia que existe entre luz parcialmente polarizada y luz
+ elípticamente polarizada? ¿Cómo se puede hacer para distinguirlas?
+\end_layout
+
+\begin_layout Enumerate
+Se tienen dos fuentes luminosas: i) una de luz natural, y ii) otra que consiste
+ en la superposición de luz natural con una onda monocromática de una longitud
+ de onda 
+\begin_inset Formula $\lambda$
+\end_inset
+
+ conocida, circularmente polarizada.
+ ¿Cómo puede Ud.
+ saber cuál es i) y cuál es ii)? Para ello Ud.
+ dispone de polaroids, láminas de media onda y láminas de cuarto de onda
+ (todos los que quiera).
+ Especifique claramente qué elementos utilizaría para distinguirlas y justifique.
+\end_layout
+
+\begin_layout Enumerate
+Un alumno de laboratorio 2 necesita utilizar una fuente de luz circularmente
+ polarizada derecha lo más potente posible.
+ Sin embargo, sólo dispone de una fuente de luz elípticamente polarizada
+ izquierda tal que el eje mayor de la perturbación es cuatro veces el eje
+ menor.
+ Además dispone de los siguientes elementos: i) dos láminas iguales de cuarto
+ de onda y ii) un polaroid.
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Establezca, justificando claramente su elección, los elementos que utilizaría,
+ en qué orden, y con qué objetivos, para lograr la fuente que necesita.
+ No olvide que se quiere que la fuente sea lo más potente posible.
+\end_layout
+
+\begin_layout Enumerate
+Elija un sistema de coordenadas, y en un plano perpendicular a la dirección
+ de propagación dibuje la evolución temporal de la perturbación incidente.
+ Escriba el vector que representa a dicha perturbación.
+\end_layout
+
+\begin_layout Enumerate
+Calcule el ángulo que los ejes de cada elemento deben formar con los ejes
+ propios de la perturbación incidente y el ángulo que los ejes propios de
+ la perturbación emergente de cada elemento forman con los ejes propios
+ de la perturbación incidente.
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Se tiene un haz de luz monocromática linealmente polarizada y se desea diseñar
+ un dispositivo que logre rotar el vector campo eléctrico a 90
+\begin_inset Formula $^{\circ}$
+\end_inset
+
+ del inicial, de forma tal que la intensidad a la salida sea aproximadamente
+ la misma que a la entrada.
+ Para armar dicho dispositivo usted dispone de láminas de cuarto de onda
+ y polaroids.
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Diga qué elementos usaría, en qué orden y con qué objetivos.
+\end_layout
+
+\begin_layout Enumerate
+Calcule los ángulos entre los ejes propios de cada elemento y la dirección
+ del campo incidente y la polarización del campo eléctrico a la salida de
+ cada elemento.
+\end_layout
+
+\begin_layout Enumerate
+¿Podría lograr el mismo objetivo si en lugar de disponer de láminas de cuarto
+ de onda y polaroids, dispusiera de láminas de media onda y polaroids? De
+ ser así, ¿qué elementos usaría? Justifique claramente su respuesta.
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Se tiene un haz de luz monocromática y linealmente polarizada.
+ A partir de ella se desea obtener luz elípticamente polarizada en sentido
+ antihorario, mediante una lámina de 
+\begin_inset Formula $+1/4$
+\end_inset
+
+ de onda.
+ Se desea que el eje mayor de la elipse sea tres veces el eje menor.
+ Hallar el ángulo que debe formar el plano de polarización de la luz incidente
+ con el eje rápido de la lámina para que el campo eléctrico a la salida
+ de la lámina tenga la polarización pedida (si más de un valor es posible,
+ alcanza con que dé uno de ellos).
+ ¿Cuáles son los ejes de la elipse?
+\end_layout
+
+\begin_layout Enumerate
+Se tiene un dispositivo compuesto por una fuente que emite luz de frecuencias
+ 
+\begin_inset Formula $\omega_{1}$
+\end_inset
+
+ y 
+\begin_inset Formula $\omega_{2}$
+\end_inset
+
+, un polarizador y dos láminas retardadoras de idénticas características.
+ Cada una de éstas se comporta como lámina de cuarto de onda para la luz
+ incidente de frecuencia 
+\begin_inset Formula $\omega_{1}$
+\end_inset
+
+ y como lámina de media onda para la frecuencia 
+\begin_inset Formula $\omega_{2}$
+\end_inset
+
+.
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+¿Que relación deben cumplir 
+\begin_inset Formula $\omega_{1}$
+\end_inset
+
+ y 
+\begin_inset Formula $\omega_{2}$
+\end_inset
+
+ para que las láminas retardadoras puedan tener la propiedad mencionada?
+ 
+\begin_inset VSpace defskip
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+La luz emitida por la fuente incide sobre el polarizador; el eje de transmisión
+ del mismo tiene una dirección conocida.
+ Seguidamente al polarizador se coloca una de las láminas retardadoras con
+ su eje rápido formando un ángulo de +30
+\begin_inset Formula $^{\circ}$
+\end_inset
+
+ respecto del eje de transmisión del polarizador.
+ A continuación se ubica la segunda lámina con su eje rápido formando un
+ ángulo de +30
+\begin_inset Formula $^{\circ}$
+\end_inset
+
+ respecto del eje rápido de la primera lámina (es decir, a +60
+\begin_inset Formula $^{\circ}$
+\end_inset
+
+ del eje de transmisión del polarizador).
+\end_layout
+
+\begin_layout Enumerate
+Escriba la amplitud del campo eléctrico a la salida de cada elemento (lámina
+ o polarizador) para ambas frecuencias.
+ Indique el tipo de polarización que se tiene en cada caso.
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Se tiene una interfase plana entre aire y vidrio (
+\begin_inset Formula $n=1,5$
+\end_inset
+
+).
+ A cierta distancia de la misma, se coloca una fuente que emite una onda
+ monocromática.
+ Dicha onda se propaga en la dirección 
+\begin_inset Formula $z$
+\end_inset
+
+, está elípticamente polarizada en sentido antihorario, siendo su eje mayor
+ tres veces el eje menor, e incide sobre la interfase luego de atravesar
+ una lámina de 
+\begin_inset Formula $+1/4$
+\end_inset
+
+ de onda (ver figuras).
+ La lámina de 
+\begin_inset Formula $+1/4$
+\end_inset
+
+ de onda puede girarse, lo mismo que la fuente.
+ Se desea que no haya onda reflejada.
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ej4-28.eps
+	lyxscale 50
+	scale 25
+	clip
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+¿Cuál debería ser la polarización del campo a la salida de la lámina para
+ que esto sea factible? Teniendo esto en cuenta:
+\end_layout
+
+\begin_layout Enumerate
+Diga cómo debe orientarse la fuente con respecto a los ejes de la lámina.
+ Es decir, halle cuál debe ser el ángulo 
+\begin_inset Formula $\alpha$
+\end_inset
+
+ formado entre el eje mayor de la elipse y el eje rápido de la lámina (
+\begin_inset Formula $x_{L}$
+\end_inset
+
+).
+ Halle el campo a la salida de la lámina.
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+halle el ángulo de incidencia (
+\begin_inset Formula $\theta$
+\end_inset
+
+)
+\end_layout
+
+\begin_layout Itemize
+halle el ángulo que debe formar el eje 
+\begin_inset Formula $y_{L}$
+\end_inset
+
+ de la lámina con la dirección perpendicular al plano de incidencia.
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Description
+Obs.: escriba 
+\bar under
+claramente
+\bar default
+ la expresión del campo eléctrico a la entrada y a la salida de la lámina,
+ indicando el o los sistemas de coordenadas que usa.
+ 
+\end_layout
+
+\end_deeper
+\end_body
+\end_document

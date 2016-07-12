@@ -1,0 +1,1515 @@
+#LyX 2.1 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass article
+\begin_preamble
+%%\usepackage{SEART}
+
+%TCIDATA{TCIstyle=article/art4.lat,SEART,SEART}
+
+%TCIDATA{Created=Mon Aug 20 21:09:02 2001}
+%TCIDATA{LastRevised=Tue May 14 08:11:44 2002}
+%% \input{tcilatex}
+\end_preamble
+\use_default_options false
+\maintain_unincluded_children false
+\language spanish
+\language_package default
+\inputencoding latin1
+\fontencoding global
+\font_roman times
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize 11
+\spacing single
+\use_hyperref false
+\papersize a4paper
+\use_geometry true
+\use_amsmath 1
+\use_esint 0
+\use_mhchem 1
+\use_mathdots 1
+\cite_engine basic
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\use_refstyle 0
+\index Índice
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 2cm
+\topmargin 2cm
+\rightmargin 2cm
+\bottommargin 2cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+\align center
+
+\shape smallcaps
+\size large
+Física 2 (Físicos) - Cátedra Prof.
+ Mandrini
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\shape smallcaps
+\size large
+Verano de 2016
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\shape smallcaps
+\size large
+Guía 2: Propagación de ondas en medios continuos
+\end_layout
+
+\begin_layout Enumerate
+Verifique si las siguientes expresiones matemáticas cumplen la ecuación
+ de las ondas unidimensional.
+ Grafique las funciones dadas.
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+\begin_inset Formula $\Psi(x,t)=Ae^{-\lambda(x-vt)^{2}}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $\Psi(x,t)=\beta(x+vt)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\noun off
+\color none
+\begin_inset Formula $\Psi(x,t)=A\sin\left[k(x-vt)\right]$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\noun off
+\color none
+\begin_inset Formula $\Psi(x,t)=B\sin^{2}\left(kx-\omega t\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\noun off
+\color none
+\begin_inset Formula $\Psi(x,t)=C\cos(kx)\sin(\omega t)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\noun off
+\color none
+\begin_inset Formula $\Psi(x,t)=De^{i(kx-\omega t)}$
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Se tiene una perturbación que se propaga en una cuerda infinita con velocidad
+ 
+\begin_inset Formula $v$
+\end_inset
+
+.
+ Se toman dos ``fotografías'' de la perturbación, a 
+\begin_inset Formula $t=0$
+\end_inset
+
+ s y 
+\begin_inset Formula $t=4$
+\end_inset
+
+ s:
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ej2-2.eps
+	lyxscale 50
+	scale 25
+	clip
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Hallar 
+\begin_inset Formula $v$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Enumerate
+Hallar 
+\begin_inset Formula $\Psi(x,t)$
+\end_inset
+
+.
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Se tiene una cuerda infinita.
+ Se sabe que la velocidad de propagación de las ondas en ella es 
+\begin_inset Formula $v=100$
+\end_inset
+
+ m/s (consideramos que dicha cuerda es un medio no dispersivo).
+ A 
+\begin_inset Formula $t=0$
+\end_inset
+
+ se la deforma de la manera que se indica en la figura, y se la suelta (desde
+ el reposo).
+ 
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ej2-3.eps
+	lyxscale 50
+	scale 25
+	clip
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Hallar 
+\begin_inset Formula $\Psi(x,t)=\Psi_{1}(x-vt)+\Psi_{2}(x+vt)$
+\end_inset
+
+.
+ Dar explícitamente (en cada intervalo de interés) la expresión de 
+\begin_inset Formula $\Psi(x,t)$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Comparar esta situación con la del problema anterior.
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Se tiene una cuerda homogénea de longitud 
+\begin_inset Formula $L$
+\end_inset
+
+ y densidad 
+\begin_inset Formula $\mu$
+\end_inset
+
+, a una tensión 
+\begin_inset Formula $T$
+\end_inset
+
+, con sus dos extremos fijos 
+\begin_inset Formula $(x=0\mbox{ y }x=L)$
+\end_inset
+
+.
+ A 
+\begin_inset Formula $t=0$
+\end_inset
+
+ se la perturba de forma tal que
+\begin_inset Formula 
+\[
+\Psi(x,0)=\begin{cases}
+0 & \mbox{si }0<x<a\\
+h\frac{x-a}{L/2-a} & \mbox{si }a<x<L/2\\
+h\frac{L-a-x}{L/2-a} & \mbox{si }L/2<x<L-a\\
+0 & \mbox{si }L-a<x<L.
+\end{cases}
+\]
+
+\end_inset
+
+Se suelta la cuerda desde el reposo; considerar 
+\begin_inset Formula $h\ll L$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Hallar 
+\begin_inset Formula $\Psi(x,t)$
+\end_inset
+
+ y demostrar que siempre es posible escribir esta solución como una superposició
+n de una onda que se propaga hacia la derecha y una que se propaga hacia
+ la izquierda.
+\end_layout
+
+\begin_layout Enumerate
+Hacer un esquema cualitativo del movimiento de la cuerda para los instantes
+ 
+\begin_inset Formula $t_{n}=n\frac{L}{8v}$
+\end_inset
+
+, donde 
+\begin_inset Formula $v$
+\end_inset
+
+ es la velocidad de propagación de las ondas en la cuerda y 
+\begin_inset Formula $n$
+\end_inset
+
+ es un número natural.
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+En un gas, a 
+\begin_inset Formula $t=0$
+\end_inset
+
+, se produce la perturbación indicada en la figura.
+ Sabiendo que 
+\begin_inset Formula $(\rho_{1}-\rho_{0})/\rho_{0}\ll1$
+\end_inset
+
+ y que 
+\begin_inset Formula $v(x,0)=0$
+\end_inset
+
+, calcule 
+\begin_inset Formula $\rho(x,t)$
+\end_inset
+
+.
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ej2-5.eps
+	lyxscale 50
+	scale 25
+	clip
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Description
+Datos: 
+\begin_inset Formula $\rho_{1}$
+\end_inset
+
+, 
+\begin_inset Formula $\rho_{0}$
+\end_inset
+
+, 
+\begin_inset Formula $v_{s}$
+\end_inset
+
+ (velocidad de propagación de las ondas en el gas).
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+La ecuación de una onda transversal en una cuerda está dada por: 
+\begin_inset Formula $y(x,t)=0,1\unit{\, m}\sin\left[\pi\left(x\unit{\, m^{-1}-4\unit{\, s^{-1}}}\right)\right]$
+\end_inset
+
+ (
+\begin_inset Formula $x$
+\end_inset
+
+ e 
+\begin_inset Formula $y$
+\end_inset
+
+ en metros y 
+\begin_inset Formula $t$
+\end_inset
+
+ en segundos).
+ Determine:
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+La amplitud de la onda.
+ 
+\end_layout
+
+\begin_layout Enumerate
+La frecuencia de vibración de la cuerda.
+\end_layout
+
+\begin_layout Enumerate
+La velocidad de propagación de la onda.
+\end_layout
+
+\begin_layout Enumerate
+En 
+\begin_inset Formula $t=1$
+\end_inset
+
+ s, evaluar el desplazamiento, la velocidad y la aceleración de un segmento
+ pequeño de cuerda ubicado en 
+\begin_inset Formula $x=2$
+\end_inset
+
+ m.
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Sea una onda transversal plana y armónica, cuya frecuencia angular vale
+ 
+\begin_inset Formula $\omega=10\mbox{ s}^{-1}$
+\end_inset
+
+ y cuyo número de onda es 
+\begin_inset Formula $k=100\mbox{\,\ m}^{-1}$
+\end_inset
+
+.
+ En 
+\begin_inset Formula $x_{1}=1$
+\end_inset
+
+ km y 
+\begin_inset Formula $t_{1}=1$
+\end_inset
+
+ s la fase de la onda es 
+\begin_inset Formula $\nu(1\unit{\, km},1\unit{\, s})=3\pi/2$
+\end_inset
+
+.
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+¿Cuánto vale la fase en 
+\begin_inset Formula $x_{1}$
+\end_inset
+
+ para 
+\begin_inset Formula $t=0$
+\end_inset
+
+ s?
+\end_layout
+
+\begin_layout Enumerate
+Considerando que 
+\begin_inset Formula $\nu(x,t)=kx-\omega t+\nu_{0}$
+\end_inset
+
+, ¿cuánto vale 
+\begin_inset Formula $\nu_{0}$
+\end_inset
+
+?
+\end_layout
+
+\begin_layout Enumerate
+¿A qué velocidad se propaga la onda?
+\end_layout
+
+\begin_layout Enumerate
+¿Cuánto tiempo debe transcurrir para que el frente de onda que se hallaba
+ en 
+\begin_inset Formula $x_{1}$
+\end_inset
+
+ llegue a 
+\begin_inset Formula $x=2x_{1}$
+\end_inset
+
+?
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Una cuerda larga con 
+\begin_inset Formula $\mu=0.005$
+\end_inset
+
+ kg/m se tensa aplicando una fuerza de 
+\begin_inset Formula $0.25$
+\end_inset
+
+ N.
+ El extremo izquierdo se mueve hacia arriba y hacia abajo con movimiento
+ armónico simple de período 
+\begin_inset Formula $0.5$
+\end_inset
+
+ s y amplitud 
+\begin_inset Formula $0.2$
+\end_inset
+
+ m; se supone que la tensión permanece constante en todo el movimiento.
+ Encontrar: 
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+La velocidad de la onda generada en la cuerda, la frecuencia y la longitud
+ de onda.
+\end_layout
+
+\begin_layout Enumerate
+La expresión matemática para el desplazamiento: 
+\begin_inset Formula $y(x,t)$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Enumerate
+La energía cinética media por unidad de longitud, de una partícula del medio.
+\end_layout
+
+\begin_layout Enumerate
+La energía potencial media por unidad de longitud, de una partícula.
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Se tienen dos cuerdas semi--infinitas, de densidades lineales 
+\begin_inset Formula $\rho_{1}$
+\end_inset
+
+ y 
+\begin_inset Formula $\rho_{2}$
+\end_inset
+
+, unidas en un punto.
+ El sistema está sometido a una tensión 
+\begin_inset Formula $T$
+\end_inset
+
+.
+ Sobre la primera cuerda (la de densidad 
+\begin_inset Formula $\rho_{1}$
+\end_inset
+
+) incide una onda de la forma: 
+\begin_inset Formula $\phi_{i}(x,t)=A_{i}\cos\left(k_{1}x-\omega t\right)$
+\end_inset
+
+.
+ Se conocen: 
+\begin_inset Formula $\rho_{1}$
+\end_inset
+
+, 
+\begin_inset Formula $\rho_{2}$
+\end_inset
+
+, 
+\begin_inset Formula $T$
+\end_inset
+
+, 
+\begin_inset Formula $\omega$
+\end_inset
+
+ y 
+\begin_inset Formula $A_{i}$
+\end_inset
+
+.
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Calcule 
+\begin_inset Formula $k_{1}$
+\end_inset
+
+ y 
+\begin_inset Formula $k_{2}$
+\end_inset
+
+, es decir, los números de onda de cada lado de la unión.
+\end_layout
+
+\begin_layout Enumerate
+Plantee la solución más general para 
+\begin_inset Formula $\phi(x,t)$
+\end_inset
+
+ de cada lado de la unión.
+\end_layout
+
+\begin_layout Enumerate
+¿Qué condiciones deben verificarse en el punto de unión de las cuerdas?
+\end_layout
+
+\begin_layout Enumerate
+Usando (b) y (c), calcule la perturbación 
+\begin_inset Formula $\phi(x,t)$
+\end_inset
+
+ en cada una de las cuerdas.
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Se tienen dos caños semi--infinitos de distinta sección y unidos, como se
+ muestra en la figura.
+ Una onda acústica de la forma 
+\begin_inset Formula $\delta p_{i}(x,t)=A_{i}\cos\left(k_{1}x-\omega t\right)$
+\end_inset
+
+ incide desde el primer caño hacia 
+\begin_inset Formula $x>0$
+\end_inset
+
+.
+ Hallar las amplitudes de presión y elongación de las ondas reflejadas y
+ transmitidas.
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ej2-10.eps
+	lyxscale 50
+	scale 25
+	clip
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Description
+Datos: 
+\begin_inset Formula $A_{1}$
+\end_inset
+
+, 
+\begin_inset Formula $A_{2}$
+\end_inset
+
+, presión media 
+\begin_inset Formula $P_{0}$
+\end_inset
+
+, densidad media 
+\begin_inset Formula $\rho_{0}$
+\end_inset
+
+, 
+\begin_inset Formula $v_{s}$
+\end_inset
+
+, 
+\begin_inset Formula $\omega$
+\end_inset
+
+, 
+\begin_inset Formula $A_{i}$
+\end_inset
+
+.
+ Suponer despreciables los efectos de la viscosidad.
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Considere la siguiente configuración: 
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ej2-11.eps
+	lyxscale 50
+	scale 25
+	clip
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+Suponga que desde la izquierda incide una onda cuya expresión es la misma
+ del problema anterior (las secciones y el resto de los datos son los mismos
+ también).
+ Hallar 
+\begin_inset Formula $\delta p(x,t)$
+\end_inset
+
+ y 
+\begin_inset Formula $\Psi(x,t)$
+\end_inset
+
+ en cada tramo.
+\end_layout
+
+\begin_layout Enumerate
+Se tiene una interfase plana e infinita entre aire y agua (ver figura).
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ej2-12.eps
+	lyxscale 50
+	scale 25
+	clip
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+Desde el aire incide una onda acústica plana cuya dirección de propagación
+ es normal a la interfase; se escribe 
+\begin_inset Formula $\delta p_{i}(y,t)=A_{i}\cos\left(k_{1}y-\omega t\right)$
+\end_inset
+
+.
+ Hallar las ondas reflejadas y transmitidas 
+\begin_inset Formula $\delta p_{r}(y,t)$
+\end_inset
+
+ y 
+\begin_inset Formula $\delta p_{t}(y,t)$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset space \space{}
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Demuestre que la función: 
+\begin_inset Formula $\Psi(\mathbf{r},t)=Ae^{i(\mathbf{k}\cdot\mathbf{r}\pm\omega t)}$
+\end_inset
+
+, con 
+\begin_inset Formula $\mathbf{k}=k_{x}\hat{x}+k_{y}\hat{y}+k_{z}\hat{z}$
+\end_inset
+
+ un vector constante y 
+\begin_inset Formula $\mathbf{r}=x\hat{x}+y\hat{y}+z\hat{z}$
+\end_inset
+
+, es solución de la ecuación de ondas tridimensional.
+ Sugerencia: exprese el laplaciano en coordenadas cartesianas.
+\end_layout
+
+\begin_layout Enumerate
+Analice el significado físico de 
+\begin_inset Formula $\Psi(\mathbf{r},t)$
+\end_inset
+
+.
+ ¿Cómo son los frentes de onda? ¿Cuál es la relación entre el vector 
+\begin_inset Formula $\mathbf{k}$
+\end_inset
+
+ y los frentes de onda? ¿Hacia dónde se desplazan los frentes de onda al
+ transcurrir 
+\begin_inset Formula $t$
+\end_inset
+
+? ¿A qué velocidad?
+\end_layout
+
+\begin_layout Enumerate
+Rehaga el problema anterior suponiendo que la onda incidente (desde el aire)
+ forma un ángulo 
+\begin_inset Formula $\theta$
+\end_inset
+
+ con la normal a la interfase (ver figura).
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ej2-13.eps
+	lyxscale 50
+	scale 25
+	clip
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+ Por lo tanto la onda de presión incidente se escribe, si usamos notación
+ compleja: 
+\begin_inset Formula $\delta p_{i}(\mathbf{r},t)=A_{i}e^{i(\mathbf{k}_{i}\cdot\mathbf{r}-\omega t)}$
+\end_inset
+
+, siendo 
+\begin_inset Formula $\mathbf{k}_{i}=\frac{\omega}{v_{s}}\left(\sin\theta\hat{x}+\cos\theta\hat{y}\right)$
+\end_inset
+
+.
+ Hallar las ondas reflejadas y transmitidas, 
+\begin_inset Formula $\delta p_{r}(\mathbf{r},t)=A_{r}e^{i(\mathbf{k}_{r}\cdot\mathbf{r}-\omega t)}$
+\end_inset
+
+ y 
+\begin_inset Formula $\delta p_{t}(\mathbf{r},t)=A_{t}e^{i(\mathbf{k}_{t}\cdot\mathbf{r}-\omega t)}$
+\end_inset
+
+.
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+En lo que sigue, encuentre con cuál de estos métodos se determina la velocidad
+ de fase y con cuál la de grupo.
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Medir la velocidad del sonido en el aire, golpeando las manos y determinando
+ el tiempo que transcurre entre el aplauso y el eco de un reflector ubicado
+ a una distancia conocida.
+\end_layout
+
+\begin_layout Enumerate
+Medir la longitud de un tubo que resuena a una frecuencia conocida (y corregir
+ por efectos de borde).
+\end_layout
+
+\begin_layout Enumerate
+Determinar la velocidad de la luz midiendo el tiempo que tarda un haz colimado
+ en recorrer una distancia conocida.
+\end_layout
+
+\begin_layout Enumerate
+Encontrar la longitud de una cavidad resonante que oscila en un modo conocido
+ a una frecuencia conocida.
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Demuestre que la velocidad de grupo 
+\begin_inset Formula $v_{g}$
+\end_inset
+
+ y la velocidad de fase 
+\begin_inset Formula $v_{f}$
+\end_inset
+
+ están relacionadas por:
+\begin_inset Formula 
+\[
+v_{g}=v_{f}-\lambda\frac{dv_{f}}{d\lambda}
+\]
+
+\end_inset
+
+¿Cómo es 
+\begin_inset Formula $\frac{dv_{f}}{d\lambda}$
+\end_inset
+
+ en un medio no dispersivo? En ese caso, ¿cómo se relacionan la velocidad
+ de grupo y la de fase?
+\end_layout
+
+\begin_layout Enumerate
+Se quiere investigar la relación entre el ancho de un paquete y el desfasaje
+ de las frecuencias que lo componen.
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Tome el siguiente pulso con un espectro gaussiano de ancho 
+\begin_inset Formula $\Delta k$
+\end_inset
+
+ centrado en 
+\begin_inset Formula $k_{0}$
+\end_inset
+
+ (note que las frecuencias están en fase):
+\begin_inset Formula 
+\[
+F(k)=A\exp\left[-\frac{(k-k_{0})^{2}}{4\Delta k^{2}}\right].
+\]
+
+\end_inset
+
+Calcule 
+\begin_inset Formula $f(x)$
+\end_inset
+
+ y vea que tiene una envolvente gaussiana que modula una portadora de frecuencia
+ 
+\begin_inset Formula $k_{0}$
+\end_inset
+
+.
+ Note que el pulso está centrado en 
+\begin_inset Formula $x=0$
+\end_inset
+
+ y que se cumple la relación 
+\begin_inset Formula $\Delta x\Delta k=1/2$
+\end_inset
+
+ (el paquete gaussiano es el de mínima incerteza).
+\end_layout
+
+\begin_layout Enumerate
+Ahora desfase las distintas frecuencias en forma lineal, tal que:
+\begin_inset Formula 
+\[
+F(k)=A\exp\left[-\frac{(k-k_{0})^{2}}{4\Delta k^{2}}\right]\exp\left[i\alpha(k-k_{0})\right].
+\]
+
+\end_inset
+
+Calcule 
+\begin_inset Formula $f(x)$
+\end_inset
+
+ y vea que es el mismo pulso que en la parte (a), pero desplazado en 
+\begin_inset Formula $\alpha$
+\end_inset
+
+ hacia la derecha (una fase lineal sólo corre la función).
+\end_layout
+
+\begin_layout Enumerate
+Ahora agregue una fase cuadrática, es decir:
+\begin_inset Formula 
+\[
+F(k)=A\exp\left[-\frac{(k-k_{0})^{2}}{4\Delta k^{2}}\right]\exp\left[i\beta(k-k_{0})^{2}\right].
+\]
+
+\end_inset
+
+Calcule 
+\begin_inset Formula $f(x)$
+\end_inset
+
+ y vea que es un pulso gaussiano centrado en 
+\begin_inset Formula $x=0$
+\end_inset
+
+ pero con un ancho 
+\begin_inset Formula $\Delta x$
+\end_inset
+
+ que cumple:
+\begin_inset Formula 
+\[
+\Delta x\Delta k=\frac{1}{2}\sqrt{1+16\beta^{2}\Delta k^{4}}.
+\]
+
+\end_inset
+
+¿Es cierto que si se quiere disminuir el ancho de un paquete siempre se
+ debe aumentar 
+\begin_inset Formula $\Delta k$
+\end_inset
+
+? Derive 
+\begin_inset Formula $\Delta x$
+\end_inset
+
+ con respecto a 
+\begin_inset Formula $\Delta k$
+\end_inset
+
+ de la expresión anterior y analice lo pedido.
+\end_layout
+
+\begin_layout Description
+Ayuda: 
+\begin_inset Formula $\int_{-\infty}^{+\infty}\exp\left[(x+a)^{2}\right]dx=\sqrt{\pi}$
+\end_inset
+
+.
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Si 
+\begin_inset Formula $\Psi(\omega)$
+\end_inset
+
+ corresponde a un espectro de frecuencias cuadrado, o sea 
+\begin_inset Formula $\Psi(\omega)=1/\Delta\omega$
+\end_inset
+
+ para 
+\begin_inset Formula $\omega$
+\end_inset
+
+ comprendida en el intervalo de ancho 
+\begin_inset Formula $\Delta\omega$
+\end_inset
+
+ alrededor de 
+\begin_inset Formula $\omega_{0}$
+\end_inset
+
+, y cero en otra parte; vea que 
+\begin_inset Formula $\phi(t)$
+\end_inset
+
+ está dada por: 
+\begin_inset Formula 
+\[
+\phi(t)=\frac{1}{\sqrt{\pi}}\left[\frac{\sin(t\Delta\omega/2)}{t\Delta\omega/2}\right]e^{i\omega_{0}t}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Grafique 
+\begin_inset Formula $\Psi(\omega)$
+\end_inset
+
+ y 
+\begin_inset Formula $\left|\phi(t)\right|$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Enumerate
+Sea 
+\begin_inset Formula $T$
+\end_inset
+
+ un tiempo más prolongado que la duración de cualquier experimento que pueda
+ idear.
+ Muestre que si 
+\begin_inset Formula $\Delta\omega$
+\end_inset
+
+ es suficientemente pequeño como para que 
+\begin_inset Formula $\Delta\omega T\ll1$
+\end_inset
+
+, entonces durante un tiempo menor que 
+\begin_inset Formula $T$
+\end_inset
+
+, 
+\begin_inset Formula $\phi(t)$
+\end_inset
+
+ es una función armónica de amplitud y fase casi constante.
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Sea 
+\begin_inset Formula $\phi(t)$
+\end_inset
+
+ una función real.
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Muestre que su transformada de Fourier 
+\begin_inset Formula $\Psi(\omega)$
+\end_inset
+
+ cumple 
+\begin_inset Formula $\Psi(\omega)=\Psi(-\omega)$
+\end_inset
+
+.
+ Use esto para escribir a 
+\begin_inset Formula $\phi(t)$
+\end_inset
+
+ como superposición de senos y cosenos.
+\end_layout
+
+\begin_layout Enumerate
+Muestre que la transformada de Fourier 
+\begin_inset Formula $\mathcal{F}$
+\end_inset
+
+ es lineal, esto quiere decir que
+\begin_inset Formula 
+\[
+\mathcal{F}(af+bg)=a\mathcal{F}(f)+b\mathcal{F}(g)
+\]
+
+\end_inset
+
+donde 
+\begin_inset Formula $f$
+\end_inset
+
+ y 
+\begin_inset Formula $g$
+\end_inset
+
+ son funciones de 
+\begin_inset Formula $x$
+\end_inset
+
+ y 
+\begin_inset Formula $a$
+\end_inset
+
+ y 
+\begin_inset Formula $b$
+\end_inset
+
+ son constantes.
+\end_layout
+
+\begin_layout Enumerate
+Tomemos una pulsación que se repite 
+\begin_inset Formula $N$
+\end_inset
+
+ veces:
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ej2-18.eps
+	lyxscale 50
+	scale 25
+	clip
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+Vea que la transformada de Fourier de un único pulso situado entre 
+\begin_inset Formula $(n\tau,n\tau+\Delta t)$
+\end_inset
+
+ es igual a la transformada del pulso 
+\begin_inset Formula $(0,\Delta t)$
+\end_inset
+
+ multiplicado por la fase 
+\begin_inset Formula $e^{in\phi}$
+\end_inset
+
+.
+ Calcule entonces la transformada de la pulsación cuadrada que se repite
+ en un tiempo largo 
+\begin_inset Formula $T_{largo}=N\tau$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Enumerate
+Muestre que para un valor finito de 
+\begin_inset Formula $T_{largo}$
+\end_inset
+
+ el análisis de Fourier de esta pulsación cuadrada repetida casi periódicamente,
+ consiste en una superposición de armónicos casi discretos de la frecuencia
+ fundamental 
+\begin_inset Formula $\nu_{1}=1/T_{1}$
+\end_inset
+
+, siendo realmente cada armónico un continuo de frecuencias que se extiende
+ sobre una banda de ancho 
+\begin_inset Formula $\delta\nu\approx1/T_{largo}$
+\end_inset
+
+.
+ Las armónicas más importantes caen entre 0 y 
+\begin_inset Formula $\Delta\nu=1/\Delta t$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Enumerate
+¿Por qué vale 
+\begin_inset Formula $\Delta t\Delta\nu\approx1$
+\end_inset
+
+ si, en principio, podría valer 
+\begin_inset Formula $\Delta t\Delta\nu\gg1$
+\end_inset
+
+? ¿La misma pregunta es aplicable a 
+\begin_inset Formula $\delta\nu$
+\end_inset
+
+ y 
+\begin_inset Formula $T_{largo}$
+\end_inset
+
+?
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Se tiene un pulso de ancho 
+\begin_inset Formula $\Delta k$
+\end_inset
+
+ centrado en 
+\begin_inset Formula $k_{0}$
+\end_inset
+
+ tal que la siguiente es una buena aproximación para la relación de dispersión:
+\begin_inset Formula 
+\[
+\omega(k)=\omega_{0}(k_{0})+\omega'(k_{0})(k-k_{0})+\frac{1}{2}\omega''(k_{0})(k-k_{0})^{2}
+\]
+
+\end_inset
+
+Si en 
+\begin_inset Formula $t=0$
+\end_inset
+
+ el pulso se propaga hacia 
+\begin_inset Formula $x<0$
+\end_inset
+
+, y se escribe:
+\begin_inset Formula 
+\[
+\Psi(x,0)=A\int_{-\infty}^{+\infty}\exp\left[-\frac{(k-k_{0})^{2}}{4\Delta k^{2}}\right]\exp\left(ikx\right)dk+c.c.
+\]
+
+\end_inset
+
+Calcule 
+\begin_inset Formula $\Psi(x,t)$
+\end_inset
+
+.
+ Vea cuál es la posición y el ancho del paquete como función del tiempo.
+ ¿Es cierto que al viajar por un medio dispersivo cualquier paquete se ensancha?
+\end_layout
+
+\begin_layout Enumerate
+Se tienen dos cuerdas semi--infinitas de distinta densidad lineal de masa,
+ 
+\begin_inset Formula $\rho_{1}$
+\end_inset
+
+ y 
+\begin_inset Formula $\rho_{2}$
+\end_inset
+
+, unidas en un punto y sometidas a una tensión 
+\begin_inset Formula $T$
+\end_inset
+
+.
+ Sobre la primera se propaga hacia la derecha una perturbación de la forma
+ indicada en la figura.
+ Se conocen 
+\begin_inset Formula $\rho_{1}$
+\end_inset
+
+, 
+\begin_inset Formula $\rho_{2}$
+\end_inset
+
+, 
+\begin_inset Formula $T$
+\end_inset
+
+, 
+\begin_inset Formula $L$
+\end_inset
+
+ y 
+\begin_inset Formula $h$
+\end_inset
+
+.
+ También se considera que los medios son no dispersivos.
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ej2-20.eps
+	lyxscale 50
+	scale 25
+	clip
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Hallar el desplazamiento 
+\begin_inset Formula $y(x,t)$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Enumerate
+Explique cualitativamente como cambian estos resultados si el medio es dispersiv
+o.
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+
+\series bold
+Efecto Doppler.
+ 
+\series default
+Una fuente de sonido que emite en una frecuencia de 1000 Hz se mueve hacia
+ la derecha a 40 m/s.
+ Un observador, que está a la derecha de la fuente, también se mueve hacia
+ la derecha a 20 m/s.
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+¿Cuál será la frecuencia detectada por el observador? El aire se encuentra
+ en reposo.
+\end_layout
+
+\begin_layout Enumerate
+Repita el punto anterior si hay viento hacia la derecha a 20 m/s.
+\end_layout
+
+\begin_layout Enumerate
+Repita todo lo hecho si el observador se encuentra inicialmente a la izquierda
+ de la fuente.
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+
+\series bold
+Ondas de choque.
+
+\series default
+ Un avión a retropropulsión en vuelo horizontal a 5000 m de altura pasa
+ sobre un observador con velocidad 
+\begin_inset Formula $2.2$
+\end_inset
+
+ Mach (o sea, 
+\begin_inset Formula $2.2$
+\end_inset
+
+ veces la velocidad del sonido).
+ Calcular:
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+El ángulo formado por el frente de la onda sonora y la dirección del movimiento.
+\end_layout
+
+\begin_layout Enumerate
+¿Cuánto tiempo después de haber pasado el avión sobre el observador la onda
+ llega a éste?
+\end_layout
+
+\begin_layout Enumerate
+Si el piloto hace sonar una bocina en el instante en que pasa justo sobre
+ el observador, ¿cuánto tiempo después escucha el observador ese sonido?
+\end_layout
+
+\end_deeper
+\end_body
+\end_document

@@ -1,0 +1,613 @@
+#LyX 2.1 created this file. For more info see http://www.lyx.org/
+\lyxformat 474
+\begin_document
+\begin_header
+\textclass article
+\begin_preamble
+%%\usepackage{SEART}
+
+%TCIDATA{TCIstyle=article/art4.lat,SEART,SEART}
+
+%TCIDATA{Created=Mon Aug 20 21:09:02 2001}
+%TCIDATA{LastRevised=Tue May 14 08:11:44 2002}
+%% \input{tcilatex}
+\end_preamble
+\use_default_options false
+\maintain_unincluded_children false
+\language spanish
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman times
+\font_sans default
+\font_typewriter default
+\font_math auto
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize 11
+\spacing single
+\use_hyperref false
+\papersize a4paper
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 0
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 0
+\index Índice
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 2cm
+\topmargin 2cm
+\rightmargin 2cm
+\bottommargin 2cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+\align center
+
+\shape smallcaps
+\size large
+Física 2 (Físicos) - Cátedra Prof.
+ Wisniacki
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\shape smallcaps
+\size large
+1
+\size small
+er
+\size large
+ Cuatrimestre de 2016
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\shape smallcaps
+\size large
+Guía 2: Oscilaciones con pocos grados de libertad
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset space \qquad{}
+\end_inset
+
+
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ej1-6.eps
+	lyxscale 50
+	scale 25
+	clip
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Considere el sistema de la figura en ausencia de gravedad y obtenga sus
+ frecuencias naturales de oscilación y los modos normales correspondientes.
+ Escriba las ecuaciones de movimiento de cada masa.
+\end_layout
+
+\begin_layout Enumerate
+Sabiendo que a 
+\begin_inset Formula $t=0$
+\end_inset
+
+ el sistema satisface las siguientes condiciones: 
+\begin_inset Formula $\Psi_{a}(0)=1,\,\Psi_{b}(0)=0$
+\end_inset
+
+ y que se encuentra en reposo, encuentre el movimiento de cada partícula.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Analice cómo se modifica el resultado por la presencia de la gravedad.
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Considere el sistema simplificado de la figura que se basa en una molécula
+ triatómica simétrica.
+ En el equilibrio dos átomos de masa 
+\begin_inset Formula $m$
+\end_inset
+
+ están situados a ambos lados del átomo de masa 
+\begin_inset Formula $M=2m$
+\end_inset
+
+ y vinculados por resortes de constante 
+\begin_inset Formula $k$
+\end_inset
+
+ y longitud natural 
+\begin_inset Formula $l_{0}$
+\end_inset
+
+.
+ Como sólo estamos interesados en analizar los modos longitudinales, supondremos
+ que las masas se encuentran dentro de una canaleta que impide todo tipo
+ de movimiento en la dirección transversal.
+ 
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ej1-9.eps
+	lyxscale 50
+	scale 25
+	clip
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Encuentre las ecuaciones de movimiento de cada masa.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Halle las frecuencias de los modos normales.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Dibuje las configuraciones de cada modo.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Establezca cuáles deben ser las condiciones iniciales para excitar sólo
+ el modo más alto (mayor frecuencia).
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Considere el sistema de dos péndulos de igual longitud 
+\begin_inset Formula $l$
+\end_inset
+
+ pero de masas diferentes 
+\begin_inset Formula $m_{a}$
+\end_inset
+
+ y 
+\begin_inset Formula $m_{b}$
+\end_inset
+
+, acoplados mediante un resorte de constante 
+\begin_inset Formula $k$
+\end_inset
+
+.
+ 
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ej1-7.eps
+	lyxscale 50
+	scale 30
+	clip
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Escriba las ecuaciones de movimiento de cada masa.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Obtenga las frecuencias naturales del sistema y sus modos normales de oscilación.
+ Interprete el significado físico de estos modos normales.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Suponiendo que el acoplamiento es débil, es decir: 
+\begin_inset Formula $k\ll\frac{g}{l}\frac{m_{a}m_{b}}{m_{a}+m_{b}}$
+\end_inset
+
+, y que las condiciones iniciales son 
+\begin_inset Formula $\dot{\Psi}_{a}(0)=0,\dot{\Psi}_{b}(0)=0,\Psi_{a}(0)=0,\Psi_{b}(0)=1$
+\end_inset
+
+; obtenga el movimiento de cada masa y grafíquelo en función del tiempo.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Calcule los valores medios, en un ciclo rápido, de 
+\begin_inset Formula $T_{a}$
+\end_inset
+
+ y 
+\begin_inset Formula $T_{b}$
+\end_inset
+
+, donde 
+\begin_inset Formula $T$
+\end_inset
+
+ indica energía cinética.
+ Grafique 
+\begin_inset Formula $\left\langle T_{a}\right\rangle $
+\end_inset
+
+ y 
+\begin_inset Formula $\left\langle T_{b}\right\rangle $
+\end_inset
+
+, y analice las diferencias en el gráfico como función de las diferencias
+ entre las masas (
+\begin_inset Formula $m_{a}=m_{b}$
+\end_inset
+
+ y 
+\begin_inset Formula $m_{a}$
+\end_inset
+
+ muy diferente de 
+\begin_inset Formula $m_{b}$
+\end_inset
+
+).
+ Calcule el valor medio de la energía de interacción entre las dos partículas.
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Considere el sistema de la figura.
+ Las masas están apoyadas en una mesa sin rozamiento, sujetas a las paredes
+ por resortes de constante 
+\begin_inset Formula $k$
+\end_inset
+
+ y unidas por otro resorte de constante 
+\begin_inset Formula $k'$
+\end_inset
+
+.
+ 
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ej1-8.eps
+	lyxscale 50
+	scale 25
+	clip
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Obtenga las frecuencias y los modos transversales del sistema.
+ 
+\end_layout
+
+\begin_layout Enumerate
+¿Bajo qué condiciones espera observar batidos? ¿Qué son los batidos?
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Considere el sistema de la figura, en la que los resortes verticales tienen
+ longitud natural 
+\begin_inset Formula $l_{0}$
+\end_inset
+
+ y constante 
+\begin_inset Formula $k_{1}$
+\end_inset
+
+, y los horizontales 
+\begin_inset Formula $a_{0}=0$
+\end_inset
+
+ (slinkies) y 
+\begin_inset Formula $k_{2}$
+\end_inset
+
+.
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ej1-10.eps
+	lyxscale 50
+	scale 25
+	clip
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Plantee las ecuaciones de movimiento del sistema y observe que, para pequeñas
+ oscilaciones, se desacoplan el movimiento horizontal del vertical.
+\end_layout
+
+\begin_layout Enumerate
+Calcule las frecuencias propias y los modos normales.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Considere que las condiciones iniciales son tales que el sistema oscila
+ horizontalmente, estando su movimiento descripto por una superposición
+ de los dos primeros modos.
+ Halle la energía cinética de cada masa y la energía potencial del sistema,
+ el promedio temporal de las mismas y la frecuencia de pulsación 
+\begin_inset Formula $\omega_{p}$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Description
+Datos: 
+\begin_inset Formula $l_{0}$
+\end_inset
+
+, 
+\begin_inset Formula $k_{1}$
+\end_inset
+
+, 
+\begin_inset Formula $a_{0}=0$
+\end_inset
+
+, 
+\begin_inset Formula $k_{2}$
+\end_inset
+
+, 
+\begin_inset Formula $L$
+\end_inset
+
+, 
+\begin_inset Formula $d$
+\end_inset
+
+, 
+\begin_inset Formula $m$
+\end_inset
+
+.
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Dado un sistema de 2 péndulos acoplados (como en el ejercicio 3), se realiza
+ una fuerza periódica sobre el primero de ellos que puede ser descrita por
+ F(t)=
+\begin_inset Formula $F_{0}cos(\Omega t).$
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Utilizando los resultados del ejercicio 3, reescriba las ecuaciones de movimient
+o en la base de modos normales.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Proponga una solución para cada modo, utilizando los resultados del ejercicio
+ 5 de la guía 1.
+ Asuma tiempos suficientemente largos para poder quedarse únicamente el
+ movimiento estacionario.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Reescriba la solución bajo la condición de amortiguamiento despreciable.
+ 
+\end_layout
+
+\begin_layout Enumerate
+A partir de las soluciones encontradas y la matriz de cambio de base, escriba
+ el movimiento de cada partícula.
+ Muestre que: 
+\begin_inset Formula 
+\[
+\Psi_{a}\approx\frac{F_{0}}{2M}\cos(\Omega t)\left[\frac{1}{\omega_{1}^{2}-\Omega^{2}}+\frac{1}{\omega_{2}^{2}-\Omega^{2}}\right];
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+\Psi_{b}\approx\frac{F_{0}}{2M}\cos(\Omega t)\left[\frac{1}{\omega_{1}^{2}-\Omega^{2}}-\frac{1}{\omega_{2}^{2}-\Omega^{2}}\right];
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+\frac{\Psi_{b}}{\Psi_{a}}\approx\frac{\omega_{2}^{2}-\omega_{1}^{2}}{\omega_{2}^{2}+\omega_{1}^{2}-2\Omega^{2}};
+\]
+
+\end_inset
+
+donde 
+\begin_inset Formula $\omega_{1}$
+\end_inset
+
+ es la menor de las frecuencias modales, 
+\begin_inset Formula $\omega_{2}$
+\end_inset
+
+ es la mayor y 
+\begin_inset Formula $\Omega$
+\end_inset
+
+ es la frecuencia de excitación.
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Considere el sistema de 3 péndulos acoplados que se muestra en la figura.
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename /home/tinxo/Documents/materias/F2/guias_viejas/ej1-14.eps
+	lyxscale 50
+	scale 25
+	clip
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Escriba la ecuación de movimiento para cada masa y encuentre las frecuencias
+ propias y los modos normales del sistema.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Suponga que en el extremo libre se aplica una fuerza 
+\begin_inset Formula $F=F_{0}\cos(\omega t)$
+\end_inset
+
+.
+ Escriba la ecuación de movimiento para cada masa y encuentre la solución
+ estacionaria para cada modo.
+ ¿Cuáles son las frecuencias de resonancia?
+\end_layout
+
+\end_deeper
+\end_body
+\end_document

@@ -1,0 +1,95 @@
+%% LyX 2.2.0 created this file.  For more info, see http://www.lyx.org/.
+%% Do not edit unless you really know what you are doing.
+\documentclass[11pt,spanish]{article}
+\usepackage{mathptmx}
+\usepackage[T1]{fontenc}
+\usepackage[latin1]{inputenc}
+\usepackage[a4paper]{geometry}
+\geometry{verbose,tmargin=2cm,bmargin=2cm,lmargin=2cm,rmargin=2cm}
+\usepackage{float}
+\usepackage{graphicx}
+
+\makeatletter
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% User specified LaTeX commands.
+%%\usepackage{SEART}
+
+%TCIDATA{TCIstyle=article/art4.lat,SEART,SEART}
+
+%TCIDATA{Created=Mon Aug 20 21:09:02 2001}
+%TCIDATA{LastRevised=Tue May 14 08:11:44 2002}
+%% \input{tcilatex}
+
+\makeatother
+
+\usepackage{babel}
+\addto\shorthandsspanish{\spanishdeactivate{~<>}}
+
+\begin{document}
+\begin{center}
+\textsc{\large{}Física 2 (Físicos) - Cátedra Prof. Calzetta}
+\par\end{center}{\large \par}
+
+\begin{center}
+\textsc{\large{}2}\textsc{\small{}do}\textsc{\large{} Cuatrimestre
+de 2016}
+\par\end{center}{\large \par}
+
+\begin{center}
+\textsc{\large{}Guía 7: Ondas en 2D y 3D}
+\par\end{center}{\large \par}
+\begin{enumerate}
+\item \
+
+\begin{enumerate}
+\item Demuestre que la función: $\Psi(\mathbf{r},t)=Ae^{i(\mathbf{k}\cdot\mathbf{r}\pm\omega t)}$,
+con $\mathbf{k}=k_{x}\hat{x}+k_{y}\hat{y}+k_{z}\hat{z}$ un vector
+constante y $\mathbf{r}=x\hat{x}+y\hat{y}+z\hat{z}$, es solución
+de la ecuación de ondas tridimensional. Sugerencia: exprese el laplaciano
+en coordenadas cartesianas.
+\item Analice el significado físico de $\Psi(\mathbf{r},t)$. ¿Cómo son
+los frentes de onda? ¿Cuál es la relación entre el vector $\mathbf{k}$
+y los frentes de onda? ¿Hacia dónde se desplazan los frentes de onda
+al transcurrir $t$? ¿A qué velocidad?
+\item Suponga ahora que $\Psi(\mathbf{r},t)$ incide con su vector k formando
+un ángulo $\theta$ con la normal de una interfase entre aire y agua
+(ver figura).
+\begin{figure}[H]
+\centering{}\includegraphics[scale=0.25]{ej2-13.pdf}
+\end{figure}
+ Por lo tanto la onda de presión incidente se escribe, si usamos notación
+compleja: $\delta p_{i}(\mathbf{r},t)=A_{i}e^{i(\mathbf{k}_{i}\cdot\mathbf{r}-\omega t)}$,
+siendo $\mathbf{k}_{i}=\frac{\omega}{v_{s}}\left(\sin\theta\hat{x}+\cos\theta\hat{y}\right)$.
+Hallar las ondas reflejadas y transmitidas, $\delta p_{r}(\mathbf{r},t)=A_{r}e^{i(\mathbf{k}_{r}\cdot\mathbf{r}-\omega t)}$
+y $\delta p_{t}(\mathbf{r},t)=A_{t}e^{i(\mathbf{k}_{t}\cdot\mathbf{r}-\omega t)}$.
+\end{enumerate}
+\item Muestre que $\psi(\vec{x},t)=\frac{f(r-ct)}{r}$ es solución de la
+ecuación de ondas en tres dimensiones con $f$ una función cualquiera
+y $r=\sqrt{x^{2}+y^{2}+z^{2}}$ ¿Qué interpretación puede darle al
+término $\frac{1}{r}$?
+\item Escriba la expresión de una onda esférica armónica de frecuencia $w$
+que parte desde el origen de coordenadas.
+
+\begin{enumerate}
+\item Calcule la potencia media que atraviesa una esfera de radio $R_{1}$
+centrada en el origen de coordenadas. ¿Depende del valor de $R_{1}$?
+\item Si vamos a observarla cerca del eje z (es decir con $x,y<<z$) podemos
+aproximar la expresión de la onda por los primeros términos de su
+desarrollo de Taylor. A orden uno ¿Qué tipo de onda obtenemos?
+\item ¿Qué ocurre si desarrollamos a un orden más? ¿Es necesario desarrolar
+a igual orden tanto el término $\frac{1}{r}$ como el argumento de
+la exponencial compleja?
+\end{enumerate}
+\item Si el término $\frac{1}{r}$ tiene que ver con un factor geométrico
+que depende de la cantidad de dimensiones en las que puede propagarse
+la onda:
+
+\begin{enumerate}
+\item ¿Qué forma propondría para una onda que emana de una fuente puntual
+y viaja en dos dimensiones?
+\item Su propuesta, ¿es solución de la ecuación de ondas en 2D? ¿Qué ocurre
+con el límite cuando la perturbación está muy lejos del centro de
+donde partió?
+\end{enumerate}
+\end{enumerate}
+
+\end{document}

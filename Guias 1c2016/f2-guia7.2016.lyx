@@ -1,0 +1,295 @@
+#LyX 2.1 created this file. For more info see http://www.lyx.org/
+\lyxformat 474
+\begin_document
+\begin_header
+\textclass article
+\begin_preamble
+%%\usepackage{SEART}
+
+%TCIDATA{TCIstyle=article/art4.lat,SEART,SEART}
+
+%TCIDATA{Created=Mon Aug 20 21:09:02 2001}
+%TCIDATA{LastRevised=Tue May 14 08:11:44 2002}
+%% \input{tcilatex}
+\end_preamble
+\use_default_options false
+\maintain_unincluded_children false
+\language spanish
+\language_package default
+\inputencoding iso8859-1
+\fontencoding global
+\font_roman times
+\font_sans default
+\font_typewriter default
+\font_math auto
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize 11
+\spacing single
+\use_hyperref false
+\papersize a4paper
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 0
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 0
+\index Índice
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 2cm
+\topmargin 2cm
+\rightmargin 2cm
+\bottommargin 2cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+\align center
+
+\shape smallcaps
+\size large
+Física 2 (Físicos) - Cátedra Prof.
+ Wisniacki
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\shape smallcaps
+\size large
+1
+\size small
+er
+\size large
+ Cuatrimestre de 2016
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\shape smallcaps
+\size large
+Guía 7: Ondas en 2D y 3D
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset space \space{}
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Demuestre que la función: 
+\begin_inset Formula $\Psi(\mathbf{r},t)=Ae^{i(\mathbf{k}\cdot\mathbf{r}\pm\omega t)}$
+\end_inset
+
+, con 
+\begin_inset Formula $\mathbf{k}=k_{x}\hat{x}+k_{y}\hat{y}+k_{z}\hat{z}$
+\end_inset
+
+ un vector constante y 
+\begin_inset Formula $\mathbf{r}=x\hat{x}+y\hat{y}+z\hat{z}$
+\end_inset
+
+, es solución de la ecuación de ondas tridimensional.
+ Sugerencia: exprese el laplaciano en coordenadas cartesianas.
+\end_layout
+
+\begin_layout Enumerate
+Analice el significado físico de 
+\begin_inset Formula $\Psi(\mathbf{r},t)$
+\end_inset
+
+.
+ ¿Cómo son los frentes de onda? ¿Cuál es la relación entre el vector 
+\begin_inset Formula $\mathbf{k}$
+\end_inset
+
+ y los frentes de onda? ¿Hacia dónde se desplazan los frentes de onda al
+ transcurrir 
+\begin_inset Formula $t$
+\end_inset
+
+? ¿A qué velocidad?
+\end_layout
+
+\begin_layout Enumerate
+Suponga ahora que 
+\begin_inset Formula $\Psi(\mathbf{r},t)$
+\end_inset
+
+ incide con su vector k formando un ángulo 
+\begin_inset Formula $\theta$
+\end_inset
+
+ con la normal de una interfase entre aire y agua (ver figura).
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename /home/tinxo/Documents/materias/F2/guias_nuevas/ej2-13.eps
+	lyxscale 50
+	scale 25
+	clip
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+ Por lo tanto la onda de presión incidente se escribe, si usamos notación
+ compleja: 
+\begin_inset Formula $\delta p_{i}(\mathbf{r},t)=A_{i}e^{i(\mathbf{k}_{i}\cdot\mathbf{r}-\omega t)}$
+\end_inset
+
+, siendo 
+\begin_inset Formula $\mathbf{k}_{i}=\frac{\omega}{v_{s}}\left(\sin\theta\hat{x}+\cos\theta\hat{y}\right)$
+\end_inset
+
+.
+ Hallar las ondas reflejadas y transmitidas, 
+\begin_inset Formula $\delta p_{r}(\mathbf{r},t)=A_{r}e^{i(\mathbf{k}_{r}\cdot\mathbf{r}-\omega t)}$
+\end_inset
+
+ y 
+\begin_inset Formula $\delta p_{t}(\mathbf{r},t)=A_{t}e^{i(\mathbf{k}_{t}\cdot\mathbf{r}-\omega t)}$
+\end_inset
+
+.
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Muestre que 
+\begin_inset Formula $\psi(\vec{x},t)=\frac{f(r-ct)}{r}$
+\end_inset
+
+ es solución de la ecuación de ondas en tres dimensiones con 
+\begin_inset Formula $f$
+\end_inset
+
+ una función cualquiera y 
+\begin_inset Formula $r=\sqrt{x^{2}+y^{2}+z^{2}}$
+\end_inset
+
+ ¿Qué interpretación puede darle al término 
+\begin_inset Formula $\frac{1}{r}$
+\end_inset
+
+?
+\end_layout
+
+\begin_layout Enumerate
+Escriba la expresión de una onda esférica armónica de frecuencia 
+\begin_inset Formula $w$
+\end_inset
+
+ que parte desde el origen de coordenadas.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Calcule la potencia media que atraviesa una esfera de radio 
+\begin_inset Formula $R_{1}$
+\end_inset
+
+ centrada en el origen de coordenadas.
+ ¿Depende del valor de 
+\begin_inset Formula $R_{1}$
+\end_inset
+
+?
+\end_layout
+
+\begin_layout Enumerate
+Si vamos a observarla cerca del eje z (es decir con 
+\begin_inset Formula $x,y<<z$
+\end_inset
+
+) podemos aproximar la expresión de la onda por los primeros términos de
+ su desarrollo de Taylor.
+ A orden uno ¿Qué tipo de onda obtenemos?
+\end_layout
+
+\begin_layout Enumerate
+¿Qué ocurre si desarrollamos a un orden más? ¿Es necesario desarrolar a
+ igual orden tanto el término 
+\begin_inset Formula $\frac{1}{r}$
+\end_inset
+
+ como el argumento de la exponencial compleja?
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Si el término 
+\begin_inset Formula $\frac{1}{r}$
+\end_inset
+
+ tiene que ver con un factor geométrico que depende de la cantidad de dimensione
+s en las que puede propagarse la onda:
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+¿Qué forma propondría para una onda que emana de una fuente puntual y viaja
+ en dos dimensiones? 
+\end_layout
+
+\begin_layout Enumerate
+Su propuesta, ¿es solución de la ecuación de ondas en 2D? ¿Qué ocurre con
+ el límite cuando la perturbación está muy lejos del centro de donde partió?
+\end_layout
+
+\end_deeper
+\end_body
+\end_document

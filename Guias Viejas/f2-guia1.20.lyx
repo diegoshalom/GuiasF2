@@ -1,0 +1,2152 @@
+#LyX 2.1 created this file. For more info see http://www.lyx.org/
+\lyxformat 474
+\begin_document
+\begin_header
+\textclass article
+\begin_preamble
+%%\usepackage{SEART}
+
+%TCIDATA{TCIstyle=article/art4.lat,SEART,SEART}
+
+%TCIDATA{Created=Mon Aug 20 21:09:02 2001}
+%TCIDATA{LastRevised=Tue May 14 08:11:44 2002}
+%% \input{tcilatex}
+\end_preamble
+\use_default_options false
+\maintain_unincluded_children false
+\language spanish
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman times
+\font_sans default
+\font_typewriter default
+\font_math auto
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize 11
+\spacing single
+\use_hyperref false
+\papersize a4paper
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 0
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 0
+\index Índice
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 2cm
+\topmargin 2cm
+\rightmargin 2cm
+\bottommargin 2cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+\align center
+
+\shape smallcaps
+\size large
+Física 2 (Físicos) - Cátedra Prof.
+ Wisniacki
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\shape smallcaps
+\size large
+Verano de 2016
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\shape smallcaps
+\size large
+Guía 1: Oscilaciones con un grado de libertad
+\end_layout
+
+\begin_layout Enumerate
+Escriba y resuelva las ecuaciones de movimiento asociadas con los siguientes
+ sistemas: 
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Péndulo de longitud 
+\begin_inset Formula $l$
+\end_inset
+
+ en presencia de un campo gravitatorio de constante 
+\begin_inset Formula $g$
+\end_inset
+
+.
+ Discuta todas las aproximaciones que realiza.
+\end_layout
+
+\begin_layout Enumerate
+Oscilaciones longitudinales de una masa 
+\begin_inset Formula $m$
+\end_inset
+
+ sujeta a dos paredes mediante dos resortes iguales de constante 
+\begin_inset Formula $k$
+\end_inset
+
+; para los dos casos: 
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+longitud natural del resorte 
+\begin_inset Formula $l_{0}$
+\end_inset
+
+ 
+\begin_inset Formula $(l_{0}<l)$
+\end_inset
+
+, y 
+\end_layout
+
+\begin_layout Enumerate
+slinky 
+\begin_inset Formula $(l_{0}=0)$
+\end_inset
+
+.
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Oscilaciones transversales del sistema del punto anterior, discutiendo las
+ diferencias entre los casos i) y ii), y analizando cuidadosamente las aproximac
+iones que realiza.
+ En el caso i) analice la diferencia entre considerar que los resortes están
+ tensionados en la posición de equilibrio 
+\begin_inset Formula $(l_{0}<l)$
+\end_inset
+
+ o que están relajados en dicha posición 
+\begin_inset Formula $(l_{0}=l)$
+\end_inset
+
+.
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ej1-1.eps
+	lyxscale 50
+	scale 25
+	clip
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Considere el movimiento de una masa 
+\begin_inset Formula $m$
+\end_inset
+
+ sujeta a un resorte de constante elástica 
+\begin_inset Formula $K=m\omega_{0}^{2}$
+\end_inset
+
+ y constante de amortiguamiento por unidad de masa 
+\begin_inset Formula $\Gamma$
+\end_inset
+
+.
+ 
+\begin_inset Newline newline
+\end_inset
+
+Demuestre que el resultado para el oscilador ``sobreamortiguado'' dado por
+\begin_inset Formula 
+\[
+x(t)=e^{-\Gamma t/2}\left\{ x(0)\cosh\left(\left|\omega\right|t\right)+\left[\dot{x}(0)+\frac{1}{2}\Gamma x(0)\right]\frac{\sinh\left(\left|\omega\right|t\right)}{\left|\omega\right|}\right\} 
+\]
+
+\end_inset
+
+se deduce de las siguientes
+\begin_inset Formula 
+\[
+x(t)=e^{-\Gamma t/2}\left\{ x(0)\cos\left(\omega t\right)+\left[\dot{x}(0)+\frac{1}{2}\Gamma x(0)\right]\frac{\sin\left(\omega t\right)}{\omega}\right\} 
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+\omega=\pm i\left|\omega\right|,\,\,\,\left|\omega\right|=\sqrt{\frac{1}{4}\Gamma^{2}-\omega_{0}^{2}}
+\]
+
+\end_inset
+
+
+\series bold
+Sugerencia
+\series default
+: verifique primero las identidades 
+\begin_inset Formula $\cos\left(ix\right)=\cosh\left(x\right)$
+\end_inset
+
+ y 
+\begin_inset Formula $\sin\left(ix\right)=i\sinh\left(x\right)$
+\end_inset
+
+; luego úselas.
+\end_layout
+
+\begin_layout Enumerate
+Comenzando con la ecuación general dada en el problema anterior para oscilacione
+s libres subamortiguadas, muestre que para amortiguamiento crítico la solución
+ es:
+\begin_inset Formula 
+\[
+x(t)=e^{-\Gamma t/2}\left\{ x(0)+\left[\dot{x}(0)+\frac{1}{2}\Gamma x(0)\right]t\right\} 
+\]
+
+\end_inset
+
+Muestre que también se obtiene este resultado comenzando con la ecuación
+ para oscilaciones sobreamortiguadas.
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset space \quad{}
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Escriba la ecuación de movimiento para una masa 
+\begin_inset Formula $m$
+\end_inset
+
+ sujeta a un resorte de constante elástica 
+\begin_inset Formula $k$
+\end_inset
+
+ y constante de amortiguamiento por unidad de masa 
+\begin_inset Formula $\Gamma$
+\end_inset
+
+, sobre la que se realiza una fuerza dependiente del tiempo 
+\begin_inset Formula $F(t)$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Proponga la siguiente solución homogénea: 
+\begin_inset Formula $x_{h}(t)=Ce^{-t/2\tau}\cos\left(\omega_{1}t+\theta\right)$
+\end_inset
+
+ y halle los valores de 
+\begin_inset Formula $\tau$
+\end_inset
+
+ y de 
+\begin_inset Formula $\omega_{1}$
+\end_inset
+
+.
+ ¿De qué depende el valor de 
+\begin_inset Formula $C$
+\end_inset
+
+ y de 
+\begin_inset Formula $\theta$
+\end_inset
+
+? ¿Es lícito plantear las condiciones iniciales sobre la solución homogénea?
+ 
+\end_layout
+
+\begin_layout Enumerate
+Considere que 
+\begin_inset Formula $F(t)$
+\end_inset
+
+ tiene la forma 
+\begin_inset Formula $F(t)=F_{0}\cos\left(\omega t\right)$
+\end_inset
+
+ (discuta si se pierde generalidad al suponer que la fuerza externa tiene
+ esa forma) y proponga la siguiente solución particular: 
+\begin_inset Formula $x_{p}(t)=A\sin\left(\omega t\right)+B\cos\left(\omega t\right)$
+\end_inset
+
+.
+ Obtenga 
+\begin_inset Formula $A$
+\end_inset
+
+ y 
+\begin_inset Formula $B$
+\end_inset
+
+.
+ Grafique cualitativamente 
+\begin_inset Formula $A$
+\end_inset
+
+ y 
+\begin_inset Formula $B$
+\end_inset
+
+ en función de 
+\begin_inset Formula $\omega$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Grafique cualitativamente la posición de la masa en función del tiempo.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Calcule la potencia media que se consume en el estado estacionario y la
+ potencia media de pérdida por fricción.
+ Verifique la igualdad de ambas potencias.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Verifique que si 
+\begin_inset Formula $x_{1}(t)$
+\end_inset
+
+ es solución de la ecuación diferencial cuando la fuerza externa es 
+\begin_inset Formula $F_{1}(t)$
+\end_inset
+
+ y 
+\begin_inset Formula $x_{2}(t)$
+\end_inset
+
+ lo es cuando la fuerza externa es 
+\begin_inset Formula $F_{2}(t)$
+\end_inset
+
+, entonces 
+\begin_inset Formula $x(t)=x_{1}(t)+x_{2}(t)$
+\end_inset
+
+ será solución de la ecuación diferencial cuando la fuerza externa sea 
+\begin_inset Formula $F(t)=F_{1}(t)+F_{2}(t)$
+\end_inset
+
+ si y sólo si las condiciones iniciales son la suma de las condiciones iniciales
+ de los dos casos.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Proponga ahora como solución particular la solución compleja 
+\begin_inset Formula $x_{p}(t)=Ae^{-i\omega t}$
+\end_inset
+
+ y demuestre que 
+\begin_inset Formula $\Re\mathfrak{e}(A)=A_{elástico}$
+\end_inset
+
+ y que 
+\begin_inset Formula $\Im\mathfrak{m}(A)=A_{absorbente}$
+\end_inset
+
+.
+ ¿Por qué es así?
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Sea un oscilador armónico con una frecuencia de oscilación 
+\begin_inset Formula $\nu_{0}=10\mbox{\,\ Hz}$
+\end_inset
+
+ y con un tiempo de decaimiento muy largo.
+ Si este oscilador es alimentado con una fuerza armónicamente oscilante
+ y con una frecuencia de 10 Hz, adquirirá una gran amplitud, es decir, ``resonar
+á'' en la frecuencia de excitación.
+ Ninguna otra fuerza motriz oscilante en forma armónica producirá una gran
+ amplitud (una resonancia).
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Justifique el enunciado anterior.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Luego suponga que el oscilador está sujeto a una fuerza que es una pulsación
+ cuadrada repetida periódicamente y cuya duración es 
+\begin_inset Formula $0.01$
+\end_inset
+
+ s repetida una vez por segundo.
+ Describa cualitativamente el análisis de Fourier de la pulsación cuadrada
+ repetitiva.
+ 
+\end_layout
+
+\begin_layout Enumerate
+¿``Resonará'' el oscilador armónico (adquirirá una gran amplitud) bajo la
+ influencia de esta fuerza motriz? 
+\end_layout
+
+\begin_layout Enumerate
+Suponga que la fuerza motriz es la misma pulsación cuadrada (de ancho 
+\begin_inset Formula $0.01$
+\end_inset
+
+ s) pero repetida dos veces por segundo.
+ ¿Resonará el oscilador? Responder a la misma pregunta para velocidades
+ de repetición de 3 a 9 segundos.
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+\begin_inset space \qquad{}
+\end_inset
+
+
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ej1-6.eps
+	lyxscale 50
+	scale 25
+	clip
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Considere el sistema de la figura en ausencia de gravedad y obtenga sus
+ frecuencias naturales de oscilación y los modos normales correspondientes.
+ Escriba las ecuaciones de movimiento de cada masa.
+\end_layout
+
+\begin_layout Enumerate
+Sabiendo que a 
+\begin_inset Formula $t=0$
+\end_inset
+
+ el sistema satisface las siguientes condiciones: 
+\begin_inset Formula $\Psi_{a}(0)=1,\,\Psi_{b}(0)=0$
+\end_inset
+
+ y que se encuentra en reposo, encuentre el movimiento de cada partícula.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Analice cómo se modifica el resultado por la presencia de la gravedad.
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Considere el sistema de dos péndulos de igual longitud 
+\begin_inset Formula $l$
+\end_inset
+
+ pero de masas diferentes 
+\begin_inset Formula $m_{a}$
+\end_inset
+
+ y 
+\begin_inset Formula $m_{b}$
+\end_inset
+
+, acoplados mediante un resorte de constante 
+\begin_inset Formula $k$
+\end_inset
+
+.
+ 
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ej1-7.eps
+	lyxscale 50
+	scale 30
+	clip
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Escriba las ecuaciones de movimiento de cada masa.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Obtenga las frecuencias naturales del sistema y sus modos normales de oscilación.
+ Interprete el significado físico de estos modos normales.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Suponiendo que el acoplamiento es débil, es decir: 
+\begin_inset Formula $k\ll\frac{g}{l}\frac{m_{a}m_{b}}{m_{a}+m_{b}}$
+\end_inset
+
+, y que las condiciones iniciales son 
+\begin_inset Formula $\dot{\Psi}_{a}(0)=0,\dot{\Psi}_{b}(0)=0,\Psi_{a}(0)=0,\Psi_{b}(0)=1$
+\end_inset
+
+; obtenga el movimiento de cada masa y grafíquelo en función del tiempo.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Calcule los valores medios, en un ciclo rápido, de 
+\begin_inset Formula $T_{a}$
+\end_inset
+
+ y 
+\begin_inset Formula $T_{b}$
+\end_inset
+
+, donde 
+\begin_inset Formula $T$
+\end_inset
+
+ indica energía cinética.
+ Grafique 
+\begin_inset Formula $\left\langle T_{a}\right\rangle $
+\end_inset
+
+ y 
+\begin_inset Formula $\left\langle T_{b}\right\rangle $
+\end_inset
+
+, y analice las diferencias en el gráfico como función de las diferencias
+ entre las masas (
+\begin_inset Formula $m_{a}=m_{b}$
+\end_inset
+
+ y 
+\begin_inset Formula $m_{a}$
+\end_inset
+
+ muy diferente de 
+\begin_inset Formula $m_{b}$
+\end_inset
+
+).
+ Calcule el valor medio de la energía de interacción entre las dos partículas.
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Considere el sistema de la figura.
+ Las masas están apoyadas en una mesa sin rozamiento, sujetas a las paredes
+ por resortes de constante 
+\begin_inset Formula $k$
+\end_inset
+
+ y unidas por otro resorte de constante 
+\begin_inset Formula $k'$
+\end_inset
+
+.
+ 
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ej1-8.eps
+	lyxscale 50
+	scale 25
+	clip
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Obtenga las frecuencias y los modos transversales del sistema.
+ 
+\end_layout
+
+\begin_layout Enumerate
+¿Bajo qué condiciones espera observar batidos? ¿Qué son los batidos?
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Considere el sistema simplificado de la figura que se basa en una molécula
+ triatómica simétrica.
+ En el equilibrio dos átomos de masa 
+\begin_inset Formula $m$
+\end_inset
+
+ están situados a ambos lados del átomo de masa 
+\begin_inset Formula $M=2m$
+\end_inset
+
+ y vinculados por resortes de constante 
+\begin_inset Formula $k$
+\end_inset
+
+ y longitud natural 
+\begin_inset Formula $l_{0}$
+\end_inset
+
+.
+ Como sólo estamos interesados en analizar los modos longitudinales, supondremos
+ que las masas se encuentran dentro de una canaleta que impide todo tipo
+ de movimiento en la dirección transversal.
+ 
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ej1-9.eps
+	lyxscale 50
+	scale 25
+	clip
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Encuentre las ecuaciones de movimiento de cada masa.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Halle las frecuencias de los modos normales.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Dibuje las configuraciones de cada modo.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Establezca cuáles deben ser las condiciones iniciales para excitar sólo
+ el modo más alto (mayor frecuencia).
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Considere el sistema de la figura, en la que los resortes verticales tienen
+ longitud natural 
+\begin_inset Formula $l_{0}$
+\end_inset
+
+ y constante 
+\begin_inset Formula $k_{1}$
+\end_inset
+
+, y los horizontales 
+\begin_inset Formula $a_{0}=0$
+\end_inset
+
+ (slinkies) y 
+\begin_inset Formula $k_{2}$
+\end_inset
+
+.
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ej1-10.eps
+	lyxscale 50
+	scale 25
+	clip
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Calcule las frecuencias propias y los modos normales.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Considere que las condiciones iniciales son tales que el sistema oscila
+ horizontalmente, estando su movimiento descripto por una superposición
+ de los dos primeros modos.
+ Halle la energía cinética de cada masa y la energía potencial del sistema,
+ el promedio temporal de las mismas y la frecuencia de pulsación 
+\begin_inset Formula $\omega_{p}$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Description
+Datos: 
+\begin_inset Formula $l_{0}$
+\end_inset
+
+, 
+\begin_inset Formula $k_{1}$
+\end_inset
+
+, 
+\begin_inset Formula $a_{0}=0$
+\end_inset
+
+, 
+\begin_inset Formula $k_{2}$
+\end_inset
+
+, 
+\begin_inset Formula $L$
+\end_inset
+
+, 
+\begin_inset Formula $d$
+\end_inset
+
+, 
+\begin_inset Formula $m$
+\end_inset
+
+.
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Considere el sistema de 
+\begin_inset Formula $N$
+\end_inset
+
+ masas mostrado en la figura.
+ 
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ej1-11.eps
+	lyxscale 50
+	scale 25
+	clip
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Usando la aproximación de pequeños ángulos, escriba la ecuación de movimiento
+ transversal para la partícula enésima.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Proponga una solución de la forma:
+\begin_inset Formula 
+\[
+\Psi_{n}^{(p)}(t)=A^{(p)}\cos\left(nk^{(p)}a+\alpha^{(p)}\right)\cos\left(\omega^{(p)}t+\phi^{(p)}\right)
+\]
+
+\end_inset
+
+Halle la relación de dispersión y grafíquela.
+ ¿Depende esta relación de las condiciones de contorno? ¿Cuánto vale la
+ frecuencia más baja? ¿Qué representa dicho modo? 
+\end_layout
+
+\begin_layout Enumerate
+Obtenga las frecuencias correspondientes a los modos normales cuando ambos
+ extremos están libres (atención: ¿cómo sería un ``extremo libre'' en esta
+ configuración?) y escriba la solución general para la masa enésima.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Idem anterior, pero considerando que el extremo izquierdo está libre y el
+ derecho fijo a la pared.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Particularice los resultados de los dos ítems anteriores para el caso en
+ que 
+\begin_inset Formula $N=3$
+\end_inset
+
+.
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Considere el sistema de péndulos acoplados de la figura.
+ 
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ej1-12.eps
+	lyxscale 50
+	scale 25
+	clip
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Escriba la ecuación de movimiento.
+ Proponga una solución semejante a la del problema anterior y halle la relación
+ de dispersión.
+ Compárela con la obtenida en el problema anterior.
+ ¿Cuánto vale la frecuencia más baja? ¿Qué representa dicho modo? 
+\end_layout
+
+\begin_layout Enumerate
+Obtenga las frecuencias correspondientes a los modos normales cuando los
+ resortes de los extremos están fijos y dé las condiciones iniciales para
+ excitar el primer armónico.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Idem anterior, pero para el caso en que uno de los resortes de los extremos
+ está libre.
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Considere el sistema de dos péndulos acoplados, tal que uno de ellos es
+ impulsado por una fuerza 
+\begin_inset Formula $F=F_{0}\cos(\Omega t)$
+\end_inset
+
+.
+ Desprecie el amortiguamiento.
+ Muestre que:
+\begin_inset Formula 
+\[
+\Psi_{a}\approx\frac{F_{0}}{2M}\cos(\Omega t)\left[\frac{1}{\omega_{1}^{2}-\Omega^{2}}+\frac{1}{\omega_{2}^{2}-\Omega^{2}}\right];
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+\Psi_{b}\approx\frac{F_{0}}{2M}\cos(\Omega t)\left[\frac{1}{\omega_{1}^{2}-\Omega^{2}}-\frac{1}{\omega_{2}^{2}-\Omega^{2}}\right];
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+\frac{\Psi_{b}}{\Psi_{a}}\approx\frac{\omega_{2}^{2}-\omega_{1}^{2}}{\omega_{2}^{2}+\omega_{1}^{2}-2\Omega^{2}};
+\]
+
+\end_inset
+
+donde 
+\begin_inset Formula $\omega_{1}$
+\end_inset
+
+ es la menor de las frecuencias modales, 
+\begin_inset Formula $\omega_{2}$
+\end_inset
+
+ es la mayor y 
+\begin_inset Formula $\Omega$
+\end_inset
+
+ es la frecuencia de excitación.
+\end_layout
+
+\begin_layout Enumerate
+Considere el sistema de 3 péndulos acoplados que se muestra en la figura.
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ej1-14.eps
+	lyxscale 50
+	scale 25
+	clip
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Escriba la ecuación de movimiento para cada masa y encuentre las frecuencias
+ propias y los modos normales del sistema.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Suponga que en el extremo libre se aplica una fuerza 
+\begin_inset Formula $F=F_{0}\cos(\omega t)$
+\end_inset
+
+.
+ Escriba la ecuación de movimiento para cada masa y encuentre la solución
+ estacionaria para cada modo.
+ ¿Cuáles son las frecuencias de resonancia?
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Considere un arreglo lineal de péndulos acoplados excitados cuyo extremo
+ inferior está en 
+\begin_inset Formula $z=0$
+\end_inset
+
+ y unidos a una pared rígida en 
+\begin_inset Formula $z=L$
+\end_inset
+
+, como se muestra en la figura.
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ej1-15.eps
+	lyxscale 50
+	scale 25
+	clip
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+ Se aplica una fuerza externa en función del tiempo a la primera masa (
+\begin_inset Formula $z=0$
+\end_inset
+
+), de forma tal que se conoce su amplitud 
+\begin_inset Formula $\Psi(0,t)=A_{0}\cos(\Omega t)$
+\end_inset
+
+.
+ Halle el movimiento estacionario del sistema y discuta las hipótesis que
+ hace.
+ Compare con el caso de extremo derecho fijo a una pared (o sea: agregando
+ un resorte a la derecha de la última masa y uniéndolo a la pared).
+ 
+\end_layout
+
+\begin_layout Enumerate
+Considere un sistema de péndulos acoplados con un cambio brusco en 
+\begin_inset Formula $\omega_{0}^{2}$
+\end_inset
+
+ en 
+\begin_inset Formula $z=L$
+\end_inset
+
+, según se esquematiza en la figura.
+ Halle el movimiento estacionario del sistema y discuta las hipótesis que
+ hace.
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ej1-16.eps
+	lyxscale 50
+	scale 25
+	clip
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Para el sistema esquematizado en la figura, calcule 
+\begin_inset Formula $\Psi_{n}(t)$
+\end_inset
+
+, si 
+\begin_inset Formula $\Omega<\omega_{min}$
+\end_inset
+
+.
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ej1-17.eps
+	lyxscale 50
+	scale 25
+	clip
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Se tiene una cuerda de longitud 
+\begin_inset Formula $L$
+\end_inset
+
+ y densidad lineal de masa 
+\begin_inset Formula $\mu$
+\end_inset
+
+ sometida a una tensión 
+\begin_inset Formula $T_{0}$
+\end_inset
+
+.
+ Proponga como solución de la ecuación de ondas para un modo normal a la
+ expresión: 
+\begin_inset Formula $\Psi(x,t)=A\sin\left(kx+\varphi\right)\cos\left(\omega t+\theta\right)$
+\end_inset
+
+.
+ Tome el sistema de coordenadas con 
+\begin_inset Formula $x=0$
+\end_inset
+
+ en un extremo de la cuerda y 
+\begin_inset Formula $x=L$
+\end_inset
+
+ en el otro.
+ Encuentre la forma particular que adopta la solución propuesta en los siguiente
+s casos: 
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+\begin_inset Formula $\Psi(0,t)=\Psi(L,t)=0$
+\end_inset
+
+ (ambos extremos están fijos).
+ 
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $\Psi(0,t)=0$
+\end_inset
+
+ y 
+\begin_inset Formula $\frac{\partial\Psi}{\partial x}(L,t)=0$
+\end_inset
+
+ (un extremo está fijo y el otro está libre).
+ ¿Imponer que un extremo se encuentre ``libre'' es equivalente a no imponer
+ condiciones de contorno sobre ese extremo? ¿Cómo lograría un extremo ``libre''
+ para la cuerda? 
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $\frac{\partial\Psi}{\partial x}(0,t)=\frac{\partial\Psi}{\partial x}(L,t)=0$
+\end_inset
+
+ (ambos extremos se encuentran libres).
+ ¿A qué corresponde el modo de frecuencia mínima? ¿Cuánto vale la frecuencia
+ de oscilación de ese modo? 
+\end_layout
+
+\begin_layout Enumerate
+Ahora tome un sistema de coordenadas con 
+\begin_inset Formula $x=0$
+\end_inset
+
+ en el centro de la cuerda.
+ Halle la forma que adopta la solución general propuesta si 
+\begin_inset Formula $\Psi(-L/2,t)=\Psi(L/2,t)=0$
+\end_inset
+
+ (ambos extremos fijos).
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Se tiene una cuerda de 20 cm de longitud y 5 g de masa, sometida a una tensión
+ de 120 N.
+ Calcule sus modos naturales de oscilación.
+ ¿Son todos audibles para el oído humano?
+\end_layout
+
+\begin_layout Enumerate
+Las cuatro cuerdas de un violín, considere que todas son de igual longitud,
+ emiten en su modo fundamental las notas: sol
+\begin_inset Formula $_{\text{2}}$
+\end_inset
+
+ (198/s); re
+\begin_inset Formula $_{\text{3}}$
+\end_inset
+
+ (297/s); la
+\begin_inset Formula $_{\text{3}}$
+\end_inset
+
+ (440/s) y mi
+\begin_inset Formula $_{\text{4}}$
+\end_inset
+
+ (660/s).
+ La primera cuerda es de aluminio (
+\begin_inset Formula $\rho=2,6$
+\end_inset
+
+ g/cm
+\begin_inset Formula $^{3}$
+\end_inset
+
+ y diámetro 
+\begin_inset Formula $d_{1}=0,09\unit{\,cm}$
+\end_inset
+
+); las dos siguientes son de otro material (
+\begin_inset Formula $\rho=1,2$
+\end_inset
+
+ g/cm
+\begin_inset Formula $^{3}$
+\end_inset
+
+) y diámetros 
+\begin_inset Formula $d_{2}=0,12\unit{\,cm}$
+\end_inset
+
+ y 
+\begin_inset Formula $d_{3}=0,1\unit{\,cm}$
+\end_inset
+
+, y la cuarta es de acero (
+\begin_inset Formula $\rho=7,5$
+\end_inset
+
+ g/cm
+\begin_inset Formula $^{3}$
+\end_inset
+
+) y diámetro 
+\begin_inset Formula $d_{4}=0,1\unit{\,cm}$
+\end_inset
+
+.
+ Calcular las tensiones a las que deben estar sometidas con respecto a la
+ primera.
+\end_layout
+
+\begin_layout Enumerate
+Se tiene un tubo de longitud 
+\begin_inset Formula $L$
+\end_inset
+
+.
+ Considere las siguientes posibilidades: 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Está cerrado en ambos extremos, lleno de aire en su interior.
+\end_layout
+
+\begin_layout Itemize
+Tiene un extremo cerrado y el otro abierto.
+ 
+\end_layout
+
+\begin_layout Itemize
+Ambos extremos están abiertos.
+ 
+\end_layout
+
+\begin_layout Description
+Datos: velocidad de propagación de las ondas 
+\begin_inset Formula $v_{s}$
+\end_inset
+
+, 
+\begin_inset Formula $L$
+\end_inset
+
+, 
+\begin_inset Formula $P_{0}$
+\end_inset
+
+ (presión atmosférica), 
+\begin_inset Formula $\rho_{0}=\gamma P_{0}/v_{s}^{2}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Hallar, para cada una de dichas situaciones: 
+\end_layout
+
+\begin_layout Enumerate
+Las posibles longitudes de onda con las que puede vibrar el aire en el tubo,
+ y sus correspondientes frecuencias.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Elija un sistema de referencia conveniente, y escriba la expresión más general
+ para el desplazamiento de las partículas 
+\begin_inset Formula $\Psi(x,t)$
+\end_inset
+
+.
+ En dicha expresión, ¿qué parámetros conoce? ¿De qué dependen los parámetros
+ que no conoce? 
+\end_layout
+
+\begin_layout Enumerate
+A partir de la expresión hallada en (b), hallar 
+\begin_inset Formula $\delta p(x,t)$
+\end_inset
+
+ (presión en cada punto, tomando como referencia la atmosférica).
+ ¿Cuál es la diferencia de fase entre ellas? ¿Cuánto vale la amplitud de
+ presión? 
+\end_layout
+
+\begin_layout Enumerate
+Hallar 
+\begin_inset Formula $\rho(x,t)$
+\end_inset
+
+ (densidad).
+ ¿Cuánto vale su amplitud?
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+\begin_inset space \space{}
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+¿Qué longitud debe tener un tubo de órgano abierto en ambos extremos para
+ que produzca en el aire un sonido de 440 Hz? 
+\end_layout
+
+\begin_layout Enumerate
+¿Qué longitud deberá tener un tubo de órgano cerrado en uno de sus extremos
+ para que produzca el mismo tono en su primer armónico?
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Se tiene un tubo cerrado en uno de sus extremos; su longitud es menor a
+ 1m.
+ Se acerca al extremo abierto un diapasón que está vibrando con 
+\begin_inset Formula $\nu=440\unit{\,Hz}$
+\end_inset
+
+.
+ Considere 
+\begin_inset Formula $v_{s}=330$
+\end_inset
+
+ m/s.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Hallar las posibles longitudes del tubo para que haya resonancia.
+ Para cada una de ellas, ¿en qué modo está vibrando el aire contenido en
+ el tubo? 
+\end_layout
+
+\begin_layout Enumerate
+Repetir (a) si el tubo está abierto en ambos extremos.
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Considere una cuerda de longitud 
+\begin_inset Formula $L$
+\end_inset
+
+, de densidad de masa uniforme 
+\begin_inset Formula $\mu_{0}$
+\end_inset
+
+ sujeta en ambos extremos y sometida a una tensión 
+\begin_inset Formula $T_{0}$
+\end_inset
+
+.
+ A 
+\begin_inset Formula $t=0$
+\end_inset
+
+ la cuerda se suelta de modo que su forma está dada por la siguiente función:
+ 
+\begin_inset Formula $\Psi(x,0)=H(x)=\sin\left(\pi x/L\right)+\left(\nicefrac{1}{3}\right)\sin\left(3\pi x/L\right)+\left(\nicefrac{1}{5}\right)\sin\left(5\pi x/L\right)$
+\end_inset
+
+, si se toma un sistema de coordenadas tiene 
+\begin_inset Formula $x=0$
+\end_inset
+
+ en un extremo de la soga y 
+\begin_inset Formula $x=L$
+\end_inset
+
+ en el otro.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Halle 
+\begin_inset Formula $\Psi(x,t)$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Enumerate
+Grafique 
+\begin_inset Formula $\Psi(x,t)$
+\end_inset
+
+ para 
+\begin_inset Formula $\omega_{1}t=0,\,\nicefrac{\pi}{5},\,\nicefrac{\pi}{3}$
+\end_inset
+
+ y 
+\begin_inset Formula $\nicefrac{\pi}{2}$
+\end_inset
+
+.
+ ¿Qué clase de simetría tiene 
+\begin_inset Formula $\Psi(x,t)$
+\end_inset
+
+ alrededor de 
+\begin_inset Formula $\omega_{1}t=\nicefrac{\pi}{2}$
+\end_inset
+
+? ¿y alrededor de 
+\begin_inset Formula $\pi$
+\end_inset
+
+?.
+ ¿Cómo espera que sea 
+\begin_inset Formula $\Psi(x,t)$
+\end_inset
+
+ para 
+\begin_inset Formula $\omega_{1}t=2\pi$
+\end_inset
+
+? (
+\begin_inset Formula $\omega_{1}$
+\end_inset
+
+ es la frecuencia fundamental).
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Considere una cuerda de longitud 
+\begin_inset Formula $L$
+\end_inset
+
+, de densidad de masa uniforme 
+\begin_inset Formula $\mu_{0}$
+\end_inset
+
+ sometida a una tensión 
+\begin_inset Formula $T_{0}$
+\end_inset
+
+, con un extremo fijo y el otro libre.
+ Se le da a la cuerda la forma mostrada en la figura, y a 
+\begin_inset Formula $t=0$
+\end_inset
+
+ se la suelta.
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ej1-25.eps
+	lyxscale 50
+	scale 25
+	clip
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Usando el sistema de coordenadas indicado en la figura, halle 
+\begin_inset Formula $\Psi(x,t)$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Enumerate
+Graficar 
+\begin_inset Formula $\Psi(x,t)$
+\end_inset
+
+ para 
+\begin_inset Formula $\omega_{1}t=0,\,\pi$
+\end_inset
+
+ y 
+\begin_inset Formula $2\pi$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Enumerate
+Si tomara un sistema de coordenadas con el origen en el extremo libre de
+ la cuerda, diga qué es lo que cambiaría.
+ ¿Es conveniente ese sistema?
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Considere una cuerda de longitud 
+\begin_inset Formula $L$
+\end_inset
+
+, siendo 
+\begin_inset Formula $T_{0}$
+\end_inset
+
+ su tensión y 
+\begin_inset Formula $\mu_{0}$
+\end_inset
+
+ su densidad lineal.
+ Sea 
+\begin_inset Formula $\Phi(x,t)$
+\end_inset
+
+ la elongación de la cuerda.
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Escriba la expresión más general que representa un modo normal en dicha
+ cuerda, es decir, la expresión más general de una onda estacionaria.
+\end_layout
+
+\begin_layout Enumerate
+Sabiendo que la cuerda tiene un extremo libre y otro fijo, y que el sistema
+ de coordenadas con el que trabaja es tal que el extremo libre está en 
+\begin_inset Formula $x=0$
+\end_inset
+
+ y el extremo fijo está en 
+\begin_inset Formula $x=L$
+\end_inset
+
+, imponga las condiciones de contorno y determine las constantes pertinentes.
+\end_layout
+
+\begin_layout Enumerate
+Usando la relación de dispersión, obtenga las posibles frecuencias temporales
+ 
+\begin_inset Formula $\nu_{n}$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Si 
+\begin_inset Formula $\Phi(x,0)=0$
+\end_inset
+
+ y 
+\begin_inset Formula $\dot{\Phi}(x,0)=V_{0}\cos\left(\frac{3\pi}{2L}x\right)$
+\end_inset
+
+, siendo 
+\begin_inset Formula $0\le x\le L$
+\end_inset
+
+, obtenga la amplitud y fase de cada modo y halle 
+\begin_inset Formula $\Phi(x,t)$
+\end_inset
+
+.
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Dada una cuerda de longitud 
+\begin_inset Formula $L$
+\end_inset
+
+ y densidad de masa uniforme 
+\begin_inset Formula $\mu$
+\end_inset
+
+, sometida a una tensión 
+\begin_inset Formula $T_{0}$
+\end_inset
+
+ con ambos extremos fijos, demostrar que si 
+\begin_inset Formula $\Phi(x,0)$
+\end_inset
+
+ y 
+\begin_inset Formula $\dot{\Phi}(x,0)$
+\end_inset
+
+ son simétricas con respecto al centro de la cuerda, los modos con números
+ de onda 
+\begin_inset Formula $k_{p}=2p\pi/L$
+\end_inset
+
+ no se excitan.
+\end_layout
+
+\begin_layout Enumerate
+Considere una cuerda de longitud 
+\begin_inset Formula $L$
+\end_inset
+
+ sujeta en ambos extremos y sometida a una tensión 
+\begin_inset Formula $T_{0}$
+\end_inset
+
+, que consta de dos tramos: uno de longitud 
+\begin_inset Formula $L_{1}$
+\end_inset
+
+ y densidad de masa uniforme 
+\begin_inset Formula $\mu_{1}$
+\end_inset
+
+, y otro de longitud 
+\begin_inset Formula $L_{2}$
+\end_inset
+
+ y densidad de masa uniforme 
+\begin_inset Formula $\mu_{2}$
+\end_inset
+
+.
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Halle la expresión más general para un modo normal en dicha cuerda.
+ Plantee las condiciones de contorno y halle las condiciones que deben cumplir
+ los distintos parámetros.
+\end_layout
+
+\begin_layout Enumerate
+Considere que 
+\begin_inset Formula $L_{1}=3L_{2}$
+\end_inset
+
+ y que 
+\begin_inset Formula $\mu_{2}=9\mu_{1}$
+\end_inset
+
+.
+ Hallar los modos normales en este caso.
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Se tiene una cuerda de longitud 
+\begin_inset Formula $L$
+\end_inset
+
+ y densidad de masa uniforme 
+\begin_inset Formula $\mu$
+\end_inset
+
+, sometida a una tensión 
+\begin_inset Formula $T_{0}$
+\end_inset
+
+ y fija en ambos extremos.
+ Se tiene además que una fuerza de amortiguamiento proporcional a la velocidad
+ de la cuerda actúa en cada punto de la misma.
+ Hallar la forma más general de 
+\begin_inset Formula $\Phi(x,t)$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Enumerate
+Se tiene un tubo de longitud 
+\begin_inset Formula $L$
+\end_inset
+
+ cerrado en ambos extremos como se indica en la figura.
+ El tubo presenta un tabique ubicado en la mitad del mismo.
+ De un lado del tabique hay un gas de densidad 
+\begin_inset Formula $\rho_{0}-\Delta$
+\end_inset
+
+ y del otro lado hay un gas de densidad 
+\begin_inset Formula $\rho_{0}+\Delta$
+\end_inset
+
+ (considere 
+\begin_inset Formula $\Delta\ll\rho_{0}$
+\end_inset
+
+).
+ Todo el gas se encuentra en reposo.
+ A 
+\begin_inset Formula $t=0$
+\end_inset
+
+ se quita el tabique y se deja evolucionar al sistema.
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ej1-30.eps
+	lyxscale 50
+	scale 25
+	clip
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Escriba la expresión para un modo normal 
+\begin_inset Formula $\Psi_{n}(x,t)$
+\end_inset
+
+ en el tubo, imponiendo las condiciones de contorno.
+ ¿Cuáles son las longitudes de onda permitidas? (
+\begin_inset Formula $\Psi$
+\end_inset
+
+ es el desplazamiento de los elementos del gas).
+ 
+\end_layout
+
+\begin_layout Enumerate
+Escriba la expresión de 
+\begin_inset Formula $\rho(x,0)$
+\end_inset
+
+ y de 
+\begin_inset Formula $\Psi(x,0)$
+\end_inset
+
+; grafíquelas.
+ Sugerencia: hallar 
+\begin_inset Formula $\Psi(x,0)$
+\end_inset
+
+ a partir de 
+\begin_inset Formula $\rho(x,0)$
+\end_inset
+
+ usando las condiciones de contorno.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Usando las condiciones iniciales, halle 
+\begin_inset Formula $\Psi(x,t)$
+\end_inset
+
+.
+ Calcule 
+\begin_inset Formula $\rho(x,0)$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Description
+Datos: 
+\begin_inset Formula $\rho_{0}$
+\end_inset
+
+, 
+\begin_inset Formula $\Delta$
+\end_inset
+
+, 
+\begin_inset Formula $L$
+\end_inset
+
+, velocidad del sonido en el gas 
+\begin_inset Formula $v_{s}$
+\end_inset
+
+.
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Se tiene un tubo dividido en dos regiones separadas por un tabique.
+ En una de ellas se tiene una presión 
+\begin_inset Formula $P=P_{0}+\Delta p$
+\end_inset
+
+ (constante).
+ La otra región está abierta a la atmósfera, teniendo presión 
+\begin_inset Formula $P_{0}$
+\end_inset
+
+.
+ A 
+\begin_inset Formula $t=0$
+\end_inset
+
+ se remueve el tabique.
+ Hallar 
+\begin_inset Formula $\delta p(x,t)$
+\end_inset
+
+, 
+\begin_inset Formula $\Psi(x,t)$
+\end_inset
+
+ y 
+\begin_inset Formula $\delta\rho(x,t)$
+\end_inset
+
+.
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ej1-31.eps
+	lyxscale 50
+	scale 25
+	clip
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Description
+Datos: 
+\begin_inset Formula $P_{0}$
+\end_inset
+
+, 
+\begin_inset Formula $\Delta p\ll P_{0}$
+\end_inset
+
+, 
+\begin_inset Formula $L$
+\end_inset
+
+, 
+\begin_inset Formula $\gamma$
+\end_inset
+
+ y la velocidad del sonido en el gas 
+\begin_inset Formula $v_{s}$
+\end_inset
+
+.
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Se tiene una cuerda de longitud 
+\begin_inset Formula $L=0,6\unit{\,m}$
+\end_inset
+
+, fija en sus dos extremos, que se encuentra oscilando en uno de sus modos
+ normales como se muestra en la figura.
+ La velocidad de propagación de las ondas en dicha cuerda es 
+\begin_inset Formula $v=80$
+\end_inset
+
+ m/s.
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ej1-32.eps
+	lyxscale 50
+	scale 25
+	clip
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Escribir 
+\begin_inset Formula $\Psi(x,t)$
+\end_inset
+
+ (la elongación en un punto de la cuerda), sabiendo que a 
+\begin_inset Formula $t=0$
+\end_inset
+
+ la elongación de todos los puntos es nula; que la amplitud total máxima
+ de la onda es de 8mm, y que 
+\begin_inset Formula $\dot{\Psi}(L/2,0)>0$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Hallar 
+\begin_inset Formula $\Psi_{1}(x-vt)$
+\end_inset
+
+ y 
+\begin_inset Formula $\Psi_{2}(x+vt)$
+\end_inset
+
+ tales que 
+\begin_inset Formula $\Psi(x,t)=\Psi_{1}(x-vt)+\Psi_{2}(x+vt)$
+\end_inset
+
+, es decir: escribir a 
+\begin_inset Formula $\Psi(x,t)$
+\end_inset
+
+ como la superposición de dos ondas viajeras.
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Se tiene una cuerda de longitud 
+\begin_inset Formula $L=$
+\end_inset
+
+1 m, con un extremo fijo y uno libre, oscilando en el modo normal que se
+ muestra en la figura.
+ La velocidad de propagación de las ondas en dicha cuerda es 
+\begin_inset Formula $v=80$
+\end_inset
+
+ m/s, y el desplazamiento de las partículas a 
+\begin_inset Formula $t=0$
+\end_inset
+
+ es el máximo posible para este modo, siendo 
+\begin_inset Formula $\Psi(L,0)>0$
+\end_inset
+
+.
+ La amplitud total máxima es de 8 mm.
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ej1-33.eps
+	lyxscale 50
+	scale 25
+	clip
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Resolver, para esta situación, todo lo pedido en el problema anterior.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Si ahora la cuerda está oscilando en un modo normal arbitrario 
+\begin_inset Formula $n$
+\end_inset
+
+, con las mismas condiciones iniciales dadas arriba, repetir (a) (expresar
+ en función de 
+\begin_inset Formula $n$
+\end_inset
+
+).
+ 
+\end_layout
+
+\end_deeper
+\end_body
+\end_document

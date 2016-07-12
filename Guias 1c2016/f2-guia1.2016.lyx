@@ -1,0 +1,509 @@
+#LyX 2.1 created this file. For more info see http://www.lyx.org/
+\lyxformat 474
+\begin_document
+\begin_header
+\textclass article
+\begin_preamble
+%%\usepackage{SEART}
+
+%TCIDATA{TCIstyle=article/art4.lat,SEART,SEART}
+
+%TCIDATA{Created=Mon Aug 20 21:09:02 2001}
+%TCIDATA{LastRevised=Tue May 14 08:11:44 2002}
+%% \input{tcilatex}
+\end_preamble
+\use_default_options false
+\maintain_unincluded_children false
+\language spanish
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman times
+\font_sans default
+\font_typewriter default
+\font_math auto
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize 11
+\spacing single
+\use_hyperref false
+\papersize a4paper
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 0
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 0
+\index Índice
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 2cm
+\topmargin 2cm
+\rightmargin 2cm
+\bottommargin 2cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+\align center
+
+\shape smallcaps
+\size large
+Física 2 (Físicos) - Cátedra Prof.
+ Wisniacki
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\shape smallcaps
+\size large
+1
+\size small
+er
+\size large
+ Cuatrimestre de 2016
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\shape smallcaps
+\size large
+Guía 1: Oscilaciones con un grado de libertad
+\end_layout
+
+\begin_layout Enumerate
+Escriba y resuelva las ecuaciones de movimiento asociadas con los siguientes
+ sistemas: 
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Péndulo de longitud 
+\begin_inset Formula $l$
+\end_inset
+
+ en presencia de un campo gravitatorio de constante 
+\begin_inset Formula $g$
+\end_inset
+
+.
+ Discuta todas las aproximaciones que realiza.
+\end_layout
+
+\begin_layout Enumerate
+Oscilaciones longitudinales de una masa 
+\begin_inset Formula $m$
+\end_inset
+
+ sujeta a dos paredes mediante dos resortes iguales de constante 
+\begin_inset Formula $k$
+\end_inset
+
+; para los dos casos: 
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+longitud natural del resorte 
+\begin_inset Formula $l_{0}$
+\end_inset
+
+ 
+\begin_inset Formula $(l_{0}<l)$
+\end_inset
+
+, y 
+\end_layout
+
+\begin_layout Enumerate
+slinky 
+\begin_inset Formula $(l_{0}=0)$
+\end_inset
+
+.
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Oscilaciones transversales del sistema del punto anterior, discutiendo las
+ diferencias entre los casos 1) y 2), y analizando cuidadosamente las aproximaci
+ones que realiza.
+ En el caso 1) analice la diferencia entre considerar que los resortes están
+ tensionados en la posición de equilibrio 
+\begin_inset Formula $(l_{0}<l)$
+\end_inset
+
+ o que están relajados en dicha posición 
+\begin_inset Formula $(l_{0}=l)$
+\end_inset
+
+.
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ej1-1.eps
+	lyxscale 50
+	scale 25
+	clip
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Verifique que si 
+\begin_inset Formula $Ψ_{1}$
+\end_inset
+
+ y 
+\begin_inset Formula $Ψ_{2}$
+\end_inset
+
+ son soluciones de la ecuación del oscilador armónico libre, cualquier combinaci
+ón lineal 
+\begin_inset Formula $Ψ=A_{1}Ψ_{1}+A_{2}Ψ_{2}$
+\end_inset
+
+ también es solución.
+ Muestre que esto también vale si la fuerza disipativa es proporcional a
+ la velocidad.
+ ¿Vale si es un rozamiento constante?
+\end_layout
+
+\begin_layout Enumerate
+Considere el movimiento de una masa 
+\begin_inset Formula $m$
+\end_inset
+
+ sujeta a un resorte de constante elástica 
+\begin_inset Formula $K=mω_{0}^{2}$
+\end_inset
+
+ y constante de amortiguamiento por unidad de masa 
+\begin_inset Formula $Γ$
+\end_inset
+
+.
+ La solución general está dada por: 
+\begin_inset Formula 
+\[
+\psi(t)=[x(0)cosh(\omega t)-\frac{2\dot{x}(0)}{\omega\Gamma}sinh(\omega t)]e^{-\frac{\Gamma}{2}t}
+\]
+
+\end_inset
+
+con 
+\begin_inset Formula $\omega^{2}=\frac{1}{4}\Gamma^{2}-\omega_{0}^{2}$
+\end_inset
+
+.
+ Discuta los casos en que 
+\begin_inset Formula $\omega$
+\end_inset
+
+ es real, 
+\begin_inset Formula $\omega$
+\end_inset
+
+ es imaginaria y 
+\begin_inset Formula $\omega$
+\end_inset
+
+ vale cero.
+ 
+\end_layout
+
+\begin_layout Enumerate
+[En clase con PC] Dadas las ecuaciones del oscilador armónico 
+\begin_inset Formula $\ddot{x}=-\omega_{0}^{2}x$
+\end_inset
+
+ y el oscilador armónico con pérdidas 
+\begin_inset Formula $\ddot{x}=-\omega_{0}^{2}x-\Gamma\dot{x}$
+\end_inset
+
+, escríbalas como sistemas de ecuaciones de dos variables llamando 
+\begin_inset Formula $v$
+\end_inset
+
+ a 
+\begin_inset Formula $\dot{x}$
+\end_inset
+
+.
+ Para ambos casos:
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Dibuje en el plano (x, v) dos curvas v(x): la primera donde 
+\begin_inset Formula $\dot{x}$
+\end_inset
+
+ vale cero y la segunda donde 
+\begin_inset Formula $\dot{v}$
+\end_inset
+
+ vale cero.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Dibuje los vectores (
+\begin_inset Formula $\dot{x}$
+\end_inset
+
+, 
+\begin_inset Formula $\dot{v}$
+\end_inset
+
+) en distintos puntos del plano (x, v)
+\end_layout
+
+\begin_layout Enumerate
+Dibuje una trayectoria para algún valor de condiciones iniciales
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Escriba la ecuación de movimiento para una masa 
+\begin_inset Formula $m$
+\end_inset
+
+ sujeta a un resorte de constante elástica 
+\begin_inset Formula $k$
+\end_inset
+
+ y constante de amortiguamiento por unidad de masa 
+\begin_inset Formula $\Gamma$
+\end_inset
+
+, sobre la que se realiza una fuerza dependiente del tiempo 
+\begin_inset Formula $F(t)$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Proponga la siguiente solución homogénea: 
+\begin_inset Formula $x_{h}(t)=Ce^{-t/2\tau}\cos\left(\omega_{1}t+\theta\right)$
+\end_inset
+
+ y halle los valores de 
+\begin_inset Formula $\tau$
+\end_inset
+
+ y de 
+\begin_inset Formula $\omega_{1}$
+\end_inset
+
+.
+ ¿De qué depende el valor de 
+\begin_inset Formula $C$
+\end_inset
+
+ y de 
+\begin_inset Formula $\theta$
+\end_inset
+
+? ¿Es lícito plantear las condiciones iniciales sobre la solución homogénea?
+ 
+\end_layout
+
+\begin_layout Enumerate
+Considere que 
+\begin_inset Formula $F(t)$
+\end_inset
+
+ tiene la forma 
+\begin_inset Formula $F(t)=F_{0}\cos\left(\omega t\right)$
+\end_inset
+
+ (discuta si se pierde generalidad al suponer que la fuerza externa tiene
+ esa forma) y proponga la siguiente solución particular: 
+\begin_inset Formula $x_{p}(t)=A\sin\left(\omega t\right)+B\cos\left(\omega t\right)$
+\end_inset
+
+.
+ Obtenga 
+\begin_inset Formula $A$
+\end_inset
+
+ y 
+\begin_inset Formula $B$
+\end_inset
+
+.
+ Grafique cualitativamente 
+\begin_inset Formula $A$
+\end_inset
+
+ y 
+\begin_inset Formula $B$
+\end_inset
+
+ en función de 
+\begin_inset Formula $\omega$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Grafique cualitativamente la posición de la masa en función del tiempo.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Calcule la potencia media que se consume en el estado estacionario y la
+ potencia media de pérdida por fricción.
+ Verifique la igualdad de ambas potencias.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Verifique que si 
+\begin_inset Formula $x_{1}(t)$
+\end_inset
+
+ es solución de la ecuación diferencial cuando la fuerza externa es 
+\begin_inset Formula $F_{1}(t)$
+\end_inset
+
+ y 
+\begin_inset Formula $x_{2}(t)$
+\end_inset
+
+ lo es cuando la fuerza externa es 
+\begin_inset Formula $F_{2}(t)$
+\end_inset
+
+, entonces 
+\begin_inset Formula $x(t)=x_{1}(t)+x_{2}(t)$
+\end_inset
+
+ será solución de la ecuación diferencial cuando la fuerza externa sea 
+\begin_inset Formula $F(t)=F_{1}(t)+F_{2}(t)$
+\end_inset
+
+ si y sólo si las condiciones iniciales son la suma de las condiciones iniciales
+ de los dos casos.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Proponga ahora como solución particular la solución compleja 
+\begin_inset Formula $x_{p}(t)=Ae^{-i\omega t}$
+\end_inset
+
+ y demuestre que 
+\begin_inset Formula $\Re\mathfrak{e}(A)=A_{elástico}$
+\end_inset
+
+ y que 
+\begin_inset Formula $\Im\mathfrak{m}(A)=A_{absorbente}$
+\end_inset
+
+.
+ ¿Por qué es así?
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Se tiene un péndulo que oscila con una disipación tal que su amplitud se
+ reduce un 10 % cada 10 oscilaciones.
+ ¿Con que precisión deberíamos determinar su longitud para notar el corrimiento
+ en su frecuencia debido al rozamiento?
+\end_layout
+
+\begin_layout Enumerate
+Dos cuerpos de igual masa 
+\begin_inset Formula $m$
+\end_inset
+
+ están atadas como se ve en la figura.
+ La masa de arriba gira describiendo un círculo de radio R.
+ 
+\begin_inset Graphics
+	filename giraMesa.eps
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Escribir las ecuaciones de movimiento para ambas masas y la ecuación de
+ vínculo.
+ Mostrar que todo el sistema se puede reducir a una única ecuación diferencial
+ de orden 2.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Si ahora se tira levemente de la masa de abajo el sistema comienza a oscilar.
+ Calcular la frecuencia de esa oscilación.
+\end_layout
+
+\end_deeper
+\end_body
+\end_document

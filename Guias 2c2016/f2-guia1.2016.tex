@@ -1,0 +1,137 @@
+%% LyX 2.2.0 created this file.  For more info, see http://www.lyx.org/.
+%% Do not edit unless you really know what you are doing.
+\documentclass[11pt,spanish]{article}
+\usepackage{mathptmx}
+\usepackage[T1]{fontenc}
+\usepackage[latin9]{inputenc}
+\usepackage[a4paper]{geometry}
+\geometry{verbose,tmargin=2cm,bmargin=2cm,lmargin=2cm,rmargin=2cm}
+\usepackage{float}
+\usepackage{amssymb}
+\usepackage{graphicx}
+
+\makeatletter
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% User specified LaTeX commands.
+%%\usepackage{SEART}
+
+%TCIDATA{TCIstyle=article/art4.lat,SEART,SEART}
+
+%TCIDATA{Created=Mon Aug 20 21:09:02 2001}
+%TCIDATA{LastRevised=Tue May 14 08:11:44 2002}
+%% \input{tcilatex}
+
+\makeatother
+
+\usepackage{babel}
+\addto\shorthandsspanish{\spanishdeactivate{~<>}}
+
+\begin{document}
+
+\begin{center}
+\textsc{\large{}Física 2 (Físicos) - Cátedra Prof. Calzetta}
+\par\end{center}{\large \par}
+
+\begin{center}
+\textsc{\large{}2}\textsc{\small{}do}\textsc{\large{} Cuatrimestre
+de 2016}
+\par\end{center}{\large \par}
+
+\begin{center}
+\textsc{\large{}Guía 1: Oscilaciones con un grado de libertad}
+\par\end{center}{\large \par}
+\begin{enumerate}
+\item Escriba y resuelva las ecuaciones de movimiento asociadas con los
+siguientes sistemas:
+
+\begin{enumerate}
+\item Péndulo de longitud $l$ en presencia de un campo gravitatorio de
+constante $g$. Discuta todas las aproximaciones que realiza.
+\item Oscilaciones longitudinales de una masa $m$ sujeta a dos paredes
+mediante dos resortes iguales de constante $k$; para los dos casos:
+
+\begin{enumerate}
+\item longitud natural del resorte $l_{0}$ $(l_{0}<l)$, y
+\item slinky $(l_{0}=0)$.
+\end{enumerate}
+\item Oscilaciones transversales del sistema del punto anterior, discutiendo
+las diferencias entre los casos 1) y 2), y analizando cuidadosamente
+las aproximaciones que realiza. En el caso 1) analice la diferencia
+entre considerar que los resortes están tensionados en la posición
+de equilibrio $(l_{0}<l)$ o que están relajados en dicha posición
+$(l_{0}=l)$.
+\begin{figure}[H]
+\centering{}\includegraphics[clip,scale=0.25]{ej1-1}
+\end{figure}
+\end{enumerate}
+\item Verifique que si $\Psi_{1}$ y $\Psi_{2}$ son soluciones de la ecuación
+del oscilador armónico libre, cualquier combinación lineal $\Psi=A_{1}\Psi_{1}+A_{2}\Psi_{2}$
+también es solución. Muestre que esto también vale si la fuerza disipativa
+es proporcional a la velocidad. ¿Vale si es un rozamiento constante?
+\item Considere el movimiento de una masa $m$ sujeta a un resorte de constante
+elástica $K=m\omega_{0}^{2}$ y constante de amortiguamiento por unidad
+de masa $\Gamma$. La solución general está dada por:
+\[
+\psi(t)=[x(0)cosh(\omega t)-\frac{2\dot{x}(0)}{\omega\Gamma}sinh(\omega t)]e^{-\frac{\Gamma}{2}t}
+\]
+con $\omega^{2}=\frac{1}{4}\Gamma^{2}-\omega_{0}^{2}$. Discuta los
+casos en que $\omega$ es real, $\omega$ es imaginaria y $\omega$
+vale cero.
+\item {[}En clase con PC{]} Dadas las ecuaciones del oscilador armónico
+$\ddot{x}=-\omega_{0}^{2}x$ y el oscilador armónico con pérdidas
+$\ddot{x}=-\omega_{0}^{2}x-\Gamma\dot{x}$, escríbalas como sistemas
+de ecuaciones de dos variables llamando $v$ a $\dot{x}$. Para ambos
+casos:
+
+\begin{enumerate}
+\item Dibuje en el plano (x, v) dos curvas v(x): la primera donde $\dot{x}$
+vale cero y la segunda donde $\dot{v}$ vale cero.
+\item Dibuje los vectores ($\dot{x}$, $\dot{v}$) en distintos puntos del
+plano (x, v)
+\item Dibuje una trayectoria para algún valor de condiciones iniciales
+\end{enumerate}
+\item Escriba la ecuación de movimiento para una masa $m$ sujeta a un resorte
+de constante elástica $k$ y constante de amortiguamiento por unidad
+de masa $\Gamma$, sobre la que se realiza una fuerza dependiente
+del tiempo $F(t)$.
+
+\begin{enumerate}
+\item Proponga la siguiente solución homogénea: $x_{h}(t)=Ce^{-t/2\tau}\cos\left(\omega_{1}t+\theta\right)$
+y halle los valores de $\tau$ y de $\omega_{1}$. ¿De qué depende
+el valor de $C$ y de $\theta$? ¿Es lícito plantear las condiciones
+iniciales sobre la solución homogénea?
+\item Considere que $F(t)$ tiene la forma $F(t)=F_{0}\cos\left(\omega t\right)$
+(discuta si se pierde generalidad al suponer que la fuerza externa
+tiene esa forma) y proponga la siguiente solución particular: $x_{p}(t)=A\sin\left(\omega t\right)+B\cos\left(\omega t\right)$.
+Obtenga $A$ y $B$. Grafique cualitativamente $A$ y $B$ en función
+de $\omega$.
+\item Grafique cualitativamente la posición de la masa en función del tiempo.
+\item Calcule la potencia media que se consume en el estado estacionario
+y la potencia media de pérdida por fricción. Verifique la igualdad
+de ambas potencias.
+\item Verifique que si $x_{1}(t)$ es solución de la ecuación diferencial
+cuando la fuerza externa es $F_{1}(t)$ y $x_{2}(t)$ lo es cuando
+la fuerza externa es $F_{2}(t)$, entonces $x(t)=x_{1}(t)+x_{2}(t)$
+será solución de la ecuación diferencial cuando la fuerza externa
+sea $F(t)=F_{1}(t)+F_{2}(t)$ si y sólo si las condiciones iniciales
+son la suma de las condiciones iniciales de los dos casos.
+\item Proponga ahora como solución particular la solución compleja $x_{p}(t)=Ae^{-i\omega t}$
+y demuestre que $\Re\mathfrak{e}(A)=A_{el\acute{a}stico}$ y que $\Im\mathfrak{m}(A)=A_{absorbente}$.
+¿Por qué es así?
+\end{enumerate}
+\item Se tiene un péndulo que oscila con una disipación tal que su amplitud
+se reduce un 10 \% cada 10 oscilaciones. ¿Con que precisión deberíamos
+determinar su longitud para notar el corrimiento en su frecuencia
+debido al rozamiento?
+\item Dos cuerpos de igual masa $m$ están atadas como se ve en la figura.
+La masa de arriba gira describiendo un círculo de radio R. \includegraphics{giraMesa}
+
+\begin{enumerate}
+\item Escribir las ecuaciones de movimiento para ambas masas y la ecuación
+de vínculo. Mostrar que todo el sistema se puede reducir a una única
+ecuación diferencial de orden 2.
+\item Si ahora se tira levemente de la masa de abajo el sistema comienza
+a oscilar. Calcular la frecuencia de esa oscilación.
+\end{enumerate}
+\end{enumerate}
+
+\end{document}
